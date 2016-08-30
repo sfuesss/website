@@ -1,519 +1,213 @@
 <!DOCTYPE html>
-
+<?php include 'functions.php';?>
 <html>
-
-    <head>
-
-		<!--Import materialize.css-->
-
-		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-
-		<!--Import my CSS file-->
-
-		<link type="text/css" rel="stylesheet" href="css/my.css"/>
-
-		<!--Import material icons-->
-
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-		<!--Let browser know website is optimized for mobile-->
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"/>
-		
-		<!-- Favicon -->
-		
-		<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
-
-		<title>Events</title>
-
-    </head>
-
-    <body>
-
-    	<header>
-
-			<!--Navbar-->
-
-			<div class="navbar-fixed">
-				<nav>
-					<div class="nav-wrapper blue darken-1">
-						<div class="container">
-							<div class="col s12">
-								<a href="http://esss.ca/" class="brand-logo hide-on-med-and-down"><img src="img/logowhite.png" style="padding-top:7px;"></a>
-								<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-								<ul id="nav-mobile" class="right hide-on-med-and-down">
-									<li class="active"><a href="#!">Events</a></li>
-									<li><a href="about.html">About us</a></li>
-									<li><a href="involved.html">Get involved</a></li>
-									<li><a href="essef.html">ESSEF</a></li>
-									<li><a href="opfair.html">opFair</a></li>
-									<li><a href="merch.html">Merchandise</a></li>
-									<li><a href="documentation.html">Documents</a></li>
-								</ul>
-								<ul class="side-nav" id="mobile-demo">
-									<li><a href="index.html">Home</a></li>
-						        	<li class="active"><a href="#!">Events</a></li>
-									<li><a href="about.html">About us</a></li>
-									<li><a href="involved.html">Get involved</a></li>
-									<li><a href="essef.html">ESSEF</a></li>
-									<li><a href="opfair.html">opFair</a></li>
-									<li><a href="merch.html">Merchandise</a></li>
-									<li><a href="documentation.html">Documents</a></li>
-						    	</ul>
-							</div>
-						</div>
-					</div>
-				</nav>
-			</div>
-
-		</header>
-
-		
-
+    <?php _header('Events'); ?>		
 		<main>
-
 			<div class="section grey lighten-4" id="index-banner">
-
 				<div class="container">
-
 					<div class="row">
-
 						<div class="col s12 m9">
-
 							<h3 class="light center-on-small-only black-text">Come have some fun.</h3>
-
 							<h5 class="light center-on-small-only blue-text darken-1">Get to know what&#8217;s coming up and what we usually do.</h5>
-
 						</div>
-
 					</div>
-
 				</div>
-
 			</div>
-
 			<div class="row grey lighten-4">
-
 				<div class="col s12">
-
 					<div class="container">
-
-						<ul class="tabs grey lighten-4">
-                        
+						<ul class="tabs grey lighten-4">      
                         	<li class="tab col s4"><a href="#upcoming" class="blue-text">Upcoming</a></li>
-
 							<li class="tab col s4"><a href="#update" class="blue-text">Updates</a></li>
-
 							<li class="tab col s4"><a href="#annual" class="blue-text">Annual</a></li>
-
 						</ul>
-
 					</div>
-
 				</div>
-
 			</div>
-
 			
-
 			<div class="section">
-
 				<div class="container" id="update">
-
 					<div class="row">
-
 						<div class="col s12 m9">
-
 							<h4 class="black-text light">Get updated</h3>
-
 						</div>
-
 					</div>
-
 					<div class="row">
-
 						<div class="col s12 m8 offset-m2">
-
 							<div class="card-panel grey lighten-4">
-
 								<span class="black-text">
-
 									Make sure you join the <a href="#!">SFU Engineering Facebook group</a> (students only) where you can post your thoughts
-
 									and get the latest event updates first!
-
 									Also like and follow our <a href="#!">Facebook</a>, <a href="#!">Instagram</a>, and <a href="#!">Twitter</a>.
-
 								</span>
-
 							</div>
-
 						</div>
-
 					</div>
-
-				</div>
-
-					
+				</div>					
 
 				<div class="container" id="upcoming">
-
 					<div class="row">
-
 						<div class="col s12 m9">
-
 							<h4 class="black-text light">Upcoming events</h3>
-
 						</div>
-
-					</div>
-                  
+					</div>                
 
 					<div class="row">
-
 						<div class="col s12 m8 offset-m2">
-
 							<div class="card-panel grey lighten-4">
-
 								<span class="black-text">
-
 									Check your <a href="#!">SFU email</a> or visit our <a href="#!">Facebook page</a> to see what&#8217;s happening next!
-
 								</span>
-
 							</div>
-
 						</div>
-
 					</div>
-
 				</div>
-
 				
-
 				<div class="container" id="annual">
-
 					<div class="row">
-
 						<div class="col s12 m9">
-
 							<h4 class="black-text light">Annual events</h3>
-
 						</div>
-
 					</div>
-
 					<div class="row">
-
 						<div class="col s12 m8 offset-m2">
-
 							<div class="card-panel grey lighten-4">
-
 								<span class="black-text">
-
 									Every year we tend to do these things. This doesn&#8217;t guarantee we&#8217;ll do any of them,
-
 									but chances are you can expect them to happen.
-
 								</span>
-
 							</div>
-
 						</div>
-
 					</div>
 
 					<div class="row">
-
 						<div class="col s12 m6">
-
 							<div class="card grey lighten-4">
-
 								<div class="card-image">
-
 									<img src="http://esss.ca/wp-content/uploads/2014/11/DSC09432-1024x768.jpg">
-
 									<span class="card-title">Frosh week</span>
-
 								</div>
 
 								<div class="card-content">
-
 									<h5 class="light">September</h5>
-
 									<p>First week of school, festivities for first-years including Midnight Madness and scavENG.</p>
-
 								</div>
 
 								<div class="card-action">
-
 									<a href="#!" class="blue-text darken-1">Photos</a>
-
 								</div>
-
 							</div>
 
 							<div class="card grey lighten-4">
-
 								<div class="card-image">
-
 									<img src="http://esss.ca/wp-content/uploads/2014/11/PUBCRAWLMOVEMBER_BANNER-1024x511.jpg">
-
 									<span class="card-title">Pub crawl</span>
-
 								</div>
 
 								<div class="card-content">
-
 									<h5 class="light">November</h5>
-
 									<p>We get people together and go to pubs and clubs together with sweet discounts. Fun times.</p>
-
 								</div>
 
 								<div class="card-action">
-
 									<a href="#!" class="blue-text darken-1">Photos</a>
-
 								</div>
-
 							</div>
 
 							<div class="card grey lighten-4">
-
 								<div class="card-image">
-
 									<img src="http://esss.ca/wp-content/uploads/2014/11/polarPlunge.jpg">
-
 									<span class="card-title">Polar Plunge</span>
-
 								</div>
 
 								<div class="card-content">
-
 									<h5 class="light">January or February</h5>
-
 									<p>We toss people into the pond in the AQ for charitable donations to the Variety Children&#8217;s Charity Network.</p>
-
 								</div>
 
 								<div class="card-action">
-
 									<a href="#!" class="blue-text darken-1">Photos</a>
-
 								</div>
-
 							</div>
-
 						</div>
 
 						<div class="col s12 m6">
-
 							<div class="card grey lighten-4">
-
 								<div class="card-image">
-
 									<img src="http://esss.ca/img/sfuec.jpg">
-
 									<span class="card-title">SFU Engineering Competition</span>
-
 								</div>
 
 								<div class="card-content">
-
 									<h5 class="light">October-ish</h5>
-
 									<p>A competition to find SFU representatives to send to the Western Engineering Competition.</p>
-
 								</div>
 
 								<div class="card-action">
-
 									<a href="#!" class="blue-text darken-1">Photos</a>
-
 								</div>
-
 							</div>
 
 							<div class="card grey lighten-4">
-
 								<div class="card-image">
-
 									<img src="http://esss.ca/wp-content/uploads/2014/11/wec.jpg">
-
 									<span class="card-title">Western Engineering Competition</span>
-
 								</div>
 
 								<div class="card-content">
-
 									<h5 class="light">January</h5>
-
 									<p>A competition against all engineering schools west of Ontario. More info at wec[InsertYearHere].com (e.g. wec2016.com).</p>
-
 								</div>
-
+								
 								<div class="card-action">
-
 									<a href="#!" class="blue-text darken-1">Photos</a>
-
 								</div>
-
 							</div>
 
 							<div class="card grey lighten-4">
-
 								<div class="card-image">
-
 									<img src="http://esss.ca/img/cec.jpg">
-
 									<span class="card-title">Canadian Engineering Competition</span>
 
 								</div>
 
 								<div class="card-content">
-
 									<h5 class="light">March</h5>
-
 									<p>The top two teams from each category at the Western Engineering Competition get to compete nationwide
-
 									at CEC. If they win there, they can go on to the International Engineering Competition.</p>
-
 								</div>
 
 								<div class="card-action">
-
 									<a href="#!" class="blue-text darken-1">Photos</a>
-
 								</div>
-
 							</div>
-
 						</div>
+					</div>
 
+					<div class="row">
+						<div class="col s12 m10 offset-m1">
+						</div>
 					</div>
 
 					<div class="row">
 
 						<div class="col s12 m10 offset-m1">
-
-							
-
 						</div>
-
 					</div>
 
 					<div class="row">
-
-						<div class="col s12 m10 offset-m1">
-
-							
-
+						<div class="col s12 m10 offset-m1">							
 						</div>
-
 					</div>
 
 					<div class="row">
-
-						<div class="col s12 m10 offset-m1">
-
-							
-
+						<div class="col s12 m10 offset-m1">							
 						</div>
-
 					</div>
-
-					<div class="row">
-
-						<div class="col s12 m10 offset-m1">
-
-							
-
-						</div>
-
-					</div>
-
 				</div>
-
 			</div>
-
 		</main>
 
-		
-
-		<footer class="page-footer blue darken-1">
-
-			<div class="container">
-
-				<div class="row">
-
-					<div class="col l6 s12">
-
-						<h5 class="white-text text-lighten-4">the ESSS of SFU</h5>
-
-						<p class="grey-text text-lighten-4">Engineering Science Student Society (ESSS)<br>
-
-						c/o School of Engineering Science<br>
-
-						Simon Fraser University<br>
-
-						8888 University Drive<br>
-
-						V5A 1S6, Burnaby BC<br>
-
-						Canada</p>
-
-					</div>
-
-					<div class="col l4 offset-l2 s12">
-
-						<h5 class="white-text text-lighten-4">Spring office hours</h5>
-
-						<ul>
-
-							<li><a class="grey-text text-lighten-4" href="#!">Monday 2:30-3:30</a></li>
-
-							<li><a class="grey-text text-lighten-4" href="#!">Tuesday 9:30-10:30</a></li>
-
-							<li><a class="grey-text text-lighten-4" href="#!">Wednesday 10:30-11:30, 1:30-2:30</a></li>
-
-							<li><a class="grey-text text-lighten-4" href="#!">Thursday 9:30-10:30, 2:30-3:30</a></li>
-
-							<li><a class="grey-text text-lighten-4" href="#!">Friday 10:30-12:30</a></li>
-
-						</ul>
-
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="footer-copyright">
-
-				<div class="container">
-
-					&#169; 2015 Engineering Science Student Society. All rights reserved.
-
-					<a class="grey-text text-lighten-4 right" href="#!">esss.ca</a>
-
-				</div>
-
-			</div>
-
-        </footer>
-
-		
-
-		<!--SCRIPTS - Import jQuery before materialize.js-->
-
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
-		<script type="text/javascript" src="js/materialize.js"></script>
-
-		<script type="text/javascript" src="js/script.js"></script>
-
-	</body>
-
+		<?php _footer();?>
 </html>
 
