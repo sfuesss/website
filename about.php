@@ -61,63 +61,27 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/michael.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Michael Fujiwara</h5>
-							<h6 class="light blue-text darken-1">President</h5>
-							<h6 class="light blue-text darken-1">president[AT]esss[DOT]ca</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/shahira.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Shahira A. Azhar</h5>
-							<h6 class="light blue-text darken-1">VP Academic</h5>
-								<h6 class="light blue-text darken-1">academic[AT]esss[DOT]ca</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/vivian.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Vivian Pan</h5>
-							<h6 class="light blue-text darken-1">VP External</h5>
-								<h6 class="light blue-text darken-1">external[AT]esss[DOT]ca</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/gordon.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Gordon Ho</h5>
-							<h6 class="light blue-text darken-1">VP Finance</h5>
-							<h6 class="light blue-text darken-1">finance[AT]esss[DOT]ca</h5>
-						</div>
-					</div>				
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/fabio.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Fabio Bollinger</h5>
-							<h6 class="light blue-text darken-1">VP Administration</h5>
-							<h6 class="light blue-text darken-1">admin[AT]esss[DOT]ca</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/reem.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Reem Mustafa</h5>
-							<h6 class="light blue-text darken-1">VP Social</h5>
-							<h6 class="light blue-text darken-1">social[AT]esss[DOT]ca</h5>
-						</div>
-					</div>				
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/shayne.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Shayne Kelly II</h5>
-							<h6 class="light blue-text darken-1">SFSS Council Representative</h5>
-							<h6 class="light blue-text darken-1">council-rep[AT]esss[DOT]ca</h5>
-						</div>
-					</div>
-				
+					<?php 
+						$res = $db->query("Select * from members where isExec");
+						while($row = mysqli_fetch_array($res)){
+							$name = $row['Name'];
+							$position = $row['Position'];
+							$email = $row['Email'];
+							$photo = $row['Photo'];
+							
+							echo "
+								<div class=\"col s12 m4\">
+									<div class=\"row center\">
+										<img src=\"$photo\" class=\"responsive-img circle\" width=\"200\"></img>
+										<h5 class=\"light\">$name</h5>
+										<h6 class=\"light blue-text darken-1\">$position</h5>
+										<h6 class=\"light blue-text darken-1\">$email</h5>
+									</div>
+								</div>
+							";
+						}
+					?>
+					
 				<!-- directors -->
 				<div class="row">
 					<div class="col s12 m9">
@@ -125,55 +89,24 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/connor.jpg" class="responsive-img circle" width="200"></img> 
-							<h5 class="light">Connor Floyd</h5>
-							<h6 class="light blue-text darken-1">Common Room Director</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/raunaq.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Raunaq Singh</h5>
-							<h6 class="light blue-text darken-1">Diversity Director</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/jasman.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Jasman Batra</h5>
-							<h6 class="light blue-text darken-1">Merchandise Director</h5>
-						</div>
-					</div>				
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/edward.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Edward Leung</h5>
-							<h6 class="light blue-text darken-1">opFair Director</h5>
-						</div>
-					</div>				
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/mason.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Mason Duan</h5>
-							<h6 class="light blue-text darken-1">Publications Director</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/jacob.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Jacob Cheng</h5>
-							<h6 class="light blue-text darken-1">Spirit Director</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/eric.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Eric Ling</h5>
-							<h6 class="light blue-text darken-1">Sponsorship Director</h5>
-						</div>
-					</div>
+					<?php 
+						$res = $db->query("Select * from members where NOT isExec");
+						while($row = mysqli_fetch_array($res)){
+							$name = $row['Name'];
+							$position = $row['Position'];
+							$photo = $row['Photo'];
+							
+							echo "
+								<div class=\"col s12 m4\">
+									<div class=\"row center\">
+										<img src=\"$photo\" class=\"responsive-img circle\" width=\"200\"></img>
+										<h5 class=\"light\">$name</h5>
+										<h6 class=\"light blue-text darken-1\">$position</h5>
+									</div>
+								</div>
+							";
+						}
+					?>
 				</div>
 			</div>
 			</div>
