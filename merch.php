@@ -24,42 +24,19 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/shirt1.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Evolution black</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/shirt2.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Uniquely engineered</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/shirt3.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Evolution grey</h5>
-						</div>
-					</div>				
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/shirt4.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Engineers without borders</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/shirt5.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Circuit</h5>
-						</div>
-					</div>				
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/shirt6.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">SFU Engineering jacket</h5>
-						</div>
-					</div>
+					<?php 
+						$result = $db->query("SELECT Photo,Name FROM merch WHERE Type='Apparell'");
+						while ($row = mysqli_fetch_array($result)){
+							echo "
+								<div class='col s12 m4'>
+									<div class='row center'>
+										<img src='".$row['Photo']."' class='responsive-img circle' width='200'></img>
+										<h5 class='light'>".$row['Name']."</h5>
+									</div>
+								</div>
+							";
+						}
+					?>
 				</div>
 
 				<div class="row">
@@ -71,30 +48,19 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col s12 m3">
-						<div class="row center">
-							<img src="img/mug1.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Freezable mug</h5>
-						</div>
-					</div>
-					<div class="col s12 m3">
-						<div class="row center">
-							<img src="img/mug2.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Glass beer stein</h5>
-						</div>
-					</div>
-					<div class="col s12 m3">
-						<div class="row center">
-							<img src="img/mug3.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Travel mug</h5>
-						</div>
-					</div>				
-					<div class="col s12 m3">
-						<div class="row center">
-							<img src="img/mug4.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Mug set</h5>
-						</div>
-					</div>
+					<?php 
+						$result = $db->query("SELECT Photo,Name FROM merch WHERE Type='Mugs'");
+						while ($row = mysqli_fetch_array($result)){
+							echo "
+								<div class='col s12 m3'>
+									<div class='row center'>
+										<img src='".$row['Photo']."' class='responsive-img circle' width='200'></img>
+										<h5 class='light'>".$row['Name']."</h5>
+									</div>
+								</div>
+							";
+						}
+					?>
 				</div>
 
 				<div class="row">
@@ -106,36 +72,19 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/extra1.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Shotglass</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/extra2.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Lanyard</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/extra3.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Ruler</h5>
-						</div>
-					</div>				
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/extra4.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Patch</h5>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="row center">
-							<img src="img/extra5.jpg" class="responsive-img circle" width="200"></img>
-							<h5 class="light">Stress dice</h5>
-						</div>
-					</div>				
+					<?php 
+						$result = $db->query("SELECT Photo,Name FROM merch WHERE Type='Accessories'");
+						while ($row = mysqli_fetch_array($result)){
+							echo "
+								<div class='col s12 m4'>
+									<div class='row center'>
+										<img src='".$row['Photo']."' class='responsive-img circle' width='200'></img>
+										<h5 class='light'>".$row['Name']."</h5>
+									</div>
+								</div>
+							";
+						}
+					?>
 				</div>
 			</div>
 		</main>
