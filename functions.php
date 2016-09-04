@@ -1,6 +1,6 @@
 <?php
 	error_reporting(E_ALL);
-	$db = new mysqli("localhost","root","i83nubeens","esss");
+	$db = new mysqli("localhost","root","Changeme455#","esss");
 
 	function _header($title){
 		
