@@ -1,0 +1,43 @@
+div .container :
+ div .title ; : Who are We?
+ div ; : Each member has a job to keep the team together with the leader being the president.
+
+div .container :
+ div .title : 
+  span .gradient .glow ; : The Team
+ MEMBER President
+ MEMBER VPAdmin
+ MEMBER VPExternal
+ MEMBER VPFinance
+ MEMBER VPSocial
+ MEMBER VPAcademic
+ MEMBER VPInternal
+
+//   MEMBER DirDiversity
+ MEMBER DirSponsorship
+ MEMBER DirCommonRoom
+ MEMBER DirMerch
+ MEMBER DirSpirit
+ MEMBER DirOpFair1
+ MEMBER DirOpFair2
+ MEMBER DirResources
+
+// This is Me :D
+ MEMBER DirWebsite
+
+ MEMBER DirGraphics
+ MEMBER DirStudentServices
+ MEMBER DirWorkshop
+
+// MEMBER Rep1-1
+// MEMBER Rep1-2
+// MEMBER Rep1-3
+// MEMBER Rep1-4
+// MEMBER Rep2-1
+// MEMBER Rep2-2
+// MEMBER RepComp
+// MEMBER RepBiomed
+// MEMBER RepPhys
+// MEMBER RepSys
+// MEMBER RepElec
+// MEMBER RepInternational

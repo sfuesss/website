@@ -1,0 +1,116 @@
+{
+    "President": {
+        "Name": "Rajnesh Joshi",
+        "Role": "President",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "VPAdmin": {
+        "Name": "Hannah Hartviksen",
+        "Role": "VP Admin",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "VPExternal": {
+        "Name": "Eric Suh",
+        "Role": "VP External",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "VPFinance": {
+        "Name": "Jeremy Ang",
+        "Role": "VP Finance",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "VPSocial": {
+        "Name": "Yu-Xing Lim",
+        "Role": "VP Social",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "VPAcademic": {
+        "Name": "Wallace Lee",
+        "Role": "VP Academic",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "VPInternal": {
+        "Name": "Tony Kooliyath",
+        "Role": "VP Internal",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirDiversity": {
+        "Name": "Lester Pino",
+        "Role": "Director Of Diversity",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirSponsorship": {
+        "Name": "Aaron Lu",
+        "Role": "Director of Sponsorship",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirCommonRoom": {
+        "Name": "Joshua Kim",
+        "Role": "Director Of Common Room",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirMerch": {
+        "Name": "Christina Chen",
+        "Role": "Director Of Merchandise",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirSpirit": {
+        "Name": "Pending",
+        "Role": "Director Of Spirit",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirResources": {
+        "Name": "Adam Ma",
+        "Role": "Director Of Resource Center",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirWebsite": {
+        "Name": "Roberto Selles",
+        "Role": "Director Of Website",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirGraphics": {
+        "Name": "Senka Kuboki",
+        "Role": "Director Of Graphics",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirStudentSupport": {
+        "Name": "Eugenia Demendeeva",
+        "Role": "Director Of Student Services",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirWorkshop": {
+        "Name": "Ryan Garofano",
+        "Role": "Director Of Workshops",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirOpFair1": {
+        "Name": "Benjamin Lam",
+        "Role": "Co-Director of OpFair",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    },
+    "DirOpFair2": {
+        "Name": "Andrew Kim",
+        "Role": "Co-Director of OpFair",
+        "MemberDescription": "Description",
+        "JobDescription": "About the Job"
+    }
+}

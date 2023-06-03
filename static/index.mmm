@@ -1,0 +1,43 @@
+title ; : ESSS
+
+CSS https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css
+CSS https://fonts.googleapis.com/css?family=Ubuntu
+CSS https://fonts.googleapis.com/css?family=Chivo
+CSS css/threestyle.css
+CSS css/style.css
+CSS css/dark.css
+
+meta name="title" content="SFU - Engineering Science Student Society" ; :
+meta name="author" content="ESSS" ; :
+meta name="description" content="SFU's Official Engineering Science Student Society Website with all the information you need about Engineering at SFU" ; :
+meta name="og:title" content="SFU - Engineering Science Student Society" ; :
+meta name="og:type" content="website" ; :
+meta name="og:url" content="https://esss.ca" ; :
+meta name="og:description" content="SFU's Official Engineering Science Student Society Website with all the information you need about Engineering at SFU" ; :
+
+meta name="theme-color" content="#203A6C" ; :
+
+ICON img/presskit/Icon_Blue.svg
+
+---
+
+nav :
+ div .flex-container :
+  span .navbar-brand :
+   a onclick="loadpage('home')" :
+    img src="img/presskit/Banner_White.svg" height="38px" ; :
+ 
+  button #nav-viewer onclick="toggleNav();" :
+   i .bi-list ; :
+  div .pages :
+   button onclick="loadpage('theTeam')" ; : About Us
+   button onclick="loadpage('resources')" ; : Resources
+   button onclick="loadstore()" ; : Merch
+
+div #portal .hide ; :
+
+footer :
+ img src="img/presskit/Banner_Blue.svg" height="48px" .glow ; :
+ div : Want to leave feedback or a suggestion?
+
+JS js/pageloader.js

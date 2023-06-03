@@ -1,0 +1,170 @@
+:root {
+    --bg-primary: 32, 58, 108;
+    --bg-secondary: #111;
+    --bg: #fff;
+    --bg-tint: #eee;
+    --text: #000;
+    --transparent-bg: #fff8;
+
+    --gradient-1: #82cdff;
+    --gradient-2: #0084ff;
+}
+
+/* General */
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+body * {
+    transition: all 0.1s ease;
+}
+
+body, input, button {
+    font-family: Ubuntu;
+}
+
+/* Content */
+
+.container {
+    margin: 18px;
+}
+
+.jumbotron {
+    margin-bottom: 20px;
+    background-color: var(--bg-tint);
+    box-shadow: inset 0 8px 8px -6px #0006, inset 0 -8px 8px -6px #0006;
+}
+
+.jumbotron .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Navbar */
+
+nav {
+    background-color: rgb(var(--bg-primary));
+    height: 48px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 15px 4px #0006;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+nav button {
+    background-color: #0000;
+    border: none;
+    color: #fff;
+    height: inherit;
+    height: 48px;
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav .pages * {
+    align-items: flex-end;
+    height: 48px;
+}
+
+#nav-viewer {
+    display: none;
+}
+
+#nav-viewer i {
+    font-size: 2rem;
+}
+
+nav button:hover, nav .navbar-brand:hover {
+    background-color: #fff3;
+}
+
+.navbar-brand {
+    height: 38px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--bg-tint);
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Specific Pages */
+
+#home-jumbotron {
+    background: url("../img/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#home-jumbotron .content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--transparent-bg);
+    backdrop-filter: blur(5px);
+    width: 40%;
+    transform: skew(-15deg) translate(40px, 0);
+}
+
+#home-jumbotron .content * {
+    transform: skew(15deg);
+}
+
+/* Mobile Content */
+@media only screen and (max-width: 768px) {
+    nav .pages {
+
+        height: 0;
+        overflow: hidden;
+
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        
+        margin-top: 3rem;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%);
+
+        background-color: rgb(var(--bg-primary));
+    }
+
+    nav .pages * {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .pages.active {
+        height: calc(100%*3);
+    }
+
+    #nav-viewer {
+        display: block;
+    }
+
+    #home-jumbotron .content {
+        position: relative;
+        left: 50%;
+        transform: skew(-15deg) translate(-50%);
+    }
+}

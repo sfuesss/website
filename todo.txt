@@ -1,0 +1,18 @@
+Things to add to website:
+
+- Add new team to website
+- Add Announcement Automation
+
+- New CSS Stylesheet
+  - Add Shadows
+  - Web3.0 Inspired???
+    - CSSS could borrow this for their website too lol
+
+Pages to Add:
+- Home
+- Error 404
+ - Add Professors to 404 Screen (?)
+- Meet the Team & Positions Available
+- Course Help
+- Co-op
+ - Op-Fair
