@@ -1,0 +1,126 @@
+div.page.concentrations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+div.page.concentrations p {
+    padding: 0 1rem 0 1rem;
+    width: 80%;
+}
+
+.concentration-desc {
+    margin: 2rem 0 3rem 0;
+}
+
+div.concentration {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.concentration-img {
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px 1px rgba(255,255,255,.5);
+}
+
+.concentration-title {
+    font-size: 1.2rem;
+    color: black;
+    display: block;
+    color: white;
+}
+
+.computer {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Links/code-1839406_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.electronics {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Links/board-453758_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.systems {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Links/unknown.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.biomedical {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Links/unknown\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.physics {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Links/Quantum\ Computer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: min(5vw, 5vh);
+    margin: 1rem auto 0 auto;
+}
+
+div.opportunities-warnings-wrapper {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+@media(max-width: 750px) {
+    div.opportunities-warnings-wrapper {
+        width: 150%;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+    div.opportunities {
+        width: 80%;
+        border-radius: 2rem;
+    }
+    div.warnings {
+        width: 80%;
+        border-radius: 2rem;
+    }
+}
+
+div.opportunities {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(3, 196, 3, 0.7);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+div.warnings {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 238, 0, 0.7);
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
