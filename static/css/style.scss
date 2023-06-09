@@ -1,0 +1,244 @@
+:root {
+    --bg-primary: #203A6C;
+    --bg: #fff;
+    --bg-tint: #fff;
+    --text: #101020;
+    --transparent-bg: #fff8;
+
+    --gradient-1: #1458B8;
+    --gradient-2: #203A6C;
+
+    --font: 'Work Sans';
+    --header-font: Poppins;
+}
+
+/* General */
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body * {
+    transition: all 0.1s ease;
+}
+
+/* Content */
+
+.container {
+    margin: 18px;
+}
+
+.jumbotron {
+    background-color: var(--bg-tint);
+    box-shadow: inset 0 8px 8px -6px #000a, inset 0 -8px 8px -6px #000a;
+}
+
+.jumbotron .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+/* Navbar */
+
+nav {
+    background-color: var(--bg-primary);
+    height: 48px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 15px 4px #0006;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 225px auto 48px;
+    height: fit-content;
+}
+
+nav button {
+    background-color: #0000;
+    border: none;
+    color: #fff;
+    height: inherit;
+    height: 48px;
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav .pages {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .pages * {
+    align-items: grid-end;
+    height: 48px;
+}
+
+#nav-viewer {
+    display: none;
+}
+
+#nav-viewer i {
+    font-size: 2rem;
+}
+
+nav button:hover, nav .navbar-brand:hover {
+    background-color: #fff3;
+}
+
+.navbar-brand {
+    height: 38px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--bg-tint);
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Specific Pages */
+
+.home-jumbotron {
+    display: flex;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.home-jumbotron .content {
+    background-color: var(--transparent-bg);
+    backdrop-filter: blur(5px);
+    transform: skew(-15deg);
+    position: relative;
+}
+
+.home-jumbotron:nth-child(1) > .content {
+    left: 100px;
+}
+
+.home-jumbotron:nth-child(2) {
+    justify-content: end;
+}
+
+.home-jumbotron:nth-child(2) > .content {
+    right: 100px;
+}
+
+.home-jumbotron .content > .jumbotron-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: skew(15deg);
+}
+
+
+.team-members {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+.member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.member-photo {
+    width: 256px;
+    height: 256px;
+    border-radius: 128px;
+    box-shadow: inset 0 10px 10px #000a;
+    background-color: rgb(var(--bg-primary));
+}
+
+/* Dialogs */
+
+dialog {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+dialog .container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+dialog .container div {
+    padding-left: 10px;
+}
+
+dialog .title {
+    padding: 0;
+}
+
+dialog .h2 {
+    padding-bottom: 20px;
+}
+
+/* Mobile Content */
+@media only screen and (max-width: 768px) {
+    nav .pages {
+
+        height: 0;
+        overflow: hidden;
+
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        
+        margin-top: 3rem;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%);
+
+        background-color: rgb(var(--bg-primary));
+    }
+
+    nav .pages * {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .pages.active {
+        height: calc(100%*3);
+    }
+
+    #nav-viewer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .home-jumbotron {
+        justify-content: center !important;
+    }
+
+    .home-jumbotron .content {
+        width: 65%;
+        left: 0 !important;
+        right: 0 !important;
+    }
+
+    .team-members {
+       grid-template-columns: auto !important; 
+    }
+}

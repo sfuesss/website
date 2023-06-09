@@ -13,6 +13,10 @@ body {
     background-color: var(--bg);
 }
 
+body, input, button {
+    font-family: var(--font);
+}
+
 .glow {
     filter: drop-shadow(0 0 10px #fff6);
 }
@@ -37,9 +41,9 @@ body {
 
 /* Generic Objects */
 
-.title, .h1 {
-    font-weight: bolder;
-    font-family: Chivo;
+.title, .h1, .h2 {
+    font-family: var(--header-font);
+    font-weight: bold;
 }
 
 .title {
@@ -49,6 +53,10 @@ body {
 
 .h1 {
     font-size: 2.25rem;
+}
+
+.h2 {
+    font-size: 1.5rem;
 }
 
 .container {
@@ -63,12 +71,12 @@ body {
 
 .btn {
     border-radius: 25px;
-    margin: 8px;
-    padding: 8px 24px;
+    margin: 4px;
+    padding: 10px 26px;
     border: none;
-    background-color: rgb(var(--bg-primary));
+    background-color: var(--bg-primary);
     color: #fff;
-    box-shadow: 0 5px 10px #0007;
+    box-shadow: 0 5px 10px #000a;
 }
 
 .btn-grad {
@@ -86,6 +94,7 @@ body {
 }
 
 .btn-grad-border {
+    padding: 8px 24px;
     border: solid 2px transparent;
     background-image: linear-gradient(var(--bg), var(--bg)), radial-gradient(circle at left top, var(--gradient-1), var(--gradient-2));
     background-origin: border-box;
