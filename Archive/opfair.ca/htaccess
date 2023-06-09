@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^opfair\.ca$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.opfair\.ca$
+RewriteRule ^/?$ "http\:\/\/www\.opfair\.ca" [R=301,L]
+
