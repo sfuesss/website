@@ -1,3 +1,3 @@
-# website
+# Website
 
-Development of our website
+The official Engineering Science Student Society website
