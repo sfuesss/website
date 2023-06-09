@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <script src="https://cdn.lordicon.com/xdjxvujz.js" defer></script>
+    <title>SFU ESSS</title>
+</head>
+
+<body>
+    <nav>
+        <img src="Banner_White.svg" alt="ESSS logo" class="page-link home logo">
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <ul class="nav-links">
+            <div class="dropdown" data-dropdown>
+                <li><a href="#" data-dropdown-button>Get Involved</a></li>
+                <div class="dropdown-menu">
+                    <ul class="dropdown-content">
+                        <li><a href="#" class="page-link meetings">Meetings</a></li>
+                        <li><a href="#" class="page-link positions">Positions</a></li>
+                        <li><a href="#" class="page-link clubs-teams">Clubs and Teams</a></li>
+                        <li><a href="#" class="page-link mentorship">Mentorship Program</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropdown" data-dropdown>
+                <li><a href="#" data-dropdown-button>Courses</a></li>
+                <div class="dropdown-menu">
+                    <ul class="dropdown-content">
+                        <li><a href="#" class="page-link planning">Course Planning</a></li>
+                        <li><a href="#" class="page-link scheduling">Course Scheduling</a></li>
+                        <li><a href="./concentrations/" target="_blank">Concentrations</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropdown" data-dropdown>
+                <li><a href="#" class="page-link co-op" data-dropdown-button>Co-op</a></li>
+            </div>
+            <div class="dropdown" data-dropdown>
+                <li><a href="#" class="page-link resources" data-dropdown-button>Resources</a></li>
+            </div>
+            <div class="dropdown" data-dropdown>
+                <li><a href="#" data-dropdown-button>Events</a></li>
+                <div class="dropdown-menu">
+                    <ul class="dropdown-content">
+                        <li><a href="#" class="page-link annual-events">Annual Events</a></li>
+                        <li><a href="#" class="page-link conf-comp">Conferences/Competitions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropdown" data-dropdown>
+                <li><a href="#" data-dropdown-button>Merch</a></li>
+                <div class="dropdown-menu">
+                    <ul class="dropdown-content">
+                        <li><a href="https://stores.coastalreign.com/esss/shop/home" target="_blank">Merch Store</a>
+                        </li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd7sD-UyT10sRC3ouB2bdo8lo8uyE374Rc7GKYQBKmI3L28RQ/viewform"
+                                target="_blank">Merch Ideas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropdown" data-dropdown>
+                <li><a href="#" data-dropdown-button>About</a></li>
+                <div class="dropdown-menu about">
+                    <ul class="dropdown-content">
+                        <li><a href="#" class="page-link mission">Mission</a></li>
+                        <li><a href="#" class="page-link our-team">Our Team</a></li>
+                        <li><a href="#" class="page-link documents">Documents</a></li>
+                        <li><a href="#" class="page-link hall-of-fame">Hall of Fame</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropdown" data-dropdown>
+                <li><a href="#" class="contact-button" data-dropdown-button>Contact Us</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="modal-container">
+        <div class="contact-modal">
+            <span class="material-symbols-outlined exit-button">close</span>
+            <h4>Contact Us</h4>
+            <p class="desc">For general inquiries please contact communications@esss.ca</p>
+            <p class="desc">If your issue is course related please check the <a
+                    href="https://www.sfu.ca/esss/#scheduling" target="_blank">Course Scheduling page</a> first
+                to see if your question appears in the FAQ section. There is also a list of
+                contacts at the bottom of the course scheduling page for course related issues.
+            </p>
+            <p class="desc">If you would like to report a bug with the website or suggest new pages and features,
+                contact website@esss.ca
+            </p>
+            <p>
+                If you would like to speak with the ESSS in person, our office is located at ASB8834. Also consider
+                attending a regular meeting - info available on the <a href="https://www.sfu.ca/esss/#meetings"
+                    target="_blank">meetings page</a>.
+            </p>
+        </div>
+    </div>
+    <div class="home page">
+        <div id="slide-wrapper">
+            <div class="cutout">
+                <h1>Welcome to the digital version of the <i><u>ESSS</u></i></h1>
+                <h2>Look around for SFU Engineering student resources, event information, merch, and more!</h2>
+                <img src="Icon Blue.svg" alt="ESSS Icon" id="esss-icon">
+            </div>
+            <div id="home-slider">
+                <figure>
+                    <img src="./Home-Images/1.jpg" alt="students">
+                    <img src="./Home-Images/2.jpg" alt="students and faculty">
+                    <img src="./Home-Images/3.jpg" alt="students">
+                    <img src="./Home-Images/4.jpg" alt="students">
+                    <img src="./Home-Images/1.jpg" alt="students">
+                </figure>
+            </div>
+        </div>
+        <div class="home-info-wrapper">
+            <article>
+                <section class="home-card">
+                    <lord-icon src="https://cdn.lordicon.com/drtetngs.json" trigger="hover" colors="primary:#000000">
+                    </lord-icon>
+                    <ul class="vertical-list">
+                        <li><i><b>Upcoming Events</b></i></li>
+                        <li>No upcoming events right now, check back soon!</li>
+                    </ul>
+                </section>
+                <section class="home-card">
+                    <a href="https://camp5ironring.ca/" target="_blank"><img src="./Home-Images/camp5.png"
+                            alt="camp5 logo" id="rings"></a>
+                    <p>The Iron Ring is worn by Canadian engineers as a symbol and reminder of the obligations and
+                        ethics associated with engineering.
+                        The ESSS manages the registration for Iron Ring for SFU Engineering students.
+                        Check out the camp5 website (click the camp5 logo on the left) for the most up-to-date
+                        information on
+                        ceremonies.
+                    </p>
+                </section>
+                <section class="home-card">
+                    <span class="material-symbols-outlined" id="grad-cap">school</span>
+                    <p>Need some help with your first- or second-year course?
+                        Join our tutoring <a href="https://canvas.sfu.ca/enroll/FLLKPB" target="_blank">Canvas</a> page
+                        to get some help from students who have already made it through those courses.
+                        Interested in being a tutor?
+                        We recruit at the end of each semester for the next one, so keep an eye on your email or check
+                        back here!
+                    </p>
+                </section>
+            </article>
+            <aside class="social-media-panel">
+                <section>
+                    <p id="social-media">Follow Us On Social Media!</p>
+                    <div class="social-media-buttons">
+                        <a href="https://www.facebook.com/SFU.ESSS/" target="_blank"><i
+                                class="ti ti-brand-facebook"></i></a>
+                        <a href="https://www.instagram.com/sfuengineers/" target="_blank"><i
+                                class="ti ti-brand-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/sfu-engineering-science-student-society/about/"
+                            target="_blank"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="https://discord.gg/54cH9YHKha" target="_blank"><i class="ti ti-brand-discord"></i></a>
+                    </div>
+                </section>
+                <section>
+                    <h3>Thanks to our OpFair sponsors!</h3>
+                    <div class="opfair-logos">
+                        <img src="./Home-Images/Sponsors/kabam_logo.png" alt="kabam logo" id="kabam">
+                        <img src="./Home-Images/Sponsors/konrad_logo.jpg" alt="konrad logo" id="konrad">
+                        <img src="./Home-Images/Sponsors/pdftron_logo.png" alt="pdftron logo" id="pdftron">
+                        <img src="./Home-Images/Sponsors/zaber_logo.png" alt="zaber logo" id="zaber">
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </div>
+    <div class="meetings page">
+        <div class="text-container">
+            <h4 class="paragraph-heading">Meetings</h4>
+            <p class="desc">Come see what the ESSS is up to by attending one of our bi-weekly meetings.
+                Meeting times are set at the start of each semester,
+                keep your eye out for an email about general meeting times
+                if you want to give input on when you’re available.
+                Miss a meeting or can’t remember a detail from a past meeting?
+                Take a look at our <a href="https://drive.google.com/drive/folders/1PpBJK7pzMSLRLvKEDHA2X4vPodqnTKSw"
+                    target="_blank">meeting minutes!</a>
+            </p>
+            <div class="meeting-card">
+                <h3 class="header">General Meeting</h3>
+                <ul class="bullet-points">
+                    <li>Public meetings open to anyone!</li>
+                    <li>All ENSC students (ENSC majors, minors, or in an ENSC class) have voting rights</li>
+                    <li>Fall 2022 Meeting Dates - <i>TBD</i></li>
+                    <li>Pay attention to our newsletter for meeting reminders</li>
+                </ul>
+            </div>
+            <div class="meeting-card">
+                <h3 class="header">Executive Meeting</h3>
+                <ul class="bullet-points">
+                    <li>Public meetings open to anyone!</li>
+                    <li>ESSS executives have voting rights</li>
+                    <li>Fall 2022 Meeting Dates - <i>TBD</i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="positions page">
+        <div class="text-container">
+            <h4 class="paragraph-heading">Positions</h4>
+            <p>For the official and complete descriptions of all positions
+                and ESSS procedures, refer to the documents page.
+            </p>
+            <h3>Executive Positions</h3>
+            <div class="role-card">
+                <span class="role-name">President</span>
+                <ul>
+                    <li>Guide the Executive Council</li>
+                    <li>Chair all meetings and be the official spokesperson for the ESSS</li>
+                    <li>Enforce and maintain the Constitution, Bylaws, and Policy Manual of the ESSS</li>
+                    <li>Oversee the Class Representatives</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">VP Admin</span>
+                <ul>
+                    <li>Oversee access of the ESSS physical and digital spaces</li>
+                    <li>Act as Secretary for all meetings</li>
+                    <li>Maintain documentation and archival media of the ESSS</li>
+                    <li>Maintain and oversee the ESSS’s website, email server, and social media</li>
+                    <li>Oversee the roles and responsibilities of the Directors of Common Room, Publications, and
+                        Website</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">VP External</span>
+                <ul>
+                    <li>Liaise with the CFES, WESST, and EGBC</li>
+                    <li>Oversee the coordination of the Iron Ring ceremony</li>
+                    <li>Oversee the organization of the SFU Engineering Competition</li>
+                    <li>Form a committee of ESSS members for the purpose of selecting conference delegates</li>
+                    <li>Oversee the roles and responsibilities of the Directors of OpFair and Diversity</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">VP Finance</span>
+                <ul>
+                    <li>Manage the writing and approval of grants</li>
+                    <li>Liaise with the bank that holds the ESSS’s external account</li>
+                    <li>Prepare the budget for the fiscal year and analyze the previous year’s budget</li>
+                    <li>Maintain financial records and accounts</li>
+                    <li>Oversee the purchase and sale of merchandise</li>
+                    <li>Oversee the roles and responsibilities of the Directors of Merchandise and Sponsorship</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">VP Social</span>
+                <ul>
+                    <li>Form events committees with Representatives and Society Members when necessary for an event</li>
+                    <li>Promote events and services offered by the ESSS</li>
+                    <li>Organize and fill an events calendar for their upcoming term</li>
+                    <li>Oversee the roles and responsibilities of the Director of Spirit</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">VP Academic</span>
+                <ul>
+                    <li>Oversee the administration of ESSEF grants</li>
+                    <li>Oversee the ESSEF Parts Library</li>
+                    <li>Attend all Undergraduate Curriculum Committee meetings</li>
+                    <li>Survey Members for academic concerns to be brought to Undergraduate Curriculum Committee
+                        meetings</li>
+                    <li>Oversee the roles and responsibilities of the Director of Resource Centre</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">VP Internal</span>
+                <ul>
+                    <li>Present topics from SFSS Council meetings to the Members at Regular meetings</li>
+                    <li>Provide representation of the ESSS to the SFSS Council</li>
+                    <li>Liaise with Engineering Clubs</li>
+                </ul>
+            </div>
+            <h3>Director Positions</h3>
+            <div class="role-card">
+                <span class="role-name">Director of Diversity</span>
+                <ul>
+                    <li>Assists VP Social and VP External</li>
+                    <li>Serves as the primary liaison between ESSS and diversity in engineering groups</li>
+                    <li>Being informed of on-campus centres, clubs, and services for diversity groups in order to assist
+                        students</li>
+                    <li>Hosts events that promote or inform the student body about diversity in engineering</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">Director of Sponsorship</span>
+                <ul>
+                    <li>Assists VP Social and VP External</li>
+                    <li>Seeks sponsorship for social/professional events</li>
+                    <li>Seeks long term sponsorship for ESSS</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">Director of Common Room</span>
+                <ul>
+                    <li>Assists VP Social and VP Admin</li>
+                    <li>Oversees maintenance and improvement of the ENSC Common Room</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">Director of Merchandise</span>
+                <ul>
+                    <li>Assists VP Admin and VP Finance</li>
+                    <li>Oversees the sales and inventory of all ESSS merchandise</li>
+                    <li>Designs new merchandise for ESSS</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">Director of Spirit</span>
+                <ul>
+                    <li>Assists VP Social</li>
+                    <li>Manages ESSS Social Media, such as Facebook, Instagram, Twitter, Discord</li>
+                    <li>Creates promotional material for events, offline and online</li>
+                    <li>Updates the Lab 1 Display Case</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">Director of OpFair</span>
+                <ul>
+                    <li>Oversees the planning of the annual OpFair,
+                        including the coordination of the planning committee and volunteers</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">Director of Resource Centre</span>
+                <ul>
+                    <li>Assists VP Academic</li>
+                    <li>Maintains and operates the ESSS 3D Printer</li>
+                    <li>Handles 3D printing requests and orders</li>
+                    <li>Assists in the prototype development of student projects</li>
+                    <li>Informs and educates the student body about 3D printing technology</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">Director of Publications</span>
+                <ul>
+                    <li>Assists VP Admin and VP Social</li>
+                    <li>Oversees all publicity matters of the ESSS</li>
+                    <li>Updates the ESSS display case, design printed and digital materials, and prints materials for
+                        activities</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">Director of Website</span>
+                <ul>
+                    <li>Maintains and adds new content to the ESSS website</li>
+                    <li>Improves design and fixes any reported issues with the ESSS Website</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">Director of Graphic Design</span>
+                <ul>
+                    <li>Manages ESSS branding and logo designs</li>
+                    <li>Assists ESSS initiatives by providing or implementing graphic designs for posters, social media,
+                        banners, etc.</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">Director of Tutoring</span>
+                <ul>
+                    <li>Manages the ESSS peer tutoring program</li>
+                    <li>Communicates with students and faculty regarding program promotion</li>
+                    <li>Responsible for updating the program format and providing training for new tutors</li>
+                </ul>
+            </div>
+            <div class="role-card">
+                <span class="role-name">Director of Mentorship</span>
+                <ul>
+                    <li>Oversees the mentorship program</li>
+                    <li>Manages any issues between mentors and mentees</li>
+                    <li>Manages the mentorship discord server each term</li>
+                    <li>Promotes and recruits for the mentorship program</li>
+                </ul>
+            </div>
+            <h3>Class Representatives</h3>
+            <p>Representatives serve as a liason between
+                the Executive Council and their respective body of students.
+                Additionally they may serve as volunteers, organizers, or announcers
+                of events managed by the ESSS. The following positions are filled every year:
+            </p>
+            <strong>First Year Representative x4</strong>
+            <strong>Second Year Representative x2</strong>
+            <strong>Electronics Engineering Representative</strong>
+            <strong>Systems Engineering Representative</strong>
+            <strong>Computer Engineering Representative</strong>
+            <strong>Biomedical Engineering Representative</strong>
+            <strong>Engineering Physics Representative</strong>
+            <br>
+        </div>
+    </div>
+    <div class="clubs-teams page">
+        <div class="text-container">
+            <h4 class="paragraph-heading">Engineering Clubs and Teams</h4>
+            <p class="desc">SFU Engineering has a number of clubs and teams
+                you may be interested in! Make sure to have a look
+                at their websites to learn more about what they do.
+            </p>
+            <div class="club-card">
+                <h5 class="club-title">Women in Engineering (WiE)</h5>
+                <a href="http://www.sfu.ca/clubs/wie.html" target="_blank"><span
+                        class="material-symbols-outlined link-icon">link</span></a>
+                <p class="club-desc">The Women in Engineering Group (WiE), consisting of approximately 150 members,
+                    strives to encourage and support the excellence of women who pursue engineering. By nurturing strong
+                    academic and social relationships, WiE aspires to increase the presence of women in STEM - to not
+                    only succeed in their professional careers, but to inspire the future generations of young females.
+                    Check out WiE’s website!</p>
+            </div>
+            <div class="club-card">
+                <h5 class="club-title">SFU IEEE Branch</h5>
+                <a href="http://www.sfu.ieee.ca/" target="_blank"><span
+                        class="material-symbols-outlined link-icon">link</span></a>
+                <p class="club-desc">We are the Simon Fraser University (SFU) student branch of the Institute of
+                    Electrical and Electronic Engineers (IEEE), the world’s largest professional society dedicated to
+                    advancing technological innovation and excellence for the benefit of humanity. Check out the IEEE’s
+                    website!</p>
+            </div>
+            <div class="club-card">
+                <h5 class="club-title">SFU Robot Soccer</h5>
+                <a href="https://sfuskynet.ca/" target="_blank"><span
+                        class="material-symbols-outlined link-icon">link</span></a>
+                <p class="club-desc">SFU’s first Robot Soccer club aims to combine the excitement of soccer with the
+                    future of automated technology as we compete in RoboCup Soccer competitions. Their team encourages
+                    students from all programs to come together and learn concepts that are not taught in class and get
+                    hands-on experience with robotics, artificial intelligence, and teamwork. Furthermore, we have a
+                    diverse spread of ages and experience represented in our club; ranging from first year engineering
+                    to latter-year computer science. Check out Robot Soccer’s website!</p>
+            </div>
+            <div class="club-card">
+                <h5 class="club-title">Team Gaurdian Burnaby</h5>
+                <a href="http://www.sfu.ca/uav/index.html" target="_blank"><span
+                        class="material-symbols-outlined link-icon">link</span></a>
+                <p class="club-desc">Team Guardian is SFU's UAV and drone design team, and they don't build themselves.
+                    They bring an accessible platform to learn more about drones, from how they work to how to fly, in a
+                    hands-on manner. Their team is split into three categories: the competition team, drone-related
+                    projects, and the business development team. Check out Team Guardian’s website!</p>
+            </div>
+            <div class="club-card">
+                <h5 class="club-title">SFU Rocketry</h5>
+                <a href="https://www.sfurocketry.com/" target="_blank"><span
+                        class="material-symbols-outlined link-icon">link</span></a>
+                <p class="club-desc">Striving to launch a rocket designed and built by SFU students, capable of touching
+                    the edge of space. Check out SFU Rocketry’s Website!</p>
+            </div>
+            <div class="club-card">
+                <h5 class="club-title">SFU Aerospace</h5>
+                <a href="https://www.sfuaerospace.org/" target="_blank"><span
+                        class="material-symbols-outlined link-icon">link</span></a>
+                <p class="club-desc">SFU Aerospace is a joint initiative among the three largest aerospace teams at
+                    Simon Fraser University. They are an administrative team working to represent each design team in
+                    their efforts for funding and resources. Together, they represent over 100 students and their
+                    ambitious goals from designing and building satellites and rockets autonomous drones. They are more
+                    than funding and technical development, it is apart of our core values that a STEM education should
+                    be accessible to all regardless of their backgrounds and experiences. Most of all, they create a
+                    multidisciplinary space. Check out SFU Aerospace’s Website!</p>
+            </div>
+            <div class="club-card">
+                <h5 class="club-title">WiE Design</h5>
+                <a href="http://www.sfu.ca/clubs/wie.html" target="_blank"><span
+                        class="material-symbols-outlined link-icon">link</span></a>
+                <p class="club-desc">Women in Engineering Design Team is an interdisciplinary subset of WiE club which
+                    focuses on providing a safe space for women and minorities to gain and build their technical skills.
+                    WiE Design is a small technical team of 12 members and is currently working on building an IoT
+                    garbage-collecting robot controlled via Bluetooth. In light of the COVID-19 pandemic WiE Design
+                    started a PPE initiative to design, 3D-print, and donate face shields and ear savers to healthcare
+                    workers, volunteers, and small businesses.</p>
+            </div>
+        </div>
+    </div>
+    <div class="mentorship page">
+        <div class="text-container">
+            <h4 class="paragraph-heading">Mentorship Program</h4>
+            <p class="desc">The ESSS started the mentorship program initiative in order to connect first and second year
+                students with upper year students. We hope that this will build a stronger community among SFU
+                engineering and provide valuable guidance to newer students entetring the program. Sign-up as a mentor
+                or
+                mentee by filling out the form below!</p>
+            <!-- Uncomment the code below to disable the form -->
+            <!-- <div class="disabled-overlay"> -->
+            <!-- add closed-form class to iframe -->
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSc6yObfkkO_jaG1n3iTAOFliSC92n_GXOjauceFEItvKUm6aQ/viewform?embedded=true"
+                width="640" height="1700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <!-- <span class="coming-soon">Coming Soon</span> -->
+            <!-- </div> -->
+            <br>
+        </div>
+    </div>
+    <div class="planning page">
+        <section class="navigator-container">
+            <div class="navigator-wrapper">
+                <div class="year-container">
+                    <div class="term-container">
+                        <div class="term-title">
+                            FALL 2021
+                            <span class="credit-box">14</span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"><span class="course-text">ENSC 100W</span></div>
+                            <div class="course-box"><span class="course-text">ENSC 105W</span></div>
+                            <div class="course-box"><span class="course-text">ENSC 120</span></div>
+                            <div class="course-box"><span class="course-text">ENSC 151</span></div>
+                            <div class="course-box"><span class="course-text">MATH 151</span></div>
+                        </div>
+                    </div>
+                    <div class="term-container spring">
+                        <div class="term-title">
+                            SPRING 2022
+                            <span class="credit-box"></span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                        </div>
+                    </div>
+                    <div class="term-container">
+                        <div class="term-title">
+                            SUMMER 2022
+                            <span class="credit-box"></span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="year-container">
+                    <div class="term-container">
+                        <div class="term-title">
+                            FALL 2022
+                            <span class="credit-box"></span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                        </div>
+                    </div>
+                    <div class="term-container spring">
+                        <div class="term-title">
+                            SPRING 2023
+                            <span class="credit-box"></span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                        </div>
+                    </div>
+                    <div class="term-container">
+                        <div class="term-title">
+                            SUMMER 2023
+                            <span class="credit-box"></span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="year-container">
+                    <div class="term-container">
+                        <div class="term-title">
+                            FALL 2023
+                            <span class="credit-box"></span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                        </div>
+                    </div>
+                    <div class="term-container spring">
+                        <div class="term-title">
+                            SPRING 2024
+                            <span class="credit-box"></span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                        </div>
+                    </div>
+                    <div class="term-container">
+                        <div class="term-title">
+                            SUMMER 2024
+                            <span class="credit-box"></span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="year-container">
+                    <div class="term-container">
+                        <div class="term-title">
+                            FALL 2024
+                            <span class="credit-box"></span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                        </div>
+                    </div>
+                    <div class="term-container spring">
+                        <div class="term-title">
+                            SPRING 2025
+                            <span class="credit-box"></span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                        </div>
+                    </div>
+                    <div class="term-container">
+                        <div class="term-title">
+                            SUMMER 2025
+                            <span class="credit-box"></span>
+                        </div>
+                        <div class="courses-container">
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                            <div class="course-box"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigator-text">
+                <h4>SFU Course Navigator</h4>
+                <p>The unoffical SFU course navigator is the best course planning tool available for engineering
+                    students.
+                    Using it is simple and intuitive. Start by choosing any engineering option - this will load the
+                    "recommended" schedule for that
+                    option. Need to modify the recommended schedule? No problem, the application is fully
+                    dynamic, meaning that you can drag and drop courses into a different term, add additional
+                    years/terms to your schedule,
+                    add additional courses to the schedule, and much more. Worried that your schedule might not meet
+                    degree requirements?
+                    The course navigators automatic error detection has you covered. The navigator tests your schedule
+                    by checking term availabilty
+                    of each course, pre-requisites, and degree requirements specific to the option you chose. When
+                    you're all done, you can save the schedule and load it up the next time you use the app.
+                    Try it out for yourself by clicking the button below.
+                </p>
+                <a href="https://sfu.coursenavigator.ca" target="_blank" class="button-green">Start Planning</a>
+            </div>
+        </section>
+        <h3>Other Resources</h3>
+        <div class="list-container">
+            <ul class="centered-list">
+                <li><a href="https://curriculum.engineering.sfu.ca/nav/" target="_blank">Official ENSC Course Navigator
+                        (managed by SFU)</a></li>
+                <li><a href="https://curriculum.engineering.sfu.ca/UCC_CHECK_Public/" target="_blank">Graduation Check
+                        and AU Check</a></li>
+                <li><a
+                        href="https://www.sfu.ca/engineering/current-students/undergraduate-students/course-schedule.html">ENSC
+                        Course Offerings</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="scheduling page">
+        <div class="text-container">
+            <h4 class="paragraph-heading">Course Scheduling</h4>
+            <p class="desc">Many students run into issues during course enrolment and have questions about who to
+                contact to get them resolved. We have compiled a curated list of questions and answers to address the
+                most common problems.</p>
+            <h3>Frequently Asked Questions</h3>
+            <ul class="faq-container">
+                <ul>
+                    <li><strong>Q: My required courses conflict?</strong></li>
+                    <li>A: Email the undergraduate assistant (enscugra@sfu.ca) and explain your issue. They may be able
+                        to reschedule a course. You must request this before course enrollment begins, or it may be too
+                        late. These must be courses the department intends for you to take together. Alternatively, you
+                        can submit a time-conflict request <a
+                            href="https://coursys.sfu.ca/forms/ensc-time-conflict-request-form/"
+                            target="_blank">form</a> and enroll in both conflicting courses. The department will expect
+                        you to have a plan to minimize the consequences of the conflict.</li>
+                </ul>
+                <ul>
+                    <li><strong>Q: My required course is full, and I can’t waitlist?</strong></li>
+                    <li>A: Email the undergraduate assistant (enscugra@sfu.ca) and explain your issue. They may be able
+                        to add more seats.</li>
+                </ul>
+                <ul>
+                    <li><strong>Q: I can’t enroll in courses from another department?</strong></li>
+                    <li>A: The other department probably reserves those seats for students in their program. You can
+                        enroll during open enrollment. Alternatively, you can declare a minor in the other department to
+                        gain immediate enrollment privileges. Computer engineering students commonly declare a CMPT
+                        minor</li>
+                </ul>
+                <ul>
+                    <li><strong>Q: This is my first time enrolling in an upper-division course, and my enrollment was
+                            not processed?</strong></li>
+                    <li>A: You must declare your concentration before enrolling in upper division courses. Please fill
+                        out this <a href="https://coursys.sfu.ca/forms/ensc-declare-ensc-option/"
+                            target="_blank">form</a>, and the undergraduate assistant will process it promptly. You may
+                        enroll in upper division courses after the form is approved.</li>
+                </ul>
+                <ul>
+                    <li><strong>Q: I want to take an elective, but it's not pre-approved?</strong></li>
+                    <li>A: Submit a course substitution <a
+                            href="https://coursys.sfu.ca/forms/ensc-course-substitutionswaivers/"
+                            target="_blank">waiver</a>. The undergraduate assistant and UCC chair will assess the
+                        course. Approval will depend on the course's accreditation status, academic unit distribution,
+                        and your personal circumstances.</li>
+                </ul>
+                <ul>
+                    <li><strong>Q: I’m missing a pre-requisite, but I took an equivalent course?</strong></li>
+                    <li>A: This is generally acceptable. Submit a course substitution <a
+                            href="https://coursys.sfu.ca/forms/ensc-course-substitutionswaivers/"
+                            target="_blank">waiver</a>.</li>
+                </ul>
+                <ul>
+                    <li><strong>Q: I want to take a course during my co-op term?</strong></li>
+                    <li>A: This is allowed if your supervisor approves. After getting written consent from your
+                        supervisor, submit a time-conflict request <a
+                            href="https://coursys.sfu.ca/forms/ensc-time-conflict-request-form/"
+                            target="_blank">form</a>.</li>
+                </ul>
+                <ul>
+                    <li><strong>Q: I want to take an equivalent course in another department?</strong></li>
+                    <li>Submit a course substitution <a
+                            href="https://coursys.sfu.ca/forms/ensc-course-substitutionswaivers/"
+                            target="_blank">waiver</a>. Our department will discourage this unless there are extenuating
+                        cicurmstances. You may also need approval from the other department.</li>
+                </ul>
+            </ul>
+            <h3>Contacts</h3>
+            <div class="contacts-container">
+                <p><strong>Undergarduate Assistant (Debbie Newberry) - </strong>enscugra@sfu.ca</p>
+                <ul class="contact">
+                    <li>Can manipulate the ENSC course schedule</li>
+                    <li>Reviews all submitted forms</li>
+                    <li>Can manually enroll you into courses</li>
+                </ul>
+                <p><strong>Academic Advising - </strong>asadvise@sfu.ca</p>
+                <ul class="contact">
+                    <li>Can help you plan courses</li>
+                    <li>Sometimes uninformed about department policies</li>
+                </ul>
+                <p><strong>VP Academic (Colton Koop) - </strong>academic@esss.ca</p>
+                <ul class="contact">
+                    <li>Fellow student who is very knowledgeable on course scheduling</li>
+                    <li>Good point of contact if you have an issue that is not adressed in this list</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="co-op page">
+        <div class="text-container">
+            <h4 class="paragraph-heading">Co-op</h4>
+            <p>Landing a co-op is not easy, but we're here to help! Here are some of our best tips and resources for
+                landing your dream job.</p>
+            <h3>Application Documents</h3>
+            <p class="desc">It is standard to submit a resume, cover letter, and transcript for each co-op position you
+                apply to.
+                As much as we would all love to simply snap our fingers and change our transcripts to have all perfect
+                grades,
+                we can't. The good news is you can still stand out by having an impressive resume and cover letter. Not
+                sure how to
+                design/format your resume and cover letters? Take a look at the SFU OLC's <a
+                    href="https://olc.sfu.ca/gallery/resume" target="_blank">resume</a>
+                and <a href="https://olc.sfu.ca/gallery/cover-letter" target="_blank">cover
+                    letter</a> galleries for some inspiration. Still feeling a bit stuck?
+                follow <a href="https://www.sfu.ca/students/career/looking-for-work/resume-coverletter.html"
+                    target="_blank">SFU's guide and checklist</a> for making a resume and cover letter from start to
+                finish.
+                In addition to a strong resume and cover letter, you will greatly increase your chances of being hired
+                if you have either relevant work experience or relevant personal projects for the position your
+                applying to. While many of us do not have relevant work experience, personal projects are something that
+                anyone can do. They show that you are passionate
+                and have demonstrated at least some of the skills they are looking for in a co-op student.
+            </p>
+            <a href="https://forms.gle/mZ5sTzy45QAJwGzBA" target="_blank" class="button-green form-link">Submit Your
+                Resume and Cover Letter For Peer Review</a>
+            <h3>Interview Prep</h3>
+            <div class="club-card">
+                <a href="https://leetcode.com" target="_blank"><img src="./Home-Images/LeetCode.png" alt="Leetcode Logo"
+                        class="leetcode-logo"></a>
+                <p class="club-desc">Leetcode is the best free platform available when it comes to preparing for coding
+                    interviews.
+                    Master data structures and algorithms by tackling a subset of over 2000 problems
+                    categorized by difficulty, topic, and community feedback. Be sure to search the internet for a good
+                    set of questions
+                    to work on. If you get stuck or want to confirm that you have the optimal solution to the problem,
+                    there are plenty of
+                    answers on the platform itself as well as YouTube which you can use as a reference. Good luck on
+                    your interview and happy
+                    coding!
+                </p>
+            </div>
+            <div class="club-card">
+                <a href="https://olc.sfu.ca/interview-question-database" target="_blank"><img
+                        src="./Home-Images/SFU_OLC.jpg" alt="SFU OLC Logo" class="olc-logo"></a>
+                <p class="club-desc">SFU OLC Interview Question Database has many more typical interview questions for
+                    you to practice with as well as suggested strategies
+                    on how to answer some of them. You can choose questions based on certain skills, your discipline, or
+                    simply general questions.
+                </p>
+            </div>
+            <div class="club-card">
+                <a href="https://sfu.interviewprep.app/" target="_blank"><img src="./Home-Images/interviewing-logo.png"
+                        alt="Interviewing.com Logo" class="interviewing-logo"></a>
+                <p class="club-desc">the interview prep webApp is another site with a plethora of questions you can
+                    choose from to compile a practice interview full of questions.
+                    You can then record yourself answering the questions to look back on how you answered and improve
+                    your answers for your actual interview!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="resources page">
+        <div class="scroll-container">
+            <div class="resource-card">
+                <h4>ESSEF</h4>
+                <p>The Engineering Science Student Endowment Fund (ESSEF) accepts applications at the start of each
+                    semester for projects and teams once per year. Projects fall into four different categories and
+                    students must meet certain criteria to apply. More information on both can been found in the ESSEF
+                    Categories file. Watch your email for the application period, deadline to apply, and most up-to-date
+                    application form.</p>
+                <div class="link-container">
+                    <a href="./essef_app.pdf" target="_blank" class="link-button">
+                        <span class="material-symbols-outlined link">link</span>
+                        <span>Application Form</span>
+                    </a>
+                    <a href="./essef_categories.pdf" target="_blank" class="link-button">
+                        <span class="material-symbols-outlined link">link</span>
+                        <span>ESSEF Categories</span>
+                    </a>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h4>Software</h4>
+                <p>As an SFU Engineering student, there are a number of different software applications you can access.
+                    Some software is not free and will only run on certain operating systems, so keep this in mind when
+                    determining if a software will run on your current environment (or future setup if you plan on
+                    buying a new computer with a different OS). Be sure to check out the Azure Dev Tools for more
+                    engineering related software such as Visio and Visual Studio Professional IDE.</p>
+                <div class="link-container">
+                    <a href="https://www.sfu.ca/itservices/technical/software.html" target="_blank" class="link-button">
+                        <span class="material-symbols-outlined link">link</span>
+                        <span>SFU Software Downloads</span>
+                    </a>
+                    <a href="https://www.sfu.ca/information-systems/services/software/azure-dev-tools.html"
+                        target="_blank" class="link-button">
+                        <span class="material-symbols-outlined link">link</span>
+                        <span>Azure Dev Tools</span>
+                    </a>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h4>Scholarships</h4>
+                <p>The cost of a university education can be overwhelming. Luckily, there are scholarships, awards, and
+                    bursaries available to help lift some of the burden. Check out the links below for some SFU specific
+                    and general Canadian scholarships. If you're employed you can also look into your company's
+                    scholarship opprotunities.
+                    Applying shouldn't take a tremendous amount of time and there is only free money to gain!
+                </p>
+                <div class="link-container">
+                    <a href="https://www.sfu.ca/students/financialaid/undergrad/scholarships.html" target="_blank"
+                        class="link-button">
+                        <span class="material-symbols-outlined link">link</span>
+                        <span>SFU Scholarships</span>
+                    </a>
+                    <a href="https://www.scholarshipscanada.com/" target="_blank" class="link-button">
+                        <span class="material-symbols-outlined link">link</span>
+                        <span>Scholarships Canada</span>
+                    </a>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h4>Resource Center</h4>
+                <p>The ESSS Resouce center is a library of parts you can borrow for personal projects, capstone
+                    projects, first-year projects, design team projects, and more! Please look at the spreadsheet
+                    for a list of available parts. We will add new parts each term. If you see a part
+                    you want to borrow, just submit a request to the Google form, and our Resource Center
+                    Director will process your request. Please direct all questions to esss_resource@sfu.ca.
+                </p>
+                <div class="link-container">
+                    <a href="https://docs.google.com/spreadsheets/d/11fewjrgZ896fWZuY2hdAJ6Ab-F91Mh8OJ9zIxJJdXwA/edit#gid=0"
+                        target="_blank" class="link-button">
+                        <span class="material-symbols-outlined link">link</span>
+                        <span>Part List Spreadsheet</span>
+                    </a>
+                    <a href="https://forms.gle/g52JKGQfrH1cSVoL8" target="_blank" class="link-button">
+                        <span class="material-symbols-outlined link">link</span>
+                        <span>Part Request Form</span>
+                    </a>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h4>Wellness</h4>
+                <p>Remembering to take care of and support your health and wellness is truly important, and can
+                    often be
+                    put on the back burner as busy students. FAS has developped a wellness resources page to help us
+                    live a more balanced and fulfilling life. The page includes many resources specifc for those of
+                    us
+                    in the SFU community. One important factor to learning and overall well-being that many students
+                    overlook is sleep. Check out the TED talk linked below to understand the importance of sleep.
+                </p>
+                <div class="link-container">
+                    <a href="http://www.sfu.ca/fas/current-student/wellness.html" target="_blank" class="link-button">
+                        <span class="material-symbols-outlined link">link</span>
+                        <span>FAS Wellness Resources</span>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=5MuIMqhT8DM&ab_channel=TED" target="_blank"
+                        class="link-button">
+                        <span class="material-symbols-outlined link">link</span>
+                        <span>Sleep TED Talk</span>
+                    </a>
+                </div>
+            </div>
+            <div class="resource-card">
+                <h4>International Students</h4>
+                <p>We know that are a lot of hoops to jump through as an international student. That's why our
+                    international student
+                    representative has created a document to highlight some important information reagarding co-op and
+                    medical insurance.
+                    Check it out by clicking the link below!
+                </p>
+                <div class="link-container">
+                    <a href="./international-student-info.pdf" target="_blank" class="link-button">
+                        <span class="material-symbols-outlined link">link</span>
+                        <span>Work and Insurance Requirements For International Students</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="annual-events page">
+        <h4 class="paragraph-heading">Annual Events</h4>
+        <div class="event-card">
+            <div class="image-text-container">
+                <img src="./Home-Images/opfair.jpg" alt="OpFair" class="embedded-img">
+                <span class="text-overlay">OpFair</span>
+            </div>
+            <p>OpFair is SFU’s largest tech-based career fair held annually in January by the ESSS
+                for all FAS students. OpFair is an excellent opportunity for students to
+                network with companies and look for co-op jobs or simply careers.
+                Checkout the <a href="https://opfair.ca" target="_blank">OpFair website</a> for the most up-to-date
+                information on OpFair,
+                company attendees, and exhibitor packages.
+            </p>
+        </div>
+        <div class="event-card">
+            <p>FROSH is the annual week long welcoming event for SFU engineering students
+                held at the start of September. During a typical year, FROSH generally has a BBQ,
+                Downtown scavenger hunt, icebreakers, and other fun activities. FROSH is an
+                excellent event to meet your new first year engineering classmates.
+            </p>
+            <div class="image-text-container">
+                <img src="./Home-Images/frosh.jpg" alt="Frosh" class="embedded-img">
+                <span class="text-overlay">FROSH</span>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="image-text-container">
+                <img src="./Home-Images/competition.JPG" alt="SFU Engineering Competition" class="embedded-img">
+                <span class="text-overlay">SFU Engineering Competition</span>
+            </div>
+            <p>The SFU Engineering Competition is organized by both Burnaby and Surrey Engineering
+                students and usually runs roughly at the start of November. The competition has multiple
+                categories with a competitive category for first years to Nth years. The competition is
+                the official qualifier for the Western Engineering Competition (WEC).
+            </p>
+        </div>
+        <div class="event-card">
+            <p>Pi week runs the week of March 14 each year. The events each day of the week
+                change up every year, but you can generally expect a couple of fun social events
+                and a merch sale. Close to the week, you can find the event schedule on
+                our <a href="https://www.instagram.com/sfuengineers/" target="_blank">Instagram</a> and <a
+                    href="https://www.facebook.com/SFU.ESSS/" target="_blank">Facebook</a>.
+            </p>
+            <div class="image-text-container">
+                <img src="./Home-Images/pi-pie.jpg" alt="Frosh" class="embedded-img">
+                <span class="text-overlay">Pi Week</span>
+            </div>
+        </div>
+    </div>
+    <div class="conf-comp page">
+        <div class="text-container">
+            <h4 class="paragraph-heading">Conferences and Competitions</h4>
+            <div class="img-flex-container">
+                <img src="./Home-Images/CEC2020.jpg" alt="SFU students" id="cec-img">
+                <img src="./Home-Images/Executives-Meeting.png" alt="Meeting Group Photo" id="exec-meeting-img">
+            </div>
+        </div>
+        <div class="info-array">
+            <div class="info-card">
+                <h5>Executives Meeting (EM)</h5>
+                <p>EM is hosted by WESST (Western Engineering Student Societies Team) usually in May.
+                    The conference is meant to help transition incoming executives (VPs and President)
+                    for the upcoming year. The First General Assembly of the WESST happens during EM and
+                    consists of representatives from schools in western Canada. In order to attend, a person
+                    must be elected as a VP or President.
+                </p>
+            </div>
+            <div class="info-card">
+                <h5>President’s Meeting (PM)</h5>
+                <p>PM is hosted by CFES (Canadian Federation of Engineering Students) normally at the end of
+                    September. The First General Assembly of the CFES happens during PM and consists of
+                    representatives from schools across Canada. Generally, the VP External and President attend.
+                </p>
+            </div>
+            <div class="info-card">
+                <h5>Annual General Meeting Retreat (AGMR)</h5>
+                <p>AGMR is hosted by WESST and usually happens in October. Sessions during the conference cover
+                    how to become more involved in respective engineering societies. The Second General Assembly
+                    for WESST happens during AGMR. Delegates for AGMR are selected by application.
+                </p>
+            </div>
+            <div class="info-card">
+                <h5>Conference on Diversity in Engineering (CDE)</h5>
+                <p>CDE is hosted by the CFES usually in November. Sessions during the conference discuss how to be
+                    more inclusive and diverse in engineering. Delegates for CDE are selected by application.
+                </p>
+            </div>
+            <div class="info-card">
+                <h5>Canadian Engineering Leadership Conference (CELC)</h5>
+                <p>CELC is hosted by CFES and usually happens in January. Sessions are based on leadership and how
+                    to
+                    be more involved as a leader in respective engineering societies. Delegates for CELC are
+                    selected
+                    by application.
+                </p>
+            </div>
+            <div class="info-card">
+                <h5>Conference on Sustainability in Engineering (CSE)</h5>
+                <p>CSE is hosted by CFES and usually happens in March. Sessions are based on sustainability and
+                    being
+                    more environmentally friendly in engineering. Delegates for CSE are selected base on
+                    application.
+                </p>
+            </div>
+            <div class="info-card">
+                <h5>SFU Engineering Competition (SFU EC)</h5>
+                <p>SFU EC is organised by the ESSS, MSESS, and SEESS. There are usually six different categories for
+                    students of all years and skill levels to particpate in. To attend you must be and ENSC, MSE, or
+                    SEE
+                    student.
+                </p>
+            </div>
+            <div class="info-card">
+                <h5>Western Engineering Competition (WEC)</h5>
+                <p>WEC is hosted by WESST and is comprised of winning teams from across western Canada. To attend,
+                    you
+                    must win
+                    your respective category at the SFU Engineering Competition.
+                </p>
+            </div>
+            <div class="info-card">
+                <h5>Canadian Engineering Competition (CEC)</h5>
+                <p>CEC is hosted by CFES and is comprised of the winning temas from the regional engineering
+                    competitions.
+                    To compete at CEC, you must win WEC.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="mission page">
+        <div class="text-container">
+            <h4 class="paragraph-heading">Our Purpose and Mission</h4>
+            <p class="desc">The Engineering Science Student Society is a Department Student Union (DSU) whose
+                mission
+                is to foster the academic, personal, and professional goals of our students. We strive to improve
+                education
+                quality in conjunction with the School of Engineering, promote engineering as a profession, develop
+                an
+                interest in extra-curricular activities, and encourage school spirit. We provide services and
+                materials
+                to
+                help students succeed in their educational endeavours. We host a variety of events each term that
+                help
+                students
+                interact with their peers, build new connections, and enhance their network.
+            </p>
+            <p class="desc">We communicate with internal, external, and professional engineering groups, mediate
+                with
+                outside groups such as
+                the SFSS, Engineering Science Administration and University Administration, communicate between
+                graduate
+                and
+                undergraduate students, plan social events, and support student initiatives in the engineering
+                community.
+            </p>
+            <p class="desc">We are also partners with the Canadian Federation of Engineering Students (CFES) and the
+                Western Engineering Student
+                Societies Team (WESST) and attend conferences across Canada to advocate student life and engineering
+                accreditation for
+                post-secondary institutions. If you have any academic inquiries, we are your ambassadors and will
+                help
+                you voice your
+                concerns to the right individuals.
+            </p>
+            <p class="desc">ESSS exists to improve the lives of SFU Engineering students during their time at SFU.
+            </p>
+        </div>
+    </div>
+    <div class="our-team page">
+        <div class="team-container">
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Boris Perdija</span>
+                    <span class="title">President</span>
+                </div>
+                <a href="https://www.linkedin.com/in/boris-perdija/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Boris-Perdija.jpg" alt="Boris Perdija" class="team-img"></a>
+                <p>Hey! Nice to meet you reader, my name's Boris Perdija and I’m a fifth year student at SFU and
+                    entering my fourth year in computer engineering.</p>
+                <p>Outside of my life in engineering, I love watching movies and tv shows - especially the ones that
+                    don’t get talked about a whole lot; shooting
+                    professional & recreational photography in my free time; hiking, and aviation.
+                </p>
+                <p>If you ever want to chat about anything, I'm always looking to meet new people! Send me a dm on
+                    discord (Berry!#0737) or
+                    feel free to say hi if you catch me on campus :)
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Laura Flood</span>
+                    <span class="title">VP Admin</span>
+                </div>
+                <a href="https://www.linkedin.com/in/laura-flood-581396222/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Laura-Flood.jpg" alt="Laura Flood" class="team-img"></a>
+                <p>Hello! My name is Laura and I am a third (almost fourth) year Systems Eng student. This is also
+                    my
+                    third (almost fourth) year on the ESSS team! When I have time
+                    spare during the engineering grind I love hiking and baking!
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Jennifer Gu</span>
+                    <span class="title">VP External</span>
+                </div>
+                <a href="https://www.linkedin.com/in/jennifer-gu-b945a616b/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Jen-Gu.JPG" alt="Jennifer Gu" class="team-img"></a>
+                <p>Jen is a Systems Engineering student, currently in her fourth year. As VP External, she provides
+                    information regarding conferences and opportunities for SFU engineering
+                    students across Canada including Western Engineering Competition, SFU OpFair and the Canadian
+                    Engineering Leadership Conference. Outside of crying over classes, Jen loves
+                    eating new food from around Vancouver and playing Risk of Rain 2.
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Kaleigh Toering</span>
+                    <span class="title">VP Finance</span>
+                </div>
+                <a href="https://www.linkedin.com/in/kaleigh-toering/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Kaleigh-Toering.jpg" alt="Kaleigh Toering" class="team-img"></a>
+                <p>Hey y’all! My name is Kaleigh and I’m a fourth year Computer Engineering student. As your VP
+                    Finance,
+                    I mainly manage budgeting alongside all other financial aspects of the ESSS. Although I’m not a
+                    fan
+                    of spreadsheets (or Excel), I really enjoy working with the student body to fund events,
+                    coordinate
+                    design projects, and create initiatives that further build our community and benefit ENSC
+                    students!
+                    When I’m not on campus you can find me hiking, backpacking, kayaking, or doing anything
+                    outdoors!
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Rajnesh Joshi</span>
+                    <span class="title">VP Social</span>
+                </div>
+                <a href="https://www.linkedin.com/in/rajnesh-joshi/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Rajnesh-Joshi.jpg" alt="Rajnesh Joshi" class="team-img"></a>
+                <span>
+                    <p>u mirin' brah?</p>
+                </span>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Colton Koop</span>
+                    <span class="title">VP Academic</span>
+                </div>
+                <a href="https://www.linkedin.com/in/coltonkoop/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Colton-Koop.JPG" alt="Colton Koop" class="team-img"></a>
+                <p>Hello! My name is Colton Koop, and I'm your 2022/2023 VP Academic.</p>
+                <p>I began my journey in the Math department, earning myself a minor. Over time, I realized that
+                    I'm more interested in the practical side of Mathematics, so I transferred into Engineering
+                    and never looked back.
+                </p>
+                <p>I currently work as an Undergraduate Student Researcher in Dr. Shawn Sederberg's Extreme
+                    Photonics laboratory, where I play with lasers and try not blind myself.
+                </p>
+                <p>When I'm not studying, I'm usually at the gym lifting weights or coaching Brazilian Jiu-jitsu.
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Liam Feng</span>
+                    <span class="title">VP Internal</span>
+                </div>
+                <a href="https://www.linkedin.com/in/liam-feng-a36678217/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Liam-Feng.jpg" alt="Liam Feng" class="team-img"></a>
+                <p>HELLO, my name is Liam Feng, and I am a humble second year who is honoured to call himself
+                    <i>your</i> VP internal, ideally representing you and all your wonderful engineering-related
+                    interests. My major is currently undecided, but what I do know is that I hope to make you proud.
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Liza Awwad</span>
+                    <span class="title">Director of Diversity</span>
+                </div>
+                <img src="./Home-Images/Team Photos/Liza-Awwad.jpg" alt="Liza Awwad" class="team-img">
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Aaron Lu</span>
+                    <span class="title">Director of Sponsorship</span>
+                </div>
+                <a href="https://www.linkedin.com/in/aaronclu" target="_blank"><img
+                        src="./Home-Images/Team Photos/Aaron-Lu.jpg" alt="Aaron Lu" class="team-img"></a>
+                <p>Hi! I'm Aaron, I am the Director of Sponsorship for the ESSS. My job is to find new
+                    sponsors for the events that we host! When I'm not doing that, you'll find me building
+                    things or chilling at the beach!
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">William Zhang</span>
+                    <span class="title">Director of Common Room</span>
+                </div>
+                <img src="./Home-Images/Team Photos/William-Zhang.jpg" alt="Aaron Lu" class="team-img">
+                <p>William here, a 3rd year computer engineering student that enjoys dragon boating and
+                    game design. I'll be managing the common room so if you ever need something come say hi!
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Navid Ziafati</span>
+                    <span class="title">Director of Merchandise</span>
+                </div>
+                <a href="https://www.linkedin.com/in/nzady/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Navid-Ziafati.jpg" alt="Navid Ziafati" class="team-img"></a>
+                <p>Dorood! I'm Navid, a second year Computer Engineering Student. I just transferred here from
+                    uOttawa, so I'm still getting used to everything in BC. I like
+                    Japanese culture and language, global affairs, biking, and traveling. I sometimes play League of
+                    Legends so add me up if you do as well. As the new Dir.
+                    of Merch I'm working on a fresh system for the '22-'23 school year to bring stylish, cool, and
+                    affordable Merch to the engineering student body.
+                    Please look forward to it!
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Rose Epstein</span>
+                    <span class="title">Co-Director of Spirit</span>
+                </div>
+                <a href="https://www.linkedin.com/in/rose-epstein/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Rose-Epstein.jpg" alt="Rose Epstein" class="team-img"></a>
+                <p>Hey I'm Rose! I'm in my third year of computer engineering. In my spare time I love spending time
+                    with friends and being outside</p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Nikita Cutinho</span>
+                    <span class="title">Co-Director of Spirit</span>
+                </div>
+                <img src="./Home-Images/Team Photos/Nikita-Cutinho.jpg" alt="Nikita Cutinho" class="team-img">
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Bruce Yan</span>
+                    <span class="title">Director of OpFair</span>
+                </div>
+                <a href="https://www.linkedin.com/in/bruce-yan-a95006192/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Bruce-Yan.jpg" alt="Bruce Yan" class="team-img"></a>
+                <p>
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Suhka Lee</span>
+                    <span class="title">Director of Resource Center</span>
+                </div>
+                <img src="./Home-Images/Team Photos/Suhka-Lee.jpg" alt="Suhka Lee" class="team-img">
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Ryan Garofano</span>
+                    <span class="title">Director of Website</span>
+                </div>
+                <a href="https://www.linkedin.com/in/ryan-garofano-46727a227/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Ryan-Garofano.png" alt="Ryan Garofano" class="team-img"></a>
+                <p>Ryan is a third-year computer engineering student who is passionate about tech and fitness. As
+                    director of website, Ryan manages and updates the ESSS site so that students have up-to-date
+                    information about the esss, the engineering program, and upcoming events. Outside of school he
+                    enjoys lifting
+                    weights, playing ultimate frisbee, and working on technical projects.
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Philip Stachura</span>
+                    <span class="title">Director of Graphic Design</span>
+                </div>
+                <a href="https://www.linkedin.com/in/philipstachura/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Philip-Stachura.jpg" alt="Philip Stachura" class="team-img"></a>
+                <p>
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Samin Moradkhan</span>
+                    <span class="title">Director of Tutoring</span>
+                </div>
+                <a href="https://www.linkedin.com/in/saminmoradkhan/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Samin-Moradkhan.png" alt="Samin Moradkhan" class="team-img"></a>
+                <p>I am a third year engineering student. I chose systems major because I love to create things that
+                    could help people and make life easier for them. I joined ESSS because
+                    it is very inclusive, supportive and fun. Through my role I hope to be able to attract more
+                    students with different backgrounds to the community and bring everyone together.
+                    I love to talk to new people and make new friends.
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Wallace Lee</span>
+                    <span class="title">Director of Mentorship</span>
+                </div>
+                <a href="https://www.linkedin.com/in/wallace-lee-7986aa240/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Wallace-Lee.jpg" alt="Wallace Lee" class="team-img"></a>
+                <p>Hello, I'm Wallace, a second year student. I wanted to join the ESSS because of the opportunities
+                    to meet new people. I plan to do either Systems or Computer Engineering.
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Eugenia Demendeeva</span>
+                    <span class="title">First Year Representative</span>
+                </div>
+                <a href="https://www.linkedin.com/in/eugenia-demendeeva/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Eugenia-Demendeeva.jpg" alt="Eugenia Demendeeva"
+                        class="team-img"></a>
+                <p>
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Arshia Soleimany</span>
+                    <span class="title">First Year Representative</span>
+                </div>
+                <a href="https://www.linkedin.com/in/arshia1381/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Arshia-Soleimany.jpg" alt="Arshia Soleimany"
+                        class="team-img"></a>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Husain Kanthawala</span>
+                    <span class="title">Second Year Representative</span>
+                </div>
+                <a href="https://www.linkedin.com/in/husain-kanthawala-ab9b5916b/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Husain-Kanthawala.jpg" alt="Husain Kanthawala"
+                        class="team-img"></a>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Makan Mousavifard</span>
+                    <span class="title">Biomedical Engineering Representative</span>
+                </div>
+                <a href="https://www.linkedin.com/in/makan-mousavifard/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Makan-Mousavifard.jpg" alt="Makan Mousavifard"
+                        class="team-img"></a>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Tony Kooliyath</span>
+                    <span class="title">Systems Engineering Representative</span>
+                </div>
+                <a href="https://www.linkedin.com/in/tonykooliyath/" target="_blank"><img
+                        src="./Home-Images/Team Photos/Tony-Kooliyath.jpg" alt="Tony Kooliyath" class="team-img"></a>
+                <p>Hey guys, my name's Tony and I'm currently in my 3rd year concentrating in systems engineering.
+                    I'll be this year's systems engineering representative so if you have any
+                    questions/comments/concerns regarding the systems engineering program or industry,
+                    feel free to reach out to me!
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Srinath Ganapathy</span>
+                    <span class="title">Electronics Engineering Representative</span>
+                </div>
+                <img src="./Home-Images/Team Photos/Srinath-Ganapathy.jpg" alt="Srinath Ganapathy" class="team-img">
+                <p>Hey, my name is Srinath, I am a 4th-year Electronics Engineering Science student and I am happy
+                    to
+                    be a member of the ESSS. Outside of Engineering, I enjoy hiking, playing hockey, and love to do
+                    garden work. I enjoy connecting with new people so make sure to say hi when you pass by!
+                </p>
+            </div>
+            <div class="member-card">
+                <div class="name-title-container">
+                    <span class="name">Abhishek Mishra</span>
+                    <span class="title">International Student Representative</span>
+                </div>
+                <img src="./Home-Images/Team Photos/Abhishek-Mishra.jpg" alt="Abhishek Mishra" class="team-img">
+            </div>
+        </div>
+    </div>
+    <div class="documents page">
+        <div class="text-container">
+            <h4 class="paragraph-heading">Documents</h4>
+            <p class="desc">Interested in learning more about ESSS policies
+                or some of the other societies we are apart of? Looking
+                for commonly used forms in ENSC? Curious about our previous
+                meetings with the ENSC Director? Check below for all of the above!
+            </p>
+            <div class="policies-info-container">
+                <div class="docs-container">
+                    <span class="list-heading">ESSS</span>
+                    <ul>
+                        <a href="./ESSS-Constitution.pdf" target="_blank">
+                            <li>Constituition</li>
+                        </a>
+                        <a href="./ESSS-Policy.pdf" target="_blank">
+                            <li>Policy</li>
+                        </a>
+                        <a href="./ESSS-Bylaws.pdf">
+                            <li>Bylaws</li>
+                        </a>
+                        <a href="https://drive.google.com/drive/folders/1PpBJK7pzMSLRLvKEDHA2X4vPodqnTKSw"
+                            target="_blank">
+                            <li>Minutes</li>
+                        </a>
+                        <a href="./ESSS_BrandGuidelines.pdf" target="_blank">
+                            <li>Brand Guidlines</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="docs-container">
+                    <span class="list-heading">WESST</span>
+                    <ul>
+                        <li>ESSS is affiliated with WESST. Learn more about them at the link below!</li>
+                        <a href="https://www.wesst.ca/" target="_blank">
+                            <li>WESST Website</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="docs-container">
+                    <span class="list-heading">CFES</span>
+                    <ul>
+                        <li>CFES Governing Documents can be found on the <a href="https://cfes.ca/governance/"
+                                target="_blank">CFES Website</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="statement-block">
+                As a member of the CFES, the ESSS supports, and would like to highlight the CFES Equity, Diversion,
+                and Inclusion Stance.
+            </div>
+            <h5>ENSC Director Meeting</h5>
+            <a href="./Director_Meeting.pdf" target="_blank">Summer 2022</a>
+            <h5>Guide to Commonly Submitted ENSC Forms</h5>
+            <a href="./ENSC-Forms-Guide.pdf" target="_blank">slides</a>
+        </div>
+    </div>
+    <div class="hall-of-fame page">
+        <div class="text-container">
+            <h4 class="paragraph-heading">Hall of Fame</h4>
+            <p class="desc">There are a number of important
+                people to the ESSS who have made significant
+                contributions to our society that we wish to
+                forever immortalize. These people have provided
+                us with great support, council, comradery, and
+                gone above their call of duty. For this, we dearly
+                thank them and give them a little bit of the recognition
+                they deserve. Do you have what it takes to be a future
+                ESSS Hall of Famer? Check out Get Involved in the
+                navigation bar above to start your ESSS journey!
+            </p>
+        </div>
+        <div class="name-grid">
+            <div class="name-title-container">
+                <span class="name">Shayne Kelly II</span>
+                <span class="title">2019</span>
+            </div>
+            <div class="name-title-container">
+                <span class="name">Tristan May</span>
+                <span class="title">2019</span>
+            </div>
+            <div class="name-title-container">
+                <span class="name">Gurvaani Dhani</span>
+                <span class="title">2019</span>
+            </div>
+            <div class="name-title-container">
+                <span class="name">Ali Arshad</span>
+                <span class="title">2019</span>
+            </div>
+            <div class="name-title-container">
+                <span class="name">Hans Zhang</span>
+                <span class="title">2020</span>
+            </div>
+            <div class="name-title-container">
+                <span class="name">Karene Luu</span>
+                <span class="title">2020</span>
+            </div>
+            <div class="name-title-container">
+                <span class="name">Comp Spy (John Wu)</span>
+                <span class="title">2021</span>
+            </div>
+            <div class="name-title-container">
+                <span class="name">Justin Wang</span>
+                <span class="title">2021</span>
+            </div>
+            <div class="name-title-container">
+                <span class="name">Alvin David</span>
+                <span class="title">2021</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
