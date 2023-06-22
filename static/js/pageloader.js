@@ -2,6 +2,10 @@ const portal = document.getElementById("portal");
 var urlParams = new URLSearchParams(window.location.search);
 const navButton = document.getElementsByClassName("pages");
 
+callLoadFunctions = {
+    "home": loadHomePage,
+}
+
 function loadpage(page) {
     portal.classList.add("hide");
     pageToLoad = new Request(`${page}.html`);
@@ -19,6 +23,7 @@ function loadpage(page) {
             // Page Loads Successfully
 
             portal.innerHTML = text;
+            if (callLoadFunctions[page] != null) callLoadFunctions[page]();
             portal.classList.remove("hide");
         })
         .catch((error) => {

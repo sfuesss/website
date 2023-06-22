@@ -7,10 +7,11 @@
 }
 
 body {
+    height: 100%;
     font-size: 1rem;
     user-select: none;
     color: var(--text);
-    background-color: var(--bg);
+    background: var(--bg);
 }
 
 body, input, button {
@@ -18,7 +19,7 @@ body, input, button {
 }
 
 .glow {
-    filter: drop-shadow(0 0 10px #fff6);
+    filter: drop-shadow(0 0 10px #fff4);
 }
 
 .shadow {
@@ -33,6 +34,16 @@ body, input, button {
     font-weight: 900;
 }
 
+.grid-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
 /* Backdrops */
 
 .blur-bg {
@@ -43,7 +54,7 @@ body, input, button {
 
 .title, .h1, .h2 {
     font-family: var(--header-font);
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .title {

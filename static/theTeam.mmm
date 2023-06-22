@@ -1,34 +1,40 @@
 div .container :
  div .title ; : Who are We?
- div ; : Each member has a job to keep the team together with the leader being the president.
+ p ; : Ipsum excepteur magna reprehenderit voluptate pariatur cupidatat pariatur exercitation ut amet officia. Dolore minim commodo deserunt cupidatat pariatur sint et adipisicing reprehenderit ipsum deserunt. Et elit id aliqua Lorem incididunt anim nostrud amet do velit. Amet ea et excepteur aute laborum velit Lorem in Lorem do eiusmod dolor sint.
 
 div .container :
  div .title : 
   span .gradient .glow ; : The Team
+ div ; :
  MEMBER President
- MEMBER VPAdmin
- MEMBER VPExternal
- MEMBER VPFinance
- MEMBER VPSocial
- MEMBER VPAcademic
- MEMBER VPInternal
+ 
+ div .title ; : Vice Presidents
+ div .team-members :
+  MEMBER VPAdmin
+  MEMBER VPExternal
+  MEMBER VPFinance
+  MEMBER VPSocial
+  MEMBER VPAcademic
+  MEMBER VPInternal
 
-//   MEMBER DirDiversity
- MEMBER DirSponsorship
- MEMBER DirCommonRoom
- MEMBER DirMerch
- MEMBER DirSpirit
- MEMBER DirOpFair1
- MEMBER DirOpFair2
- MEMBER DirResources
-
+ div .title ; : Directors
+ div .team-members #directors :
+//  MEMBER DirDiversity
+  MEMBER DirSponsorship
+  MEMBER DirCommonRoom
+  MEMBER DirMerch
+//  MEMBER DirSpirit
+  MEMBER DirOpFair1
+  MEMBER DirOpFair2
+  MEMBER DirResources
+ 
 // This is Me :D
- MEMBER DirWebsite
-
- MEMBER DirGraphics
- MEMBER DirStudentServices
- MEMBER DirWorkshop
-
+  MEMBER DirWebsite
+ 
+  MEMBER DirGraphics
+  MEMBER DirStudentSupport
+  MEMBER DirWorkshop
+ 
 // MEMBER Rep1-1
 // MEMBER Rep1-2
 // MEMBER Rep1-3

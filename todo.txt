@@ -9,10 +9,13 @@ Things to add to website:
     - CSSS could borrow this for their website too lol
 
 Pages to Add:
-- Home
-- Error 404
+- Error 404 (Done)
  - Add Professors to 404 Screen (?)
-- Meet the Team & Positions Available
-- Course Help
+- Meet the Team & Positions Available (Mostly Done)
+- Resources
 - Co-op
  - Op-Fair
+- Calendar/Announcements
+- Contact Us (Done)
+- Room Location
+ - Status for Arcade and 3D Printer

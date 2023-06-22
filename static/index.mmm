@@ -1,8 +1,8 @@
 title ; : ESSS
 
 CSS https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css
-CSS https://fonts.googleapis.com/css?family=Ubuntu
-CSS https://fonts.googleapis.com/css?family=Chivo
+CSS https://fonts.googleapis.com/css?family=Work+Sans
+CSS https://fonts.googleapis.com/css?family=Poppins
 CSS css/threestyle.css
 CSS css/style.css
 CSS css/dark.css
@@ -22,22 +22,43 @@ ICON img/presskit/Icon_Blue.svg
 ---
 
 nav :
- div .flex-container :
+ div .nav-container :
   span .navbar-brand :
    a onclick="loadpage('home')" :
     img src="img/presskit/Banner_White.svg" height="38px" ; :
  
+  div ; :
+
   button #nav-viewer onclick="toggleNav();" :
    i .bi-list ; :
   div .pages :
-   button onclick="loadpage('theTeam')" ; : About Us
-   button onclick="loadpage('resources')" ; : Resources
-   button onclick="loadstore()" ; : Merch
+   a onclick="loadpage('theTeam')" ; : About Us
+   a onclick="loadpage('resources')" ; : Resources
+   a onclick="loadstore()" ; : Merch
+  button :
+    i class="bi-brightness-high-fill" ; :
 
 div #portal .hide ; :
 
 footer :
- img src="img/presskit/Banner_Blue.svg" height="48px" .glow ; :
- div : Want to leave feedback or a suggestion?
+ div :
+  img src="img/presskit/Banner_Blue.svg" height="48px" .glow ; :
+  div ; : Want to leave feedback or a suggestion?
 
+  div .h2 ; : Contact
+  div ; : communications@esss.ca
+
+// Social Media
+ div .container :
+  div .glow .h2 :
+   span .gradient ; : Follow Us
+  div ; :
+  PAGE Instagram https://www.instagram.com/sfuengineers/
+  PAGE LinkedIn https://www.linkedin.com/company/sfu-engineering-science-student-society/about/
+  PAGE Facebook https://www.facebook.com/SFU.ESSS/
+  PAGE Discord https://discord.gg/54cH9YHKha
+ div ; :
+
+div ; :
+JS js/home.js
 JS js/pageloader.js

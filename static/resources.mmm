@@ -1,0 +1,52 @@
+div .container :
+ div .h1 .glow ; : Resources
+
+// Course Resources
+div .container :
+ div .h1 .glow ; : Courses
+
+// Co-Op
+div .container :
+ div .h1 .glow ; : Co-op
+ p ; : Finding or landing a co-op is not easy, but we are here to help! here are some resources that can help you:
+
+ div .h2 ; : Application Documents
+
+ div .h2 ; : Interview Prep
+
+ div .container :
+  div .h2 .glow ; : Op-Fair
+
+  div : Are you looking for more information about Co-Op or you are a business hosting Co-Op?
+   a ; : Check out Op-Fair
+
+// ESSS Documents
+div .container :
+ div .h1 .glow ; : Documents
+ p : Interested in learning more about ESSS policies or some of the other societies we are part of? 
+  span .gradient .glow ; : Check below for all of the above!
+ 
+ div .grid-3 :
+  div .container :
+   div .h2 .glow ; : ESSS
+    ul :
+     li :
+      a ; : Constitution
+     li :
+      a ; : Policy
+     li :
+      a ; : Bylaws
+     li :
+      a ; : Minutes
+     li :
+      a ; : Brand Guidelines
+
+  div .container :
+   div .h2 .glow ; : WESST
+   div : ESSS is affiliated with WESST. Learn more about them at the
+    a href="https://www.wesst.ca/" target="_blank" rel="noopener noreferrer" ; : WESST Website 
+
+  div .container :
+   div .h2 .glow ; : CFES
+   div : CFES Governing Documents can be found on the
+    a href="https://cfes.ca/governance/" ; : CFES Website

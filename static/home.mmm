@@ -1,23 +1,39 @@
-div .jumbotron #home-jumbotron :
+// Next Event
+div .jumbotron .home-jumbotron style="background: url('img/3.jpg');" :
  div .content :
-  img src="img/presskit/Banner_Blue.svg" .glow ; :
-  div .h1 .glow ; : Meeting
-  div #next-meeting : January 1st - 12:00 PM
-  button .btn ; : Learn More
+  div .jumbotron-content :
+   img src="img/presskit/Banner_Blue.svg" .glow ; :
+   div .h1 .glow ; : Meeting
+   div #next-meeting ; : Jan 1st 12:00 AM
+   div #location : TASC 9204
+   div :
+    button .btn .btn-grad-border ; : Learn More
+    button .btn ; : About Us
 
-div #who-are-we .container :
- div .h1 .glow ; : About Us
- p ; : Elit sit labore eu quis esse in eiusmod laborum minim. Enim elit laborum ad exercitation ea consectetur. Nostrud aliqua veniam adipisicing minim ut ea. Pariatur ipsum ipsum aliqua culpa. Sit proident et fugiat adipisicing minim incididunt sit cillum in eiusmod veniam consectetur. Dolore ex excepteur nulla officia eu ipsum voluptate id esse do aliqua id. Anim cillum cupidatat sunt est ad magna in est cillum laboris sint id excepteur elit.
- button .btn .btn-grad-border ; : Get Involved
+// Merch
 
-div #Announcements .container :
- div .h1 .glow ; : Latest Announcement
- p ; : No Announcement has been made yet. Come back another Time :D
+div .jumbotron .home-jumbotron :
+ div .content :
+  div .jumbotron-content :
+   div .h1 .glow ; : Buy Our Merch
+   div .glow ; : Starting at $26.00
+   button .btn .btn-grad-border onclick="loadstore()" ; : Go to Store
 
-div .container :
- div .h1 .glow :
-  span .gradient ; : Follow Us
- PAGE Instagram https://www.instagram.com/sfuengineers/
- PAGE LinkedIn https://www.linkedin.com/company/sfu-engineering-science-student-society/about/
- PAGE Facebook https://www.facebook.com/SFU.ESSS/
- PAGE Discord https://discord.gg/54cH9YHKha
+// Iron Ring
+
+div .jumbotron .home-jumbotron :
+ div .content :
+  div .jumbotron-content :
+   div .h1 .glow ; : Iron Ring
+   div .glow ; : Learn about the iron ring Event
+   button .btn ; : Learn More
+
+// Latest Announcements and Events Calendar
+div .grid-2 .container :
+ div # :
+  div .h1 #announcement .glow ; : Announcement
+  div #announcement-content ; : No new Announcements at the moment
+
+ div #calendar :
+  div .h1 .glow ; : Upcoming Events
+  div ; : No new Events at the Moment
