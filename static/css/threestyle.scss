@@ -36,12 +36,18 @@ body, input, button {
 
 .grid-2 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
 }
 
 .grid-3 {
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .grid-2, .grid-3 {
+        grid-template-columns: auto;
+    }
 }
 
 /* Backdrops */
@@ -70,12 +76,24 @@ body, input, button {
     font-size: 1.5rem;
 }
 
+.p {
+    padding-bottom: 10px;
+}
+
 .container {
     padding-bottom: 20px;
 }
 
 .container p {
     text-indent: 2em;
+}
+
+.card {
+    background-color: var(--bg-tint);
+    margin: 10px 20px;
+    padding: 25px;
+
+    border-radius: 8px;
 }
 
 /* Buttons */

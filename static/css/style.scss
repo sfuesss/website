@@ -15,6 +15,7 @@
 body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
     
     &::-webkit-scrollbar {
         display: none;
@@ -43,6 +44,9 @@ body {
         margin: 0 38px;
     }
 
+    .h1 {
+        font-size: 52px;
+    }
 }
 
 // Navbar
@@ -140,7 +144,7 @@ footer {
 .home-jumbotron {
     display: flex;
     background-size: cover !important;
-    background-position: center center !important;
+    background-position: center right !important;
     
     .content {
         background-color: var(--transparent-bg);
@@ -156,6 +160,7 @@ footer {
 
 .home-jumbotron:nth-child(2) {
     justify-content: end;
+    background-position: center right !important;
 }
 
 .home-jumbotron:nth-child(2) > .content {

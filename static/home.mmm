@@ -2,38 +2,32 @@
 div .jumbotron .home-jumbotron style="background: url('img/3.jpg');" :
  div .content :
   div .jumbotron-content :
-   img src="img/presskit/Banner_Blue.svg" .glow ; :
+   img src="img/presskit/Banner_Blue.svg" style="width: 100%;" ; :
    div .h1 .glow ; : Meeting
    div #next-meeting ; : Jan 1st 12:00 AM
    div #location : TASC 9204
    div :
     button .btn .btn-grad-border ; : Learn More
-    button .btn ; : About Us
 
-// Merch
-
-div .jumbotron .home-jumbotron :
- div .content :
-  div .jumbotron-content :
-   div .h1 .glow ; : Buy Our Merch
-   div .glow ; : Starting at $26.00
-   button .btn .btn-grad-border onclick="loadstore()" ; : Go to Store
-
-// Iron Ring
-
-div .jumbotron .home-jumbotron :
- div .content :
-  div .jumbotron-content :
-   div .h1 .glow ; : Iron Ring
-   div .glow ; : Learn about the iron ring Event
-   button .btn ; : Learn More
-
-// Latest Announcements and Events Calendar
-div .grid-2 .container :
- div # :
+// Latest Announcements and Merch Advertisement
+div .container .grid-2 :
+ div .card :
   div .h1 #announcement .glow ; : Announcement
-  div #announcement-content ; : No new Announcements at the moment
+  div .p #announcement-content ; : No Announcements at the moment
+  button .btn .btn-grad-border ; : Read More
 
- div #calendar :
-  div .h1 .glow ; : Upcoming Events
-  div ; : No new Events at the Moment
+ div .card :
+  div .h1 .glow ; : Merch
+  div .p ; : Check out our merch starting at $26.00
+  button .btn .btn-grad-border onclick="loadstore()" ; : Go to Store
+
+ div .card :
+  div .h1 .glow ; : Iron Ring
+  div .p .glow ; : The biggest event for any student graduating as an engineer
+  button .btn ; : Learn More
+
+ div .card :
+  div .h1 .glow ; : Co-Op and OpFair
+  div .p .glow ; : One of the biggest events that we run at SFU
+  button .btn .btn-grad-border ; : Op-Fair
+  button .btn onclick="loadpage('resources')" ; : Resources
