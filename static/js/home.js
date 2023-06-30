@@ -11,6 +11,7 @@ function NumberSuffix(num) {
 }
 
 function loadHomePage() {
+    // Load Clock
     let nextMeeting = document.querySelector("#next-meeting");
     let currentDate = new Date();
     let FirstMeetingDate = Date.parse('13 June 2023 13:00 GMT-0700');
@@ -26,5 +27,11 @@ function loadHomePage() {
     console.log(MeetingInterval);
     console.log(NextMeeting);
 
-    nextMeeting.innerHTML = `${MonthNames[NextMeeting.getMonth()]} ${NextMeeting.getDate()}${NumberSuffix(NextMeeting.getDate())} - ${NextMeeting.getHours() <= 12 ? NextMeeting.getHours() : NextMeeting.getHours() - 12}:${NextMeeting.getMinutes() >= 10 ? NextMeeting.getMinutes() : `0${NextMeeting.getMinutes()} ${NextMeeting.getHours() < 12 ? "AM": "PM"}`}`
+    nextMeeting.innerHTML = `${MonthNames[NextMeeting.getMonth()]} ${NextMeeting.getDate()}${NumberSuffix(NextMeeting.getDate())} - ${NextMeeting.getHours() <= 12 ? NextMeeting.getHours() : NextMeeting.getHours() - 12}:${NextMeeting.getMinutes() >= 10 ? NextMeeting.getMinutes() : `0${NextMeeting.getMinutes()} ${NextMeeting.getHours() < 12 ? "AM": "PM"}`}`;
+
+    // Load Latest Announcement
+
+    getAnnouncements(() => {
+        loadAnnouncement(0, "#announcement-content", "#announcement")
+    });
 }

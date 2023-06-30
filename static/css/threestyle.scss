@@ -89,7 +89,7 @@ body, input, button {
 }
 
 .card {
-    background-color: var(--bg-tint);
+    background: radial-gradient(farthest-corner at 0px 0px, var(--bg-tint) 60%, #111111 120%);
     margin: 10px 20px;
     padding: 25px;
 

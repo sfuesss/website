@@ -195,6 +195,7 @@ footer {
     border-radius: 128px;
     box-shadow: inset 0 10px 10px #000a;
     background-color: var(--bg-primary);
+    background-size: cover;
 }
 
 // Dialogs
@@ -202,6 +203,7 @@ footer {
 dialog {
     background-color: var(--bg);
     color: var(--text);
+    width: 50%;
 
     .container {
         display: grid;

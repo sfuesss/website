@@ -1,0 +1,6 @@
+div .grid-2 :
+ div .container :
+  div .title .glow ; : Latest Announcement
+ 
+ div .container :
+  div .title .glow ; : Calendar

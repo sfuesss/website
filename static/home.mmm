@@ -9,27 +9,29 @@ div .jumbotron .home-jumbotron style="background: url('img/3.jpg');" :
    div :
     button .btn .btn-grad-border ; : Learn More
 
-// Latest Announcements and Merch Advertisement
 div .container .grid-2 :
+// Latest Announcements
  div .card :
-  div .h1 #announcement .glow ; : Announcement
+  div .h1 #announcement .glow ; : ESSS News
   div .p #announcement-content ; : No Announcements at the moment
   button .btn .btn-grad-border ; : Read More
-  button .btn .btn-grad ; : View Calendar
 
+// Merch Advertisement
  div .card :
   div .h1 .glow ; : Merch
 //  div .p ; : Check out our merch starting at $26.00
   div .p ; : Woopsies. Bwoken :(
-  button .btn .btn-grad-border onclick="loadstore()" ; : Go to Store
+  button .btn .btn-grad-border onclick="loadexternal('stores.coastalreign.com/esss/shop/home')" ; : Go to Store
 
+// Iron Ring Info
  div .card :
   div .h1 .glow ; : Iron Ring
   div .p .glow ; : The biggest event for any student graduating as an engineer
-  button .btn ; : Learn More
+  button .btn onclick="loadexternal('camp5ironring.ca/')" ; : Learn More
 
+// Co-Op and OpFair
  div .card :
   div .h1 .glow ; : Co-Op and OpFair
   div .p .glow ; : One of the biggest events that we run at SFU
-  button .btn .btn-grad-border ; : Op-Fair
+  button .btn .btn-grad-border onclick="loadexternal('www.opfair.ca/')" ; : Op-Fair
   button .btn .btn-grad onclick="loadpage('resources')" ; : Resources

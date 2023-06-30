@@ -32,10 +32,11 @@ nav :
   button #nav-viewer onclick="toggleNav();" :
    i .bi-list ; :
   div .pages :
+   a onclick="loadpage('news')" ; : News
    a onclick="loadpage('theTeam')" ; : About Us
    a onclick="loadpage('resources')" ; : Resources
-   a onclick="loadstore()" ; : Merch
-  button :
+   a onclick="loadexternal('stores.coastalreign.com/esss/shop/home')" ; : Merch
+  button onclick="ToggleDisplayMode()" :
     i class="bi-brightness-high-fill" ; :
 
 div #portal .hide ; :
@@ -43,7 +44,7 @@ div #portal .hide ; :
 footer :
  div :
   img src="img/presskit/Banner_Blue.svg" height="48px" .glow ; :
-  div ; : Want to leave feedback or a suggestion?
+  div ; : Want to leave feedback or a suggestion? feel free to contact website@esss.ca
 
   div .h2 ; : Contact
   div ; : communications@esss.ca
@@ -60,5 +61,6 @@ footer :
  div ; :
 
 div ; :
+JS js/announcements.js
 JS js/home.js
-JS js/pageloader.js
+JS js/main.js

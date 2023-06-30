@@ -4,9 +4,7 @@ Things to add to website:
 - Add Announcement Automation
 
 - New CSS Stylesheet
-  - Add Shadows
-  - Web3.0 Inspired???
-    - CSSS could borrow this for their website too lol
+  - Button Animations still need to be programmed in
 
 Pages to Add:
 - Error 404 (Done)
