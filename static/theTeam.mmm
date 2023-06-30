@@ -21,20 +21,20 @@ div .container :
 
  div .title ; : Directors
  div .team-members #directors :
-//  MEMBER DirDiversity
-  MEMBER DirSponsorship
   MEMBER DirCommonRoom
+//  MEMBER DirDiversity
+  MEMBER DirGraphics
   MEMBER DirMerch
-//  MEMBER DirSpirit
   MEMBER DirOpFair1
   MEMBER DirOpFair2
   MEMBER DirResources
+//  MEMBER DirSpirit
+  MEMBER DirSponsorship
+  MEMBER DirStudentSupport
  
 // This is Me :D
   MEMBER DirWebsite
  
-  MEMBER DirGraphics
-  MEMBER DirStudentSupport
   MEMBER DirWorkshop
  
 // MEMBER Rep1-1
