@@ -236,10 +236,6 @@ dialog {
 
 // Dynamic Pages and Mobile Content
 @media only screen and (max-width: 1000px) {
-    
-    .card {
-        display: block;
-    }
 
     .nav-container {
         grid-template-columns: 225px auto 48px 48px;
