@@ -13,7 +13,11 @@ meta name="description" content="SFU's Official Engineering Science Student Soci
 meta name="og:title" content="SFU - Engineering Science Student Society" ; :
 meta name="og:type" content="website" ; :
 meta name="og:url" content="https://esss.ca" ; :
+meta name="og:site_name" content="ESSS" ; :
+meta name="og:image" content="/img/3.jpg" ; :
 meta name="og:description" content="SFU's Official Engineering Science Student Society Website with all the information you need about Engineering at SFU" ; :
+meta name="theme-color" content="#203A6C" ; :
+
 
 meta name="theme-color" content="#203A6C" ; :
 
@@ -41,13 +45,16 @@ nav :
 
 div #portal .hide ; :
 
-footer :
+footer .grid-3 :
  div :
   img src="img/presskit/Banner_Blue.svg" height="48px" .glow ; :
   div ; : Want to leave feedback or a suggestion? feel free to contact website@esss.ca
 
   div .h2 ; : Contact
   div ; : communications@esss.ca
+  div ; : ESSS Office ASB 10868
+  div ; : 8888 University Drive
+  div ; : Burnaby, BC V5A 1S6 
 
 // Social Media
  div .container :
@@ -58,7 +65,15 @@ footer :
   PAGE LinkedIn https://www.linkedin.com/company/sfu-engineering-science-student-society/about/
   PAGE Facebook https://www.facebook.com/SFU.ESSS/
   PAGE Discord https://discord.gg/54cH9YHKha
- div ; :
+
+ div .container :
+  div .glow .h2 :
+   span .gradient ; : Other Links
+  
+  div :
+   a href="https://camp5ironring.ca/" ; : Iron Ring
+  div :
+   a href="https://www.opfair.ca/" ; : OpFair
 
 div ; :
 JS js/announcements.js

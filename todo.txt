@@ -9,11 +9,12 @@ Things to add to website:
 Pages to Add:
 - Error 404 (Done)
  - Add Professors to 404 Screen (?)
-- Meet the Team & Positions Available (Mostly Done)
-- Resources
+  - Mike S.
+  - Craig
+
+- Meet the Team & Positions (Waiting for Member Photos)
+- Resources (Needs Decoration and Links to Fill in)
 - Co-op
- - Op-Fair
-- Calendar/Announcements
-- Contact Us (Done)
+- Calendar
 - Room Location
- - Status for Arcade and 3D Printer
+ - Status for Arcade and 3D Printer (?)

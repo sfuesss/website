@@ -12,26 +12,31 @@ div .jumbotron .home-jumbotron style="background: url('img/3.jpg');" :
 div .container .grid-2 :
 // Latest Announcements
  div .card :
-  div .h1 #announcement .glow ; : ESSS News
-  div .p #announcement-content ; : No Announcements at the moment
-  button .btn .btn-grad-border ; : Read More
+  div .container :
+   div .h1 #announcement .glow ; : ESSS News
+   div .p #announcement-content ; : No Announcements at the moment
+   button .btn .btn-grad-border onclick="loadpage('news')" ; : Read More
+  div .card-bg style="background: url('img/Announcement.png')" ; :
 
 // Merch Advertisement
  div .card :
-  div .h1 .glow ; : Merch
+  div .container :
+   div .h1 .glow ; : Merch
 //  div .p ; : Check out our merch starting at $26.00
-  div .p ; : Woopsies. Bwoken :(
-  button .btn .btn-grad-border onclick="loadexternal('stores.coastalreign.com/esss/shop/home')" ; : Go to Store
+   div .p ; : Woopsies. Bwoken :(
+   button .btn .btn-grad-border onclick="loadexternal('stores.coastalreign.com/esss/shop/home')" ; : Go to Store
 
 // Iron Ring Info
  div .card :
-  div .h1 .glow ; : Iron Ring
-  div .p .glow ; : The biggest event for any student graduating as an engineer
-  button .btn onclick="loadexternal('camp5ironring.ca/')" ; : Learn More
+  div .container :
+   div .h1 .glow ; : Iron Ring
+   div .p .glow ; : The biggest event for any student graduating as an engineer
+   button .btn onclick="loadexternal('camp5ironring.ca/')" ; : Learn More
 
 // Co-Op and OpFair
  div .card :
-  div .h1 .glow ; : Co-Op and OpFair
-  div .p .glow ; : One of the biggest events that we run at SFU
-  button .btn .btn-grad-border onclick="loadexternal('www.opfair.ca/')" ; : Op-Fair
-  button .btn .btn-grad onclick="loadpage('resources')" ; : Resources
+  div .container :
+   div .h1 .glow ; : Co-Op and OpFair
+   div .p .glow ; : One of the biggest events that we run at SFU
+   button .btn .btn-grad-border onclick="loadexternal('www.opfair.ca/')" ; : Op-Fair
+   button .btn .btn-grad onclick="loadpage('resources')" ; : Resources

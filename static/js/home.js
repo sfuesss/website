@@ -23,15 +23,11 @@ function loadHomePage() {
     while (currentDate.getTime() > NextMeeting.getTime())
         NextMeeting.setTime(NextMeeting.getTime() + MeetingInterval);
 
-    console.log(FirstMeetingDate);
-    console.log(MeetingInterval);
-    console.log(NextMeeting);
-
     nextMeeting.innerHTML = `${MonthNames[NextMeeting.getMonth()]} ${NextMeeting.getDate()}${NumberSuffix(NextMeeting.getDate())} - ${NextMeeting.getHours() <= 12 ? NextMeeting.getHours() : NextMeeting.getHours() - 12}:${NextMeeting.getMinutes() >= 10 ? NextMeeting.getMinutes() : `0${NextMeeting.getMinutes()} ${NextMeeting.getHours() < 12 ? "AM": "PM"}`}`;
 
     // Load Latest Announcement
 
-    getAnnouncements(() => {
+    getAnnouncements(true, () => {
         loadAnnouncement(0, "#announcement-content", "#announcement")
     });
 }

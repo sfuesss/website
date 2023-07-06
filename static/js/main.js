@@ -4,6 +4,7 @@ const navButton = document.getElementsByClassName("pages");
 
 callLoadFunctions = {
     "home": loadHomePage,
+    "news": NewsPageInit,
 }
 
 function loadpage(page) {

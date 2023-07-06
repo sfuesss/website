@@ -37,12 +37,12 @@ module.exports = function() {
             </div>
             <dialog id="${args[1]}">
                 <a onclick="document.getElementById('${args[1]}').close()" class="close-button"><i class="bi-x-circle-fill"></i></a>
-                <div class="container">
+                <div class="container grid-2">
                     <img src="img/theteam/${args[1]}2.jpg" width="300" />
                     <div>
                         <div class="h1 glow">${Members[args[1]].Name}</div>
                         <div class="h2 glow gradient">${Members[args[1]].Role}</div>
-                        <p>${Members[args[1]].MemberDescription}</p>
+                        <div>${Members[args[1]].MemberDescription}</div>
                         <ul>
                             ${Members[args[1]].LinkedIn != null ? `<li><a href="https://www.linkedin.com/in/${Members[args[1]].LinkedIn}">LinkedIn</a></li>` : ""}
                         </ul>

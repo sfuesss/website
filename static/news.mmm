@@ -1,6 +1,15 @@
 div .grid-2 :
  div .container :
-  div .title .glow ; : Latest Announcement
- 
+  div .title .glow ; : Announcement
+  div .grid-2 :
+   div :
+    p .container #announcement ; :
+   img #announcement-image src="img/Announcement.png" width="100%" ; :
+  
+  div :
+   button onclick="ChangeAnnouncement(-1)" .btn ; : Back
+   button onclick="ChangeAnnouncement(1)" .btn ; : Next
+
  div .container :
   div .title .glow ; : Calendar
+  p ; : Coming Soon :)

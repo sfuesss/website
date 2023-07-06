@@ -6,6 +6,10 @@
     --gradient-2: #c43ad6;
 }
 
+img {
+    border-radius: 10px;
+}
+
 body {
     height: 100%;
     font-size: 1rem;
@@ -91,9 +95,20 @@ body, input, button {
 .card {
     background: radial-gradient(farthest-corner at 0px 0px, var(--bg-tint) 60%, #111111 120%);
     margin: 10px 20px;
-    padding: 25px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+
+    .container {
+        padding: 10px;
+    }
 
     border-radius: 8px;
+
+    &:hover {
+        box-shadow: 0 6px 10px #000a;
+        transform: scale(103%) translateY(-6px);
+    }
 }
 
 /* Buttons */
@@ -106,6 +121,16 @@ body, input, button {
     background-color: var(--bg-primary);
     color: #fff;
     box-shadow: 0 5px 10px #000a;
+
+    &:hover {
+        box-shadow: 0 10px 10px #000a;
+        transform: translateY(-5px) scale(100%);
+    }
+
+    &:active {
+        box-shadow: 0 0 0;
+        transform: translateY(5px);
+    }
 }
 
 .btn-grad {
