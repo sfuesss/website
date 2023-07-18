@@ -25,19 +25,21 @@
     "VPExternal": {
         "Name": "Eric Suh",
         "Role": "VP External",
-        "MemberDescription": "Description",
+        "MemberDescription": "I am a second year engineering student and when I'm not procrastinating, I am probably watching TV, listening to some music or gym broing. I hope to leave a strong impact on student society while I can.",
         "JobDescription": [
             "Liaise with the CFES, WESST, and EGBC",
             "Oversees the coordination of the Iron Ring Ceremony",
             "Oversees the organization of the SFU Engineering Competition",
             "Form a committer of ESSS membrs for the purpose of selectring conference delegates",
             "Oversees the roles and responsibilities of the Directors of OpFair and Diversity"
-        ]
+        ],
+        "LinkedIn": "eric-suh-b96ab125a",
+        "Instagram": "eric_suhh"
     },
     "VPFinance": {
         "Name": "Jeremy Ang",
         "Role": "VP Finance",
-        "MemberDescription": "Description",
+        "MemberDescription": "Some of my hobbies are tennis, basketball, volleyball",
         "JobDescription": [
             "Manages the writing and approval of grants",
             "Liaises with the bank that holds the ESSS' external account",
@@ -73,13 +75,15 @@
     "VPInternal": {
         "Name": "Tony Kooliyath",
         "Role": "VP Internal",
-        "MemberDescription": "Description",
+        "MemberDescription": "Hey everyone, my name's Tony and I'm the ESSS VP Internal! I'm currently a 4th/5th year systems engineering student with a background in controls systems. I enjoy doing anything outdoors, ultimate frisbee, watching movies, playing games, and working out!",
         "JobDescription": [
             "Presents topics from SFSS Council meetings to the members at regular meetings",
             "Provides representation of the ESSS to the SFSS Council",
             "Liaises with Engineering Clubs"
-        ]
+        ],
+        "Instagram": "tony_kooliyath"
     },
+
     "DirDiversity": {
         "Name": "Lester Pino",
         "Role": "Director Of Diversity",
@@ -151,7 +155,8 @@
             "Maintains and adds new content to the ESSS",
             "Improves design and fixes any reported issues with the ESSS Website"
         ],
-        "LinkedIn": "roberto-selles"
+        "LinkedIn": "roberto-selles",
+        "Instagram": "roberto.selles"
     },
     "DirGraphics": {
         "Name": "Senka Kuboki",
@@ -165,7 +170,7 @@
     "DirStudentSupport": {
         "Name": "Eugenia Demendeeva",
         "Role": "Director Of Student Services",
-        "MemberDescription": "Description",
+        "MemberDescription": "Started as a First and Second Year Representative, then decided to be more involved in both ESSS as well as the student body, helping her fellow peers as Director of Student Support. Recently declared as an Engineering Physics student, she is looking forward to learning about particle physics and integrating her hands-on electronics knowledge from her first Co-Op. Eager to do anything outdoors, skiing in the winter, climbing in the summer, and hiking year-round are some of her favorite hobbies.",
         "JobDescription": [
             "Manages the ESSS peer tutoring and mentorship programs",
             "Communicates with students and faculty regarding program promotion",
@@ -173,24 +178,72 @@
             "Manages any issues between mentors and mentees",
             "Manages the mentorship discord server each term",
             "Promotes and recruits for the mentorship program"
-        ]
+        ],
+        "LinkedIn": "eugenia-demendeeva"
     },
     "DirWorkshop": {
         "Name": "Ryan Garofano",
         "Role": "Director Of Workshops",
         "MemberDescription": "Description",
-        "JobDescription": ["About the Job"]
+        "JobDescription": [
+            "Create, facilitate and or lead engineering related workshops",
+            "focus on practical skills that may be missing or incomplete in the ENSC program"
+        ]
     },
     "DirOpFair1": {
         "Name": "Benjamin Lam",
         "Role": "Co-Director of OpFair",
         "MemberDescription": "Description",
-        "JobDescription": ["About the Job"]
+        "JobDescription": [
+            "Overseeing and leading the organization and execution of OpFair",
+            "Coordinating with and reporting activities to VP positions at ESSS",
+            "Managing the behind the scenes operations for OpFair such as the prices and catering"
+        ]
     },
     "DirOpFair2": {
         "Name": "Andrew Kim",
         "Role": "Co-Director of OpFair",
         "MemberDescription": "Description",
-        "JobDescription": ["About the Job"]
+        "JobDescription": [
+            "Overseeing and leading the organization and execution of OpFair",
+            "Coordinating with and reporting activities to VP positions at ESSS",
+            "Coordinating with volunteers and companies, inviting them to attend and sponsor this years OpFair"
+        ]
+    },
+
+    "Rep1-1": {
+        "Name": "Salem Alsaiari",
+        "Role": "First Year Representative",
+        "MemberDescription": "Description"
+    },
+    "Rep2-1": {
+        "Name": "Hussain Kanthawala",
+        "Role": "Second Year Representative",
+        "MemberDescription": "Description"
+    },
+    "RepComp": {
+        "Name": "Qiraa Qadri",
+        "Role": "Computer Engineering Representative",
+        "MemberDescription": "Description"
+    },
+    "RepBio": {
+        "Name": "Makan Mousavifard",
+        "Role": "Biomedical Engineering Representative",
+        "MemberDescription": "Description"
+    },
+    "RepPhys": {
+        "Name": "Parsa Oftadeh",
+        "Role": "Engineering Physics Representative",
+        "MemberDescription": "Description"
+    },
+    "RepElec": {
+        "Name": "Srinath Ganapathy",
+        "Role": "Electrical Engineering Representative",
+        "MemberDescription": "Description"
+    },
+    "RepSys": {
+        "Name": "Vacant",
+        "Role": "Systems Engineering Representative",
+        "MemberDescription": "Description"
     }
 }

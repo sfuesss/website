@@ -13,3 +13,17 @@ div .grid-2 :
  div .container :
   div .title .glow ; : Calendar
   p ; : Coming Soon :)
+
+div .container :
+ div .h1 ; : Event Resources
+ p ; : These are all the resources you will need for specific events such as download files, and other websites you might need.
+ div .grid-2 :
+  div .container :
+   div .h2 :
+    span .glow .gradient #event-linux-workshop ; : Linux Workshop
+   p ; : The Linux Workshop is a series of workshops that guide you through everything you need to know about linux from using the command line to superuser skills. You will start with Ubuntu linux and learn to make it your own
+   ul :
+    li : 
+     a href="documents/events/LinuxWorkshop/VirtualBox-7.0.8-156879-Win.exe" ; : VirtualBox
+    li :
+     a href="documents/events/LinuxWorkshop/ubuntu-22.04.2-desktop-amd64.iso" ; : Ubuntu Linux 22.04

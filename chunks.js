@@ -19,8 +19,10 @@ module.exports = function() {
 
     TripleM.MMM.CreateMacro("MEMBER", (args) => {
         let JobDescString = "";
-        for (let i = 0; i < Members[args[1]].JobDescription.length; i++) {
-            JobDescString += `<li>${Members[args[1]].JobDescription[i]}</li>`;
+        if (Members[args[1]].JobDescription != null) {
+            for (let i = 0; i < Members[args[1]].JobDescription.length; i++) {
+                JobDescString += `<li>${Members[args[1]].JobDescription[i]}</li>`;
+            }
         }
         return {
             output: `<div class="member-card">
@@ -29,22 +31,23 @@ module.exports = function() {
                     <div class="h2 glow">${Members[args[1]].Name}</div>
                     <div class="glow gradient">${Members[args[1]].Role}</div>
                 </div>
-                <div>
+                ${Members[args[1]].JobDescription != null ? `<div>
                     <ul>
                         ${JobDescString}
                     </ul>
-                </div>
+                </div>` : ""}
             </div>
             <dialog id="${args[1]}">
                 <a onclick="document.getElementById('${args[1]}').close()" class="close-button"><i class="bi-x-circle-fill"></i></a>
                 <div class="container grid-2">
-                    <img src="img/theteam/${args[1]}2.jpg" width="300" />
-                    <div>
+                    <img src="img/theteam/${args[1]}2.jpg" width="100%" />
+                    <div class="container">
                         <div class="h1 glow">${Members[args[1]].Name}</div>
                         <div class="h2 glow gradient">${Members[args[1]].Role}</div>
-                        <div>${Members[args[1]].MemberDescription}</div>
+                        <p>${Members[args[1]].MemberDescription}</p>
                         <ul>
-                            ${Members[args[1]].LinkedIn != null ? `<li><a href="https://www.linkedin.com/in/${Members[args[1]].LinkedIn}">LinkedIn</a></li>` : ""}
+                            ${Members[args[1]].LinkedIn != null ? `<li><i class="bi-linkedin"></i> <a target="_blank" href="https://www.linkedin.com/in/${Members[args[1]].LinkedIn}">LinkedIn</a></li>` : ""}
+                            ${Members[args[1]].Instagram != null ? `<li><i class="bi-instagram"></i> <a target="_blank" href="https://instagram.com/${Members[args[1]].Instagram}">Instagram</a></li>` : ""}
                         </ul>
                     </div>
                 </div>
