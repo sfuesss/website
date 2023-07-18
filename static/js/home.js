@@ -14,7 +14,7 @@ function loadHomePage() {
     // Load Clock
     let nextMeeting = document.querySelector("#next-meeting");
     let currentDate = new Date();
-    let FirstMeetingDate = Date.parse('13 June 2023 13:00 GMT-0700');
+    let FirstMeetingDate = Date.parse('11 July 2023 12:30 GMT-0700');
     let MeetingInterval = Date.parse('15 Jan 1970 0:00 GMT');
     let NextMeeting = new Date();
     

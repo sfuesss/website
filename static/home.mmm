@@ -25,6 +25,7 @@ div .container .grid-2 :
 //  div .p ; : Check out our merch starting at $26.00
    div .p ; : Woopsies. Bwoken :(
    button .btn .btn-grad-border onclick="loadexternal('stores.coastalreign.com/esss/shop/home')" ; : Go to Store
+  div .card-bg style="background: url('img/Website_Merch.png')" ; :
 
 // Iron Ring Info
  div .card :
@@ -32,6 +33,7 @@ div .container .grid-2 :
    div .h1 .glow ; : Iron Ring
    div .p .glow ; : The biggest event for any student graduating as an engineer
    button .btn onclick="loadexternal('camp5ironring.ca/')" ; : Learn More
+  div .card-bg style="background: url('img/Iron_Ring.png')" ; :
 
 // Co-Op and OpFair
  div .card :
