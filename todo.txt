@@ -27,6 +27,5 @@ Fixes:
  - Make the learn more button actually do something at the top of the page
 
 People to contact for 2nd photo:
- Eric Suh
  Jeremy
  
