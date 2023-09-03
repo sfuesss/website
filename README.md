@@ -11,11 +11,11 @@ New features of this revision compared to the last edition include:
 This is a website that would possibly be maintained in the future, so these are the steps to setup the workspace for development
 
 ### Requirements
-These include skill requirements:
+I suggest you get yourself familiar with these skills:
 - Node.js
   - Sass (SCSS)
   - Javascript
-  - Triple-M
+  - Triple-M (Yes this is my own programming language)
 
 ```bash
 # Cloning the Project

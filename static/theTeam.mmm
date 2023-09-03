@@ -38,7 +38,7 @@ div .container :
  
   MEMBER DirWorkshop
  
- div .title ; : Representatives
+ div .h1 ; : Representatives
  div .team-members .grid-3 :
   MEMBER Rep1-1
 //  MEMBER Rep1-2

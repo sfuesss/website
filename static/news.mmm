@@ -30,8 +30,12 @@ div .container :
     li :
      a href="documents/events/LinuxWorkshop/UTM.dmg" ; : UTM (Mac ARM)
     li :
-     a href="https://ubuntu.com/download/desktop" target="_blank" ; : Ubuntu Linux 22.04
+     a href="https://ubuntu.com/download/desktop" target="_blank" ; : Ubuntu Linux 22.04 (x86)
+    li :
+     a href="https://ubuntu.com/download/server/arm" target="_blank" ; : Ubuntu Server (ARM)
     li :
      a href="documents/events/LinuxWorkshop/Installing Ubuntu VM (Windows).pdf" target="_blank" ; : setup Guide (x86)
     li :
      a href="documents/events/LinuxWorkshop/Installing Ubuntu VM (Apple Silicon Mac).pdf" target="_blank" ; : Setup Guide (ARM)
+    li :
+     a href="documents/events/LinuxWorkshop/Linux_Intro_Activity.pdf" target="_blank" ; : Activity

@@ -2,13 +2,15 @@
     "President": {
         "Name": "Rajnesh Joshi",
         "Role": "President",
-        "MemberDescription": "Description",
+        "MemberDescription": "4th year comp eng, I like ribfest, sleep.",
         "JobDescription": [
             "Guides the Executive Council",
             "Chairs all meetings and be the official spokesperson for the ESSS",
             "Enforces and maintains the Constitution, Bylaws, and Policy Manual of the ESSS",
             "Oversees the Class Representatives"
-        ]
+        ],
+        "LinkedIn": "rajnesh-joshi",
+        "Instagram": "rajnesh_joshi"
     },
     "VPAdmin": {
         "Name": "Hannah Hartviksen",
