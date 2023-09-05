@@ -224,6 +224,10 @@ footer {
     }
 }
 
+#announcement-div {
+    grid-template-columns: auto 20%;
+}
+
 // Dialogs
 // Specifically for the About us Dialogs
 
@@ -309,7 +313,7 @@ dialog {
     }
 
     dialog > .grid-2 {
-        grid-template-columns: auto;
+        grid-template-columns: auto !important;
     }
 }
 

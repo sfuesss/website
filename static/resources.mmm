@@ -7,7 +7,7 @@ div .container :
 
  div .h2 .glow ; : Course Navigator
  p ; : The unoffical SFU course navigator is the best course planning tool available for engineering students. Using it is simple and intuitive. Start by choosing any engineering option - this will load the "recommended" schedule for that option. Need to modify the recommended schedule? No problem, the application is fully dynamic, meaning that you can drag and drop courses into a different term, add additional years/terms to your schedule, add additional courses to the schedule, and much more. Worried that your schedule might not meet degree requirements? The course navigators automatic error detection has you covered. The navigator tests your schedule by checking term availabilty of each course, pre-requisites, and degree requirements specific to the option you chose. When you're all done, you can save the schedule and load it up the next time you use the app. Try it out for yourself by clicking the button below.
- button .btn .btn-grad ; : Start Planning
+ button .btn .btn-grad onclick="loadexternal('sfu.coursenavigator.ca/')" ; : Start Planning
 
 // Co-Op
 div .container :
@@ -16,7 +16,7 @@ div .container :
 
  div .h2 ; : Application Documents
  p ; : It is standard to submit a resume, cover letter, and transcript for each co-op position you apply to. As much as we would all love to simply snap our fingers and change our transcripts to have all perfect grades, we can't. The good news is you can still stand out by having an impressive resume and cover letter. Not sure how to design/format your resume and cover letters? Take a look at the SFU OLC's resume and cover letter galleries for some inspiration. Still feeling a bit stuck? follow SFU's guide and checklist for making a resume and cover letter from start to finish. In addition to a strong resume and cover letter, you will greatly increase your chances of being hired if you have either relevant work experience or relevant personal projects for the position your applying to. While many of us do not have relevant work experience, personal projects are something that anyone can do. They show that you are passionate and have demonstrated at least some of the skills they are looking for in a co-op student.
- button .btn .btn-grad ; : Submit Resume and Cover Letter for Peer Review
+ button .btn .btn-grad onclick="loadexternal('docs.google.com/forms/d/e/1FAIpQLSdp36mKJ4cc-OHGRwwSgM3zkomCrWXMBTXrn3jg6raqyCpglw/viewform')" ; : Submit Resume and Cover Letter for Peer Review
 
  div .h2 ; : Interview Prep
  p ; : There are many resources for getting yourself prepared for interviews, but here are a few we suggest
@@ -45,15 +45,15 @@ div .container :
    div .h2 .glow ; : ESSS
     ul :
      li :
-      a ; : Constitution
+      a href="documents/ESSS-Constitution.pdf" ; : Constitution
      li :
-      a ; : Policy
+      a href="documents/ESSS-Policy.pdf" ; : Policy
      li :
-      a ; : Bylaws
+      a href="documents/ESSS-Bylaws.pdf" ; : Bylaws
      li :
-      a ; : Minutes
+      a href="https://drive.google.com/drive/folders/1PpBJK7pzMSLRLvKEDHA2X4vPodqnTKSw" ; : Minutes
      li :
-      a ; : Brand Guidelines
+      a href="documents/ESSS_BrandGuidelines.pdf" ; : Brand Guidelines
 
   div .container :
    div .h2 .glow ; : WESST

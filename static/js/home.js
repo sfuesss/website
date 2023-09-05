@@ -1,3 +1,5 @@
+const MeetingSchedule = false;
+
 const MonthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function NumberSuffix(num) {
@@ -7,7 +9,7 @@ function NumberSuffix(num) {
     if (lastDig == 2) return "nd";
     if (lastDig == 3) return "rd";
 
-    return "th";
+    return num + "th";
 }
 
 function loadHomePage() {
@@ -23,11 +25,14 @@ function loadHomePage() {
     while (currentDate.getTime() > NextMeeting.getTime())
         NextMeeting.setTime(NextMeeting.getTime() + MeetingInterval);
 
-    nextMeeting.innerHTML = `${MonthNames[NextMeeting.getMonth()]} ${NextMeeting.getDate()}${NumberSuffix(NextMeeting.getDate())} - ${NextMeeting.getHours() <= 12 ? NextMeeting.getHours() : NextMeeting.getHours() - 12}:${NextMeeting.getMinutes() >= 10 ? NextMeeting.getMinutes() : `0${NextMeeting.getMinutes()} ${NextMeeting.getHours() < 12 ? "AM": "PM"}`}`;
+    if (MeetingSchedule)
+        nextMeeting.innerHTML = `${MonthNames[NextMeeting.getMonth()]} ${NumberSuffix(NextMeeting.getDate())} - ${NextMeeting.getHours() <= 12 ? NextMeeting.getHours() : NextMeeting.getHours() - 12}:${NextMeeting.getMinutes() >= 10 ? NextMeeting.getMinutes() : `0${NextMeeting.getMinutes()} ${NextMeeting.getHours() < 12 ? "AM": "PM"}`}`;
+    else
+        nextMeeting.innerHTML = "TBA";
 
     // Load Latest Announcement
 
     getAnnouncements(true, () => {
-        loadAnnouncement(0, "#announcement-content", "#announcement")
+        //loadAnnouncement(0, "#announcement-content", "#announcement")
     });
 }
