@@ -2,7 +2,7 @@
     "President": {
         "Name": "Rajnesh Joshi",
         "Role": "President",
-        "MemberDescription": "4th year comp eng, I like ribfest, sleep.",
+        "MemberDescription": "Hello! I am a 5th year SFU Computer Engineering student. I like animals, working out, the outdoors, raves, Wing Wednesday at the bar, sour beers, and other stuff. This semester, I'm on coop so you may not see me around often, but you can always find me at our regular meetings. If you need me, just send me a message on Discord (RJ3421).",
         "JobDescription": [
             "Guides the Executive Council",
             "Chairs all meetings and be the official spokesperson for the ESSS",
@@ -89,13 +89,14 @@
     "DirDiversity": {
         "Name": "Lester Pino",
         "Role": "Director Of Diversity",
-        "MemberDescription": "Description",
+        "MemberDescription": "A senior computer engineering student from Panama with a deep passion for poetry and martial arts. You can normally find me hanging around at the Grappling club. I am also involved with the Association of Latin American Students. My goal is to one day make quality education accessible to impoverished and humble communities who don’t even have access to the internet. Deep down I truly believe technology and engineering can solve many social problems.",
         "JobDescription": [
             "Assists VP Social and External",
             "Serves as the primary liaison between ESSS and diversity in engineering groups",
             "Stays informed of on-campus centres, clubs, and services for diversity groups in order to assist students",
             "Hosts events that promote or inform the student body about diversity in engineering"
-        ]
+        ],
+        "Instagram": "lipbs_28"
     },
     "DirSponsorship": {
         "Name": "Aaron Lu",
@@ -119,12 +120,15 @@
     "DirMerch": {
         "Name": "Christina Chen",
         "Role": "Director Of Merchandise",
-        "MemberDescription": "Description",
+        "MemberDescription": "Hello! My name is Christina and I am a second year student at SFU. As your Swag Master, I design and manage merchandise for engineering students and events. When I'm not at school, I enjoy sewing, zumba, and spending time outside. Looking forward to meeting everyone!",
         "JobDescription": [
             "Assists VP Admin and VP Finance",
             "Oversees the sales and inventory of all ESSS merchandise",
             "Designs new merchandise for ESSS"
-        ]
+        ],
+        "LinkedIn": "chen-christina",
+        "Instagram": "_christina.chen",
+        "Discord": "chrispychen#0058"
     },
     "DirSpirit": {
         "Name": "Pending",

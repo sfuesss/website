@@ -54,3 +54,42 @@ div .container :
 //  MEMBER RepInternational
 
 div .container :
+ div .h1 ; : Hall of Fame
+ p ; : There are a number of important people to the ESSS who have made significant contributions to our society that we wish to forever immortalize. These people have provided us with great support, council, comradery, and gone above their call of duty. For this, we dearly thank them and give them a little bit of the recognition they deserve. Do you have what it takes to be a future ESSS Hall of Famer? Check out Get Involved in the navigation bar above to start your ESSS journey!
+ 
+ div .grid-3 :
+  div :
+   div .h2 ; : Shayne Kelly II
+   div .glow .gradient ; : 2019
+  
+  div :
+   div .h2 ; : Tristan May
+   div .glow .gradient ; : 2019
+  
+  div :
+   div .h2 ; : Gurvaani Dhani
+   div .glow .gradient ; : 2019
+  
+  div :
+   div .h2 ; : Ali Arshad
+   div .glow .gradient ; : 2019
+  
+  div :
+   div .h2 ; : Hans Zhang
+   div .glow .gradient ; : 2020
+  
+  div :
+   div .h2 ; : Karene Luu
+   div .glow .gradient ; : 2020
+  
+  div :
+   div .h2 ; : Comp Spy (John Wu)
+   div .glow .gradient ; : 2021
+  
+  div :
+   div .h2 ; : Justin Wang
+   div .glow .gradient ; : 2021
+  
+  div :
+   div .h2 ; : Alvin David
+   div .glow .gradient ; : 2021
