@@ -5,7 +5,7 @@ div .container :
    p .container #announcement ; :
   img #announcement-image src="img/Announcement.png" width="100%" ; :
  
- div :
+ div .container :
   button onclick="ChangeAnnouncement(-1)" .btn ; : Back
   button onclick="ChangeAnnouncement(1)" .btn ; : Next
 

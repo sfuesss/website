@@ -26,7 +26,7 @@ async function getAnnouncements(restrict, callback) {
 }
 
 function loadAnnouncement(i, body, image) {
-    document.querySelector(body).innerHTML = Announcements.Data[i].content;
+    document.querySelector(body).innerHTML = marked.parse(Announcements.Data[i].content);
     document.querySelector(image).src = Announcements.Data[i].images[0] != null ? Announcements.Data[i].images[0] : "img/Announcement.png";
 }
 

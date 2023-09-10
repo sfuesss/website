@@ -18,8 +18,7 @@ meta name="og:image" content="/img/3.jpg" ; :
 meta name="og:description" content="SFU's Official Engineering Science Student Society Website with all the information you need about Engineering at SFU" ; :
 meta name="theme-color" content="#203A6C" ; :
 
-
-meta name="theme-color" content="#203A6C" ; :
+JS https://cdn.jsdelivr.net/npm/marked/marked.min.js
 
 ICON img/presskit/Icon_Blue.svg
 
@@ -48,7 +47,7 @@ div #portal .hide ; :
 footer .grid-3 :
  div :
   img src="img/presskit/Banner_Blue.svg" height="48px" .glow ; :
-  div ; : Want to leave feedback or a suggestion? feel free to contact website@esss.ca
+  div ; : Want to leave feedback or a suggestion? feel free to contact website@esss.ca, or DM suggestions on the discord server
 
   div .h2 ; : Contact
   div ; : communications@esss.ca
