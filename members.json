@@ -1,0 +1,255 @@
+{
+    "President": {
+        "Name": "Rajnesh Joshi",
+        "Role": "President",
+        "MemberDescription": "Hello! I am a 5th year SFU Computer Engineering student. I like animals, working out, the outdoors, raves, Wing Wednesday at the bar, sour beers, and other stuff. This semester, I'm on coop so you may not see me around often, but you can always find me at our regular meetings. If you need me, just send me a message on Discord (RJ3421).",
+        "JobDescription": [
+            "Guides the Executive Council",
+            "Chairs all meetings and be the official spokesperson for the ESSS",
+            "Enforces and maintains the Constitution, Bylaws, and Policy Manual of the ESSS",
+            "Oversees the Class Representatives"
+        ],
+        "LinkedIn": "rajnesh-joshi",
+        "Instagram": "rajnesh_joshi"
+    },
+    "VPAdmin": {
+        "Name": "Hannah Hartviksen",
+        "Role": "VP Admin",
+        "MemberDescription": "Description",
+        "JobDescription": [
+            "Oversees access of the ESSS physical and digital spaces",
+            "Acts as Secretary for all meetings",
+            "Maintains documentation and archival media of ESSS",
+            "Maintains and oversees the ESSS Website, email server, and social media",
+            "Oversees the roles and responsibilities of the Directors of Common Room, Publications, and Website"
+        ]
+    },
+    "VPExternal": {
+        "Name": "Eric Suh",
+        "Role": "VP External",
+        "MemberDescription": "I am a second year engineering student and when I'm not procrastinating, I am probably watching TV, listening to some music or gym broing. I hope to leave a strong impact on student society while I can.",
+        "JobDescription": [
+            "Liaise with the CFES, WESST, and EGBC",
+            "Oversees the coordination of the Iron Ring Ceremony",
+            "Oversees the organization of the SFU Engineering Competition",
+            "Form a committer of ESSS membrs for the purpose of selectring conference delegates",
+            "Oversees the roles and responsibilities of the Directors of OpFair and Diversity"
+        ],
+        "LinkedIn": "eric-suh-b96ab125a",
+        "Instagram": "eric_suhh"
+    },
+    "VPFinance": {
+        "Name": "Jeremy Ang",
+        "Role": "VP Finance",
+        "MemberDescription": "Some of my hobbies are tennis, basketball, volleyball",
+        "JobDescription": [
+            "Manages the writing and approval of grants",
+            "Liaises with the bank that holds the ESSS' external account",
+            "Prepares the budgets for the fiscal year and analyzes the previous year's budget",
+            "Maintains financial records and accounts",
+            "Oversees the purchases and sales of merchandise",
+            "Oversees the roles and responsibilities of the Directors of Merchandise and Sponsorship"
+        ]
+    },
+    "VPSocial": {
+        "Name": "Yu-Xing Lim",
+        "Role": "VP Social",
+        "MemberDescription": "Description",
+        "JobDescription": [
+            "Forms events committees with Representatives and Society Members when necessary for an event",
+            "Promotes events and services offered by the ESSS",
+            "Organizes and fills an events calendar for their upcoming term",
+            "Oversees the roles and responsibilities of the Director of Spirit"
+        ]
+    },
+    "VPAcademic": {
+        "Name": "Wallace Lee",
+        "Role": "VP Academic",
+        "MemberDescription": "Description",
+        "JobDescription": [
+            "Oversees the administration of ESSEF grants",
+            "Oversees the ESSEF parts library",
+            "Attends all undergraduate curriculum committee meetings",
+            "Surveys members for academic concerns to be brought to Undergraduate Curriculim Committee meetings",
+            "Oversees the roles and responsibilities of the Director of Resource Centre"
+        ]
+    },
+    "VPInternal": {
+        "Name": "Tony Kooliyath",
+        "Role": "VP Internal",
+        "MemberDescription": "Hey everyone, my name's Tony and I'm the ESSS VP Internal! I'm currently a 4th/5th year systems engineering student with a background in controls systems. I enjoy doing anything outdoors, ultimate frisbee, watching movies, playing games, and working out!",
+        "JobDescription": [
+            "Presents topics from SFSS Council meetings to the members at regular meetings",
+            "Provides representation of the ESSS to the SFSS Council",
+            "Liaises with Engineering Clubs"
+        ],
+        "Instagram": "tony_kooliyath"
+    },
+
+    "DirDiversity": {
+        "Name": "Lester Pino",
+        "Role": "Director Of Diversity",
+        "MemberDescription": "A senior computer engineering student from Panama with a deep passion for poetry and martial arts. You can normally find me hanging around at the Grappling club. I am also involved with the Association of Latin American Students. My goal is to one day make quality education accessible to impoverished and humble communities who don’t even have access to the internet. Deep down I truly believe technology and engineering can solve many social problems.",
+        "JobDescription": [
+            "Assists VP Social and External",
+            "Serves as the primary liaison between ESSS and diversity in engineering groups",
+            "Stays informed of on-campus centres, clubs, and services for diversity groups in order to assist students",
+            "Hosts events that promote or inform the student body about diversity in engineering"
+        ],
+        "Instagram": "lipbs_28"
+    },
+    "DirSponsorship": {
+        "Name": "Aaron Lu",
+        "Role": "Director of Sponsorship",
+        "MemberDescription": "Description",
+        "JobDescription": [
+            "Assists VP Social and VP External",
+            "Seeks sponsorships for social/professional events",
+            "Seeks long term sponsorship for ESSS"
+        ]
+    },
+    "DirCommonRoom": {
+        "Name": "Joshua Kim",
+        "Role": "Director Of Common Room",
+        "MemberDescription": "Description",
+        "JobDescription": [
+            "Assists VP Social and VP Admin",
+            "Oversees maintenance and improvement of the ENSC Common Room"
+        ]
+    },
+    "DirMerch": {
+        "Name": "Christina Chen",
+        "Role": "Director Of Merchandise",
+        "MemberDescription": "Hello! My name is Christina and I am a second year student at SFU. As your Swag Master, I design and manage merchandise for engineering students and events. When I'm not at school, I enjoy sewing, zumba, and spending time outside. Looking forward to meeting everyone!",
+        "JobDescription": [
+            "Assists VP Admin and VP Finance",
+            "Oversees the sales and inventory of all ESSS merchandise",
+            "Designs new merchandise for ESSS"
+        ],
+        "LinkedIn": "chen-christina",
+        "Instagram": "_christina.chen",
+        "Discord": "chrispychen#0058"
+    },
+    "DirSpirit": {
+        "Name": "Pending",
+        "Role": "Director Of Spirit",
+        "MemberDescription": "Description",
+        "JobDescription": [
+            "Assists VP Social",
+            "Manages ESSS Social Media on services such as Facebook, Instagram, Twitter, and Discord",
+            "Creates promotional material for events, offline and online",
+            "Updates the Lab 1 Display Case"
+        ]
+    },
+    "DirResources": {
+        "Name": "Adam Ma",
+        "Role": "Director Of Resource Center",
+        "MemberDescription": "Description",
+        "JobDescription": [
+            "Assists VP Academic",
+            "Maintains and operates the ESSS 3D Printer",
+            "Handles 3D printing requests and orders",
+            "Assists in the prototype development of student projects",
+            "Informs and ecucates the student body about 3D printing technology"
+        ]
+    },
+    "DirWebsite": {
+        "Name": "Roberto Selles",
+        "Role": "Director Of Website",
+        "MemberDescription": "Originally an ESSS First Year Representative and hoping to go into Computer Engineering, He Has a hobby for two major sides. Music, and Software. He is Ambitious to create software to embrace quality music and push the limits of what musicians can offer, however he is starting off as a website director to show what he can do for now.",
+        "JobDescription": [
+            "Maintains and adds new content to the ESSS",
+            "Improves design and fixes any reported issues with the ESSS Website"
+        ],
+        "LinkedIn": "roberto-selles",
+        "Instagram": "roberto.selles"
+    },
+    "DirGraphics": {
+        "Name": "Senka Kuboki",
+        "Role": "Director Of Graphics",
+        "MemberDescription": "Description",
+        "JobDescription": [
+            "Manages ESSS branding and logo designs",
+            "Assists ESSS initiatives by providing or implementing graphic designs for posters, social media, banners, etc."
+        ]
+    },
+    "DirStudentSupport": {
+        "Name": "Eugenia Demendeeva",
+        "Role": "Director Of Student Services",
+        "MemberDescription": "Started as a First and Second Year Representative, then decided to be more involved in both ESSS as well as the student body, helping her fellow peers as Director of Student Support. Recently declared as an Engineering Physics student, she is looking forward to learning about particle physics and integrating her hands-on electronics knowledge from her first Co-Op. Eager to do anything outdoors, skiing in the winter, climbing in the summer, and hiking year-round are some of her favorite hobbies.",
+        "JobDescription": [
+            "Manages the ESSS peer tutoring and mentorship programs",
+            "Communicates with students and faculty regarding program promotion",
+            "Responsible for updating the program format and providing training for new tutors",
+            "Manages any issues between mentors and mentees",
+            "Manages the mentorship discord server each term",
+            "Promotes and recruits for the mentorship program"
+        ],
+        "LinkedIn": "eugenia-demendeeva"
+    },
+    "DirWorkshop": {
+        "Name": "Ryan Garofano",
+        "Role": "Director Of Workshops",
+        "MemberDescription": "Description",
+        "JobDescription": [
+            "Create, facilitate and or lead engineering related workshops",
+            "focus on practical skills that may be missing or incomplete in the ENSC program"
+        ]
+    },
+    "DirOpFair1": {
+        "Name": "Benjamin Lam",
+        "Role": "Co-Director of OpFair",
+        "MemberDescription": "Description",
+        "JobDescription": [
+            "Overseeing and leading the organization and execution of OpFair",
+            "Coordinating with and reporting activities to VP positions at ESSS",
+            "Managing the behind the scenes operations for OpFair such as the prices and catering"
+        ]
+    },
+    "DirOpFair2": {
+        "Name": "Andrew Kim",
+        "Role": "Co-Director of OpFair",
+        "MemberDescription": "Description",
+        "JobDescription": [
+            "Overseeing and leading the organization and execution of OpFair",
+            "Coordinating with and reporting activities to VP positions at ESSS",
+            "Coordinating with volunteers and companies, inviting them to attend and sponsor this years OpFair"
+        ]
+    },
+
+    "Rep1-1": {
+        "Name": "Salem Alsaiari",
+        "Role": "First Year Representative",
+        "MemberDescription": "Description"
+    },
+    "Rep2-1": {
+        "Name": "Hussain Kanthawala",
+        "Role": "Second Year Representative",
+        "MemberDescription": "Description"
+    },
+    "RepComp": {
+        "Name": "Qiraa Qadri",
+        "Role": "Computer Engineering Representative",
+        "MemberDescription": "Description"
+    },
+    "RepBio": {
+        "Name": "Makan Mousavifard",
+        "Role": "Biomedical Engineering Representative",
+        "MemberDescription": "Description"
+    },
+    "RepPhys": {
+        "Name": "Parsa Oftadeh",
+        "Role": "Engineering Physics Representative",
+        "MemberDescription": "Description"
+    },
+    "RepElec": {
+        "Name": "Srinath Ganapathy",
+        "Role": "Electrical Engineering Representative",
+        "MemberDescription": "Description"
+    },
+    "RepSys": {
+        "Name": "Vacant",
+        "Role": "Systems Engineering Representative",
+        "MemberDescription": "Description"
+    }
+}

@@ -1,0 +1,36 @@
+div .container :
+ div .title .glow ; : News
+ div .grid-2 #announcement-div :
+  div :
+   p .container #announcement ; :
+  img #announcement-image src="img/Announcement.png" width="100%" ; :
+ 
+ div .container :
+  button onclick="ChangeAnnouncement(-1)" .btn ; : Back
+  button onclick="ChangeAnnouncement(1)" .btn ; : Next
+
+div .container :
+ div .h1 ; : Event Resources
+ p ; : These are all the resources you will need for specific events such as download files, and other websites you might need.
+ div .grid-2 :
+  div .container :
+   div .h2 :
+    span .glow .gradient #event-linux-workshop ; : Linux Workshop
+   p ; : The Linux Workshop is a series of workshops that guide you through everything you need to know about linux from using the command line to superuser skills. The workshop is based on Ubuntu Linux 22.04. For Windows users, download VirtualBox. if you have an intel based mac, we suggest Virtualbox; however, if you have an ARM based mac (M1/M2 Chip), we suggest UTM. The Ubuntu ISO will redirect you to the official Ubuntu download page. We suggest downloading 22.04 as that is the LTS version they currently have.
+   ul :
+    li : 
+     a href="documents/events/LinuxWorkshop/VirtualBox-7.0.8-156879-Win.exe" ; : VirtualBox (Windows)
+    li :
+     a href="documents/events/LinuxWorkshop/VirtualBox-7.0.8-156879-OSX.dmg" ; : VirtualBox (Mac x86)
+    li :
+     a href="documents/events/LinuxWorkshop/UTM.dmg" ; : UTM (Mac ARM)
+    li :
+     a href="https://ubuntu.com/download/desktop" target="_blank" ; : Ubuntu Linux 22.04 (x86)
+    li :
+     a href="https://ubuntu.com/download/server/arm" target="_blank" ; : Ubuntu Server (ARM)
+    li :
+     a href="documents/events/LinuxWorkshop/Installing Ubuntu VM (Windows).pdf" target="_blank" ; : setup Guide (x86)
+    li :
+     a href="documents/events/LinuxWorkshop/Installing Ubuntu VM (Apple Silicon Mac).pdf" target="_blank" ; : Setup Guide (ARM)
+    li :
+     a href="documents/events/LinuxWorkshop/Linux_Intro_Activity.pdf" target="_blank" ; : Activity

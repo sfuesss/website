@@ -1,0 +1,339 @@
+:root {
+    --bg-primary: #203A6C;
+    --bg: #fff;
+    --bg-tint: #eee;
+    --text: #101020;
+    --transparent-bg: #fff8;
+
+    --gradient-1: #1458B8;
+    --gradient-2: #203A6C;
+
+    --font: 'Work Sans';
+    --header-font: Poppins;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    * {
+        transition: all 0.1s ease;
+    }
+}
+
+// Content
+
+.container {
+    margin: 18px;
+    width: calc(100% - 32px)
+}
+
+.jumbotron {
+    background-color: var(--bg-tint);
+    box-shadow: inset 0 8px 8px -6px #000a, inset 0 -8px 8px -6px #000a;
+
+    .content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 38px;
+        margin: 0 38px;
+    }
+
+    .h1 {
+        font-size: 52px;
+    }
+}
+
+// Navbar
+
+nav {
+    background-color: var(--bg-primary);
+    color: #fff;
+    height: 48px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 15px 4px #0006;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    a {
+        color: #fff;
+    }
+
+    button {
+        background-color: #0000;
+        width: 48px;
+        border: none;
+        color: #fff !important;
+        height: inherit;
+        height: 48px;
+        font-size: 18px;
+        padding: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .pages {
+        display: flex;
+        justify-content: flex-end;
+
+        * {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 48px;
+            padding: 0 10px;
+        }
+    }
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 225px auto auto 48px;
+    height: fit-content;
+}
+
+#nav-viewer {
+    display: none;
+    
+    i {
+        font-size: 2rem;
+    }
+}
+
+nav button:hover, nav .navbar-brand:hover, nav .pages a:hover {
+    background-color: #fff3;
+}
+
+.navbar-brand {
+    height: 38px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#portal {
+    position: relative;
+    min-height: 100vh;
+}
+
+// Footer
+
+footer {
+    background-color: var(--bg-tint);
+    padding: 10px;
+    font-size: 14px;
+    bottom: 0;
+    box-shadow: 0 -10px 10px #0006;
+
+    > * {
+        padding-bottom: 2.5rem;
+    }
+
+    a, a:visited {
+        color: var(--text);
+    }
+}
+
+// Specific Pages
+
+.home-jumbotron {
+    display: flex;
+    background-size: cover !important;
+    background-position: center right !important;
+    
+    .content {
+        background-color: var(--transparent-bg);
+        backdrop-filter: blur(5px);
+        transform: skew(-15deg);
+        position: relative;
+    }
+}
+
+.home-jumbotron:nth-child(1) > .content {
+    left: 100px;
+}
+
+.home-jumbotron:nth-child(2) {
+    justify-content: end;
+    background-position: center right !important;
+}
+
+.home-jumbotron:nth-child(2) > .content {
+    right: 100px;
+}
+
+.home-jumbotron .content > .jumbotron-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: skew(15deg);
+}
+
+.card-bg {
+    height: 100%;
+    background-size: 140% !important;
+    background-position: left !important;
+    background-repeat: no-repeat !important;
+
+    width: 300px;
+    border-radius: 8px;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+.team-members.grid-3 {
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+
+.member-card {
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.member-photo {
+    width: 256px;
+    height: 256px;
+    border-radius: 128px;
+    box-shadow: inset 0 10px 10px #000a;
+    background-color: var(--bg-primary);
+    background-size: cover;
+
+    &:hover {
+        transform: scale(105%);
+        filter: brightness(125%);
+    }
+
+    &:active {
+        transform: scale(95%);
+        filter: brightness(75%);
+    }
+}
+
+#announcement-div {
+    grid-template-columns: auto 20%;
+}
+
+// Dialogs
+// Specifically for the About us Dialogs
+
+dialog {
+    background-color: var(--bg);
+    color: var(--text);
+    width: 50%;
+
+    border: solid 1px var(--text);
+    border-radius: 15px;
+
+    .container {
+        div {
+            padding-left: 5px;
+        }
+    }
+
+    img {
+        box-shadow: 0 5px 5px #000a;
+    }
+
+    .grid-2 {
+        grid-template-columns: 300px auto;
+    }
+
+    .title {
+        padding: 0;
+    }
+
+    .h2 {
+        padding-bottom: 20px;
+    }
+
+    &::backdrop {
+        backdrop-filter: blur(10px);
+    }
+} 
+
+// Dynamic Pages and Mobile Content
+@media only screen and (max-width: 1000px) {
+    .card-bg {
+        display: none;
+    }
+
+    .nav-container {
+        grid-template-columns: 225px auto 48px 48px;
+    }
+
+    nav .pages {
+
+        height: 0;
+        overflow: hidden;
+
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        
+        margin-top: 3rem;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%);
+        background-color: var(--bg-primary);
+    
+        * {
+            width: 100%;
+            text-align: center;
+        }
+
+        &.active {
+            height: calc(100%*3);
+        }
+    }
+
+    #nav-viewer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .team-members {
+       grid-template-columns: auto !important; 
+    }
+
+    dialog > .grid-2 {
+        grid-template-columns: auto !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    dialog {
+        width: 85%;
+    }
+    
+    .member-card {
+        grid-template-columns: auto;
+    }
+
+    .home-jumbotron {
+        justify-content: center !important;
+
+        .content {
+            width: 65%;
+            left: 0 !important;
+            right: 0 !important;
+        }
+    }
+}

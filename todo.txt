@@ -1,0 +1,31 @@
+Things to do to website at this moment:
+
+- Add new team to website
+- Revise Announcement Automation
+
+- New CSS Stylesheet
+  - Button Animations still need to be programmed in
+
+Pages to Add:
+- Error 404 (Done)
+ - Add Professors to 404 Screen (?)
+  - Mike S.
+  - Craig
+
+- Resources (Needs Decoration and Links to Fill in)
+  - Event Resources
+- Co-op
+- Calendar
+- Room Location
+ - Status for Arcade and 3D Printer (?)
+
+Fixes:
+ - Fix redirection so user can actually go back and not take them to the page before entering the site
+ - Announcements page is very rough, and needs security checks like making sure they don't spam the next/back button over and over
+ - Shadows can be softened a bit More
+ - Fix buttons at beginning so they can open page in new tab?
+ - Make the learn more button actually do something at the top of the page
+
+People to contact for 2nd photo:
+ Jeremy
+ 

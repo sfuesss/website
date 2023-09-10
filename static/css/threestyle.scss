@@ -1,0 +1,166 @@
+:root {
+    --bg: #111;
+    --text: #fff;
+    --bg-primary: 240, 240, 240;
+    --gradient-1: #30CFD0;
+    --gradient-2: #c43ad6;
+}
+
+a {
+    color: var(--text);
+}
+
+img {
+    border-radius: 10px;
+}
+
+body {
+    height: 100%;
+    font-size: 1rem;
+    user-select: none;
+    color: var(--text);
+    background: var(--bg);
+}
+
+body, input, button {
+    font-family: var(--font);
+}
+
+.glow {
+    filter: drop-shadow(0 0 10px #fff4);
+}
+
+.shadow {
+    filter: drop-shadow(2px 2px 2px #000a);
+}
+
+.gradient {
+    background: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .grid-2, .grid-3 {
+        grid-template-columns: auto !important;
+    }
+}
+
+/* Backdrops */
+
+.blur-bg {
+    backdrop-filter: blur(30px);
+}
+
+/* Generic Objects */
+
+.title, .h1, .h2 {
+    font-family: var(--header-font);
+    font-weight: bold !important;
+}
+
+.title {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.h1 {
+    font-size: 2.25rem;
+}
+
+.h2 {
+    font-size: 1.5rem;
+}
+
+.p {
+    padding-bottom: 10px;
+}
+
+.container {
+    padding-bottom: 20px;
+}
+
+.container p {
+    text-indent: 2em;
+}
+
+.card {
+    background: radial-gradient(farthest-corner at 0px 0px, var(--bg-tint) 60%, #111111 120%);
+    margin: 10px 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+
+    .container {
+        padding: 10px;
+    }
+
+    border-radius: 8px;
+
+    &:hover {
+        box-shadow: 0 6px 10px #000a;
+        transform: scale(103%) translateY(-6px);
+    }
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 25px;
+    margin: 4px;
+    padding: 10px 26px;
+    border: none;
+    background-color: var(--bg-primary);
+    color: #fff;
+    box-shadow: 0 5px 10px #000a;
+
+    &:hover {
+        box-shadow: 0 10px 10px #000a;
+        transform: translateY(-5px) scale(100%);
+    }
+
+    &:active {
+        box-shadow: 0 0 0;
+        transform: translateY(5px);
+    }
+}
+
+.btn-grad {
+    background: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
+}
+
+.btn-transparent {
+    background-color: rgba(var(--bg-primary), 0.3);
+    border: solid 2px rgb(var(--bg-primary));
+    backdrop-filter: blur(5px);
+}
+
+.btn-transparent:hover {
+    background-color: rgba(var(--bg-primary), 0.7);
+}
+
+.btn-grad-border {
+    padding: 8px 24px;
+    border: solid 2px transparent;
+    background-image: linear-gradient(var(--bg), var(--bg)), radial-gradient(circle at left top, var(--gradient-1), var(--gradient-2));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    color: var(--text);
+}
+
+.hide {
+    opacity: 0;
+    transform: translateY(50px);
+}

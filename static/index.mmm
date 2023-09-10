@@ -1,0 +1,80 @@
+title ; : ESSS
+
+CSS https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css
+CSS https://fonts.googleapis.com/css?family=Work+Sans
+CSS https://fonts.googleapis.com/css?family=Poppins
+CSS css/threestyle.css
+CSS css/style.css
+CSS css/dark.css
+
+meta name="title" content="SFU - Engineering Science Student Society" ; :
+meta name="author" content="ESSS" ; :
+meta name="description" content="SFU's Official Engineering Science Student Society Website with all the information you need about Engineering at SFU" ; :
+meta name="og:title" content="SFU - Engineering Science Student Society" ; :
+meta name="og:type" content="website" ; :
+meta name="og:url" content="https://esss.ca" ; :
+meta name="og:site_name" content="ESSS" ; :
+meta name="og:image" content="/img/3.jpg" ; :
+meta name="og:description" content="SFU's Official Engineering Science Student Society Website with all the information you need about Engineering at SFU" ; :
+meta name="theme-color" content="#203A6C" ; :
+
+JS https://cdn.jsdelivr.net/npm/marked/marked.min.js
+
+ICON img/presskit/Icon_Blue.svg
+
+---
+
+nav :
+ div .nav-container :
+  span .navbar-brand :
+   a onclick="loadpage('home')" :
+    img src="img/presskit/Banner_White.svg" height="38px" ; :
+ 
+  div ; :
+
+  button #nav-viewer onclick="toggleNav();" :
+   i .bi-list ; :
+  div .pages :
+   a onclick="loadpage('news')" ; : News
+   a onclick="loadpage('theTeam')" ; : About Us
+   a onclick="loadpage('resources')" ; : Resources
+   a onclick="loadexternal('stores.coastalreign.com/esss/shop/home')" ; : Merch
+  button onclick="ToggleDisplayMode()" :
+    i class="bi-brightness-high-fill" ; :
+
+div #portal .hide ; :
+
+footer .grid-3 :
+ div :
+  img src="img/presskit/Banner_Blue.svg" height="48px" .glow ; :
+  div ; : Want to leave feedback or a suggestion? feel free to contact website@esss.ca, or DM suggestions on the discord server
+
+  div .h2 ; : Contact
+  div ; : communications@esss.ca
+  div ; : ESSS Office ASB 10868
+  div ; : 8888 University Drive
+  div ; : Burnaby, BC V5A 1S6 
+
+// Social Media
+ div .container :
+  div .glow .h2 :
+   span .gradient ; : Follow Us
+  div ; :
+  PAGE Instagram https://www.instagram.com/sfuengineers/
+  PAGE LinkedIn https://www.linkedin.com/company/sfu-engineering-science-student-society/about/
+  PAGE Facebook https://www.facebook.com/SFU.ESSS/
+  PAGE Discord https://discord.gg/54cH9YHKha
+
+ div .container :
+  div .glow .h2 :
+   span .gradient ; : Other Links
+  
+  div :
+   a href="https://camp5ironring.ca/" ; : Iron Ring
+  div :
+   a href="https://www.opfair.ca/" ; : OpFair
+
+div ; :
+JS js/announcements.js
+JS js/home.js
+JS js/main.js

@@ -1,0 +1,8 @@
+*.html
+*.css
+*.map
+index.js
+
+node_modules/
+
+*.txt

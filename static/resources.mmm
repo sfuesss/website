@@ -1,0 +1,66 @@
+div .container :
+ div .h1 .glow ; : Resources
+
+// Course Resources
+div .container :
+ div .h1 .glow ; : Courses
+
+ div .h2 .glow ; : Course Navigator
+ p ; : The unoffical SFU course navigator is the best course planning tool available for engineering students. Using it is simple and intuitive. Start by choosing any engineering option - this will load the "recommended" schedule for that option. Need to modify the recommended schedule? No problem, the application is fully dynamic, meaning that you can drag and drop courses into a different term, add additional years/terms to your schedule, add additional courses to the schedule, and much more. Worried that your schedule might not meet degree requirements? The course navigators automatic error detection has you covered. The navigator tests your schedule by checking term availabilty of each course, pre-requisites, and degree requirements specific to the option you chose. When you're all done, you can save the schedule and load it up the next time you use the app. Try it out for yourself by clicking the button below.
+ button .btn .btn-grad onclick="loadexternal('sfu.coursenavigator.ca/')" ; : Start Planning
+
+// Co-Op
+div .container :
+ div .h1 .glow ; : Co-op
+ p ; : Finding or landing a co-op is not easy, but we are here to help! here are some resources that can help you:
+
+ div .h2 ; : Application Documents
+ p ; : It is standard to submit a resume, cover letter, and transcript for each co-op position you apply to. As much as we would all love to simply snap our fingers and change our transcripts to have all perfect grades, we can't. The good news is you can still stand out by having an impressive resume and cover letter. Not sure how to design/format your resume and cover letters? Take a look at the SFU OLC's resume and cover letter galleries for some inspiration. Still feeling a bit stuck? follow SFU's guide and checklist for making a resume and cover letter from start to finish. In addition to a strong resume and cover letter, you will greatly increase your chances of being hired if you have either relevant work experience or relevant personal projects for the position your applying to. While many of us do not have relevant work experience, personal projects are something that anyone can do. They show that you are passionate and have demonstrated at least some of the skills they are looking for in a co-op student.
+ button .btn .btn-grad onclick="loadexternal('docs.google.com/forms/d/e/1FAIpQLSdp36mKJ4cc-OHGRwwSgM3zkomCrWXMBTXrn3jg6raqyCpglw/viewform')" ; : Submit Resume and Cover Letter for Peer Review
+
+ div .h2 ; : Interview Prep
+ p ; : There are many resources for getting yourself prepared for interviews, but here are a few we suggest
+
+// Leetcode looking
+ p ; : <span class="gradient glow">Leetcode</span> is the best free platform available when it comes to preparing for coding interviews. Master data structures and algorithms by tackling a subset of over 2000 problems categorized by difficulty, topic, and community feedback. Be sure to search the internet for a good set of questions to work on. If you get stuck or want to confirm that you have the optimal solution to the problem, there are plenty of answers on the platform itself as well as YouTube which you can use as a reference. Good luck on your interview and happy coding!
+
+ p ; : The <span class="gradient glow">SFU OLC Interview Question Database</span> has many more typical interview questions for you to practice with as well as suggested strategies on how to answer some of them. You can choose questions based on certain skills, your discipline, or simply general questions.
+ 
+ p ; : The <span class="gradient glow">Interview Prep WebApp</span> is another site with a plethora of questions you can choose from to compile a practice interview full of questions. You can then record yourself answering the questions to look back on how you answered and improve your answers for your actual interview!
+ 
+ div .container :
+  div .h2 .glow ; : Op-Fair
+
+  div : Are you looking for more information about Co-Op or you are a business hosting Co-Op?
+   a ; : Check out Op-Fair
+
+// ESSS Documents
+div .container :
+ div .h1 .glow ; : Documents
+ p : Interested in learning more about ESSS policies or some of the other societies we are part of? 
+  span .gradient .glow ; : Check below for all of the above!
+ 
+ div .grid-3 :
+  div .container :
+   div .h2 .glow ; : ESSS
+    ul :
+     li :
+      a href="documents/ESSS-Constitution.pdf" ; : Constitution
+     li :
+      a href="documents/ESSS-Policy.pdf" ; : Policy
+     li :
+      a href="documents/ESSS-Bylaws.pdf" ; : Bylaws
+     li :
+      a href="https://drive.google.com/drive/folders/1PpBJK7pzMSLRLvKEDHA2X4vPodqnTKSw" ; : Minutes
+     li :
+      a href="documents/ESSS_BrandGuidelines.pdf" ; : Brand Guidelines
+
+  div .container :
+   div .h2 .glow ; : WESST
+   div : ESSS is affiliated with WESST. Learn more about them at the
+    a href="https://www.wesst.ca/" target="_blank" rel="noopener noreferrer" ; : WESST Website 
+
+  div .container :
+   div .h2 .glow ; : CFES
+   div : CFES Governing Documents can be found on the
+    a href="https://cfes.ca/governance/" ; : CFES Website
