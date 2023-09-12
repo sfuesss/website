@@ -46,7 +46,7 @@ div #portal .hide ; :
 
 footer .grid-3 :
  div :
-  img src="img/presskit/Banner_Blue.svg" height="48px" .glow ; :
+  img src="img/presskit/Banner_Blue.svg" height="48px"  ; :
   div ; : Want to leave feedback or a suggestion? feel free to contact website@esss.ca, or DM suggestions on the discord server
 
   div .h2 ; : Contact
@@ -57,7 +57,7 @@ footer .grid-3 :
 
 // Social Media
  div .container :
-  div .glow .h2 :
+  div  .h2 :
    span .gradient ; : Follow Us
   div ; :
   PAGE Instagram https://www.instagram.com/sfuengineers/
@@ -66,7 +66,7 @@ footer .grid-3 :
   PAGE Discord https://discord.gg/54cH9YHKha
 
  div .container :
-  div .glow .h2 :
+  div  .h2 :
    span .gradient ; : Other Links
   
   div :

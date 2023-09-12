@@ -1,4 +1,4 @@
-const TripleM = require("triple-m/lib/transpiler");
+const TripleM = require("triple-m");
 const fs = require("fs");
 
 const Members = JSON.parse(fs.readFileSync('./members.json', { encoding: "utf-8" }));

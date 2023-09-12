@@ -3,7 +3,7 @@ div .jumbotron .home-jumbotron style="background: url('img/3.jpg');" :
  div .content :
   div .jumbotron-content :
    img src="img/presskit/Banner_Blue.svg" style="width: 100%;" ; :
-   div .h1 .glow ; : Meeting
+   div .h1  ; : Meeting
    div #next-meeting ; : Jan 1st 12:00 AM
    div #location : TASC 9204
    div :
@@ -13,7 +13,7 @@ div .container .grid-2 :
 // Latest Announcements
  div .card :
   div .container :
-   div .h1 #announcement .glow ; : ESSS News
+   div .h1 #announcement  ; : ESSS News
    div .p #announcement-content ; : No Announcements at the moment
    button .btn .btn-grad-border onclick="loadpage('news')" ; : Read More
   div .card-bg style="background: url('img/Announcement.png')" ; :
@@ -21,7 +21,7 @@ div .container .grid-2 :
 // Merch Advertisement
  div .card :
   div .container :
-   div .h1 .glow ; : Merch
+   div .h1  ; : Merch
 //  div .p ; : Check out our merch starting at $26.00
    div .p ; : Woopsies. Bwoken :(
    button .btn .btn-grad-border onclick="loadexternal('stores.coastalreign.com/esss/shop/home')" ; : Go to Store
@@ -30,15 +30,15 @@ div .container .grid-2 :
 // Iron Ring Info
  div .card :
   div .container :
-   div .h1 .glow ; : Iron Ring
-   div .p .glow ; : The biggest event for any student graduating as an engineer
+   div .h1  ; : Iron Ring
+   div .p  ; : The biggest event for any student graduating as an engineer
    button .btn onclick="loadexternal('camp5ironring.ca/')" ; : Learn More
   div .card-bg style="background: url('img/Iron_Ring.png')" ; :
 
 // Co-Op and OpFair
  div .card :
   div .container :
-   div .h1 .glow ; : Co-Op and OpFair
-   div .p .glow ; : One of the biggest events that we run at SFU
+   div .h1  ; : Co-Op and OpFair
+   div .p  ; : One of the biggest events that we run at SFU
    button .btn .btn-grad-border onclick="loadexternal('www.opfair.ca/')" ; : Op-Fair
    button .btn .btn-grad onclick="loadpage('resources')" ; : Resources

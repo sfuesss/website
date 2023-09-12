@@ -1,10 +1,10 @@
 div .container :
  div .title : 
-  span .glow ; : The Team
+  span  ; : The Team
  div .team-members :
   div .container :
    div .h1 :
-    span .gradient .glow ; : Who are We?
+    span .gradient  ; : Who are We?
    p ; : The Engineering Science Student Society is established to serve and represent the interests of its members to the School of Engineering Science, throughout Simon Fraser University, and beyond to industry and other engineering societies.
    p ; : The ESSS, run entirely by students, promotes school spirit and fosters community building by providing opportunities for students to interact with fellow students, faculty, staff and industry. Social events take place throughout the year, and the Student Society also organizes career fairs and sends members to conferences including the Western Engineering Competition and the Canadian Engineering Competition. The Student Society also has cheap pop and snacks in the undergraduate lounge, and sells branded merchandise for students to show off their engineering pride. Finally, we publish the Enscquire newsletter to keep you up to date with what's happening in and out of Engineering.
    div .h2 : Tip: Click on the photos to learn more about the member
@@ -60,36 +60,36 @@ div .container :
  div .grid-3 :
   div :
    div .h2 ; : Shayne Kelly II
-   div .glow .gradient ; : 2019
+   div  .gradient ; : 2019
   
   div :
    div .h2 ; : Tristan May
-   div .glow .gradient ; : 2019
+   div  .gradient ; : 2019
   
   div :
    div .h2 ; : Gurvaani Dhani
-   div .glow .gradient ; : 2019
+   div  .gradient ; : 2019
   
   div :
    div .h2 ; : Ali Arshad
-   div .glow .gradient ; : 2019
+   div  .gradient ; : 2019
   
   div :
    div .h2 ; : Hans Zhang
-   div .glow .gradient ; : 2020
+   div  .gradient ; : 2020
   
   div :
    div .h2 ; : Karene Luu
-   div .glow .gradient ; : 2020
+   div  .gradient ; : 2020
   
   div :
    div .h2 ; : Comp Spy (John Wu)
-   div .glow .gradient ; : 2021
+   div  .gradient ; : 2021
   
   div :
    div .h2 ; : Justin Wang
-   div .glow .gradient ; : 2021
+   div  .gradient ; : 2021
   
   div :
    div .h2 ; : Alvin David
-   div .glow .gradient ; : 2021
+   div  .gradient ; : 2021
