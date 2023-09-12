@@ -1,0 +1,11 @@
+{
+    "watch": ["src/**/*.ts", "static/css/**/*.scss", "static/**/*.mmm"],
+    "ext": "ts,scss,mmm",
+    "ignore": ["node_modules"],
+    "execMap": {
+        "ts": "tsc -b",
+        "scss": "sass ./static/css/",
+        "mmm": "mmmc -b"
+    }
+    }
+    
