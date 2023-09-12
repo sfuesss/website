@@ -29,6 +29,5 @@ git switch Revision2023 # This assumes we have not released this revision as the
 
 # Start Testing
 npm install
-npm run build
-npm test
+npm start
 ```

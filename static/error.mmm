@@ -1,5 +1,5 @@
 div .jumbotron :
  div .content :
-  div .title .glow :
+  div .title  :
    span .gradient ; : 404
   div ; : If you didn't intentionally walk into a professor's office, please try again

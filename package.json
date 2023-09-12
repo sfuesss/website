@@ -2,11 +2,16 @@
   "name": "website-revision",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "node ./",
     "build": "mmmc -b && sass ./static/css/ && tsc -b",
-    "dev": "sass ./static/css/ -w"
+    "watch:ts": "nodemon --watch 'src/**/*.ts' --ext ts --exec 'tsc -b'",
+    "watch:scss": "nodemon --watch 'static/css/**/*.scss' --ext scss --exec 'sass ./static/css/'",
+    "watch:mmm": "nodemon --watch 'static/*.mmm' --ext mmm --exec 'mmmc -b'",
+    "dev:server": "nodemon index.js",
+    "browser-sync": "browser-sync start --proxy 'http://localhost:3000' --files './static/**/*.*'",
+    "start": "concurrently \"npm:dev:server\" \"npm:watch:ts\" \"npm:watch:scss\" \"npm:watch:mmm\" \"npm:browser-sync\""
   },
   "keywords": [],
   "author": "",
@@ -17,6 +22,9 @@
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^20.3.1",
+    "nodemon": "^3.0.1",
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.1",
     "sass": "^1.63.6",
     "triple-m": "^0.1.1",
     "typescript": "^5.1.3"

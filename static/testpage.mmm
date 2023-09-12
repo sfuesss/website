@@ -5,12 +5,12 @@ div .container :
  
  div ; : This is a divider. Similar to a paragraph, but the divider is different
  
- p .glow ; : Want some <span class="gradient">Gradient</span> and glowing text?
+ p  ; : Want some <span class="gradient">Gradient</span> and glowing text?
  
  div .h1 ; : Normal Header
  p ; : Yes this is a Header
  
- div .h1 .glow : 
+ div .h1  : 
   span .gradient ; : Gradient Header
  p ; : Gradient Headers. Epic lmao
  
@@ -19,5 +19,5 @@ div .container :
  button .btn ; : Default Button
  button .btn .btn-grad ; : Gradient Button
  button .btn .btn-transparent ; : Transparent Button
- button .btn .glow ; : Glowing Button
+ button .btn  ; : Glowing Button
  button .btn .btn-grad-border ; : Gradient Border
