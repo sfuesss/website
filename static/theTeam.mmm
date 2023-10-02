@@ -41,17 +41,17 @@ div .container :
  div .h1 ; : Representatives
  div .team-members .grid-3 :
   MEMBER Rep1-1
-//  MEMBER Rep1-2
-//  MEMBER Rep1-3
-//  MEMBER Rep1-4
-  MEMBER Rep2-1
+  MEMBER Rep1-2
+  MEMBER Rep1-3
+  MEMBER Rep1-4
+//  MEMBER Rep2-1
 //  MEMBER Rep2-2
   MEMBER RepComp
   MEMBER RepBio
-  MEMBER RepPhys
-//  MEMBER RepSys
+//  MEMBER RepPhys
+  MEMBER RepSys
   MEMBER RepElec
-//  MEMBER RepInternational
+  MEMBER RepInternational
 
 div .container :
  div .h1 ; : Hall of Fame
