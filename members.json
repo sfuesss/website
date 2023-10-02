@@ -218,13 +218,23 @@
     },
 
     "Rep1-1": {
-        "Name": "Salem Alsaiari",
+        "Name": "Cyrus Chung",
         "Role": "First Year Representative",
         "MemberDescription": "Description"
     },
-    "Rep2-1": {
-        "Name": "Hussain Kanthawala",
-        "Role": "Second Year Representative",
+    "Rep1-2": {
+        "Name": "Richard Kim",
+        "Role": "First Year Representative",
+        "MemberDescription": "Description"
+    },
+    "Rep1-3": {
+        "Name": "Emma Loken",
+        "Role": "First Year Representative",
+        "MemberDescription": "Description"
+    },
+    "Rep1-4": {
+        "Name": "Felo Mousa",
+        "Role": "First Year Representative",
         "MemberDescription": "Description"
     },
     "RepComp": {
@@ -233,23 +243,23 @@
         "MemberDescription": "Description"
     },
     "RepBio": {
-        "Name": "Makan Mousavifard",
+        "Name": "Grace Kemp",
         "Role": "Biomedical Engineering Representative",
         "MemberDescription": "Description"
     },
-    "RepPhys": {
-        "Name": "Parsa Oftadeh",
-        "Role": "Engineering Physics Representative",
-        "MemberDescription": "Description"
-    },
     "RepElec": {
-        "Name": "Srinath Ganapathy",
+        "Name": "Husain Kanthawala",
         "Role": "Electrical Engineering Representative",
         "MemberDescription": "Description"
     },
     "RepSys": {
-        "Name": "Vacant",
+        "Name": "Nathaniel Leung",
         "Role": "Systems Engineering Representative",
+        "MemberDescription": "Description"
+    },
+    "RepPhys": {
+        "Name": "Vacant",
+        "Role": "Physics Engingeering Representative",
         "MemberDescription": "Description"
     }
 }
