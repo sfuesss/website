@@ -225,7 +225,8 @@
     "Rep1-2": {
         "Name": "Richard Kim",
         "Role": "First Year Representative",
-        "MemberDescription": "Description"
+        "MemberDescription": "Hobbies: Video games, Taekwondo, Exercise, and watching Anime. History: I work as an instructor and I was a part of cadets. Goals: I want to represent first years and be as involved as possible with those around me.",
+        "Instagram": "rm_gold54"
     },
     "Rep1-3": {
         "Name": "Emma Loken",
@@ -240,17 +241,23 @@
     "RepComp": {
         "Name": "Qiraa Qadri",
         "Role": "Computer Engineering Representative",
-        "MemberDescription": "Description"
+        "MemberDescription": "I like reading and watching anime (and so I'm also a manga nerd). I am a 3rd year Computer Eng. student (duh) and am also currently pursuing a minor in Interactive Arts and Technology. I'm a raging caffeine addict and will drink redbull like its water. My dream job would be working as a software dev at a videogame company OR working with AI and stuff. I really like coding (most of the time) and (very fun fact) I decided I was going to be a Software Engineer in the 5th or 6th grade because I really enjoyed learning coding in school.",
+        "LinkedIn": "qiraa-qadri",
+        "Instagram": "qiraa.qadri",
+        "Discord": "sleepyzpanda"
     },
     "RepBio": {
         "Name": "Grace Kemp",
         "Role": "Biomedical Engineering Representative",
-        "MemberDescription": "Description"
+        "MemberDescription": "Hi! I am currently a third-year biomedical engineering student. I'm interested in developing my design skills, and learning more about wearable technology. When I'm not studying or sleeping you can probably find me at a rink playing or coaching ringette!",
+        "LinkedIn": "grace-kemp",
+        "Instagram": "gracehkemp"
     },
     "RepElec": {
         "Name": "Husain Kanthawala",
         "Role": "Electrical Engineering Representative",
-        "MemberDescription": "Description"
+        "MemberDescription": "I'm a third-year Electronics Engineering student with a strong passion for learning. I thrive on acquiring new knowledge every day and channel my energy into my academic pursuits. In my free time, I enjoy the exhilaration of hiking and skiing, immersing myself in the great outdoors. During the week, you'll often find me in the gym, dedicated to maintaining a healthy and active lifestyle. I'm driven by a thirst for knowledge and a love for adventure.",
+        "LinkedIn": "husain-kanthawala-ab9b5916b"
     },
     "RepSys": {
         "Name": "Nathaniel Leung",
