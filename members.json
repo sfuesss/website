@@ -131,7 +131,7 @@
         "Discord": "chrispychen#0058"
     },
     "DirSpirit": {
-        "Name": "Pending",
+        "Name": "Richard Wang",
         "Role": "Director Of Spirit",
         "MemberDescription": "Description",
         "JobDescription": [
@@ -167,7 +167,7 @@
     "DirGraphics": {
         "Name": "Senka Kuboki",
         "Role": "Director Of Graphics",
-        "MemberDescription": "Description",
+        "MemberDescription": "Hi, my name is Senka Kuboki and I am a second year student at SFU. I like to go on walks or take photos in my free time. I hope to do as best as I can to design aesthetic graphics for the student society!",
         "JobDescription": [
             "Manages ESSS branding and logo designs",
             "Assists ESSS initiatives by providing or implementing graphic designs for posters, social media, banners, etc."
@@ -262,7 +262,8 @@
     "RepSys": {
         "Name": "Nathaniel Leung",
         "Role": "Systems Engineering Representative",
-        "MemberDescription": "Description"
+        "MemberDescription": "I'm a fourth year systems engineering student who loves coding when it works and hates coding when it doesn't work. Outside of school, Im you're classic nerd who plays league of legends [ hardstuck gold :(  ], enjoys going to the gym and plays water polo from time to time. Feel free to reach out regarding anything systems engineering related, just don't ask me when I'm graduating.",
+        "Instagram": "nateIsIronIV"
     },
     "RepPhys": {
         "Name": "Vacant",

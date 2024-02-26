@@ -28,6 +28,7 @@ cd website
 git switch Revision2023 # This assumes we have not released this revision as the master branch
 
 # Start Testing
+# You can use either npm or yarn, whichever you prefer
 npm install
 npm start
 ```
