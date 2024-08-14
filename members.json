@@ -1,28 +1,27 @@
 {
     "President": {
-        "Name": "Rajnesh Joshi",
+        "Name": "Richard Wang",
         "Role": "President",
-        "MemberDescription": "Hello! I am a 5th year SFU Computer Engineering student. I like animals, working out, the outdoors, raves, Wing Wednesday at the bar, sour beers, and other stuff. This semester, I'm on coop so you may not see me around often, but you can always find me at our regular meetings. If you need me, just send me a message on Discord (RJ3421).",
+        "MemberDescription": "",
         "JobDescription": [
             "Guides the Executive Council",
             "Chairs all meetings and be the official spokesperson for the ESSS",
             "Enforces and maintains the Constitution, Bylaws, and Policy Manual of the ESSS",
             "Oversees the Class Representatives"
-        ],
-        "LinkedIn": "rajnesh-joshi",
-        "Instagram": "rajnesh_joshi"
+        ]
     },
     "VPAdmin": {
-        "Name": "Hannah Hartviksen",
+        "Name": "Lester Pino",
         "Role": "VP Admin",
-        "MemberDescription": "Description",
+        "MemberDescription": "A senior computer engineering student from Panama with a deep passion for poetry and martial arts. You can normally find me hanging around at the Grappling club. I am also involved with the Association of Latin American Students. My goal is to one day make quality education accessible to impoverished and humble communities who don’t even have access to the internet. Deep down I truly believe technology and engineering can solve many social problems.",
         "JobDescription": [
             "Oversees access of the ESSS physical and digital spaces",
             "Acts as Secretary for all meetings",
             "Maintains documentation and archival media of ESSS",
             "Maintains and oversees the ESSS Website, email server, and social media",
             "Oversees the roles and responsibilities of the Directors of Common Room, Publications, and Website"
-        ]
+        ],
+        "Instagram": "lipbs_28"
     },
     "VPExternal": {
         "Name": "Eric Suh",
@@ -39,9 +38,9 @@
         "Instagram": "eric_suhh"
     },
     "VPFinance": {
-        "Name": "Jeremy Ang",
+        "Name": "Christina Chen",
         "Role": "VP Finance",
-        "MemberDescription": "Some of my hobbies are tennis, basketball, volleyball",
+        "MemberDescription": "Hello! My name is Christina and I am a second year student at SFU. As your Swag Master, I design and manage merchandise for engineering students and events. When I'm not at school, I enjoy sewing, zumba, and spending time outside. Looking forward to meeting everyone!",
         "JobDescription": [
             "Manages the writing and approval of grants",
             "Liaises with the bank that holds the ESSS' external account",
@@ -49,10 +48,13 @@
             "Maintains financial records and accounts",
             "Oversees the purchases and sales of merchandise",
             "Oversees the roles and responsibilities of the Directors of Merchandise and Sponsorship"
-        ]
+        ],
+        "LinkedIn": "chen-christina",
+        "Instagram": "_christina.chen",
+        "Discord": "chrispychen#0058"
     },
     "VPSocial": {
-        "Name": "Yu-Xing Lim",
+        "Name": "Emma Loken",
         "Role": "VP Social",
         "MemberDescription": "Description",
         "JobDescription": [
@@ -75,7 +77,7 @@
         ]
     },
     "VPInternal": {
-        "Name": "Tony Kooliyath",
+        "Name": "Adam Ma",
         "Role": "VP Internal",
         "MemberDescription": "Hey everyone, my name's Tony and I'm the ESSS VP Internal! I'm currently a 4th/5th year systems engineering student with a background in controls systems. I enjoy doing anything outdoors, ultimate frisbee, watching movies, playing games, and working out!",
         "JobDescription": [
@@ -87,19 +89,18 @@
     },
 
     "DirDiversity": {
-        "Name": "Lester Pino",
+        "Name": "Sundus Subuktegin",
         "Role": "Director Of Diversity",
-        "MemberDescription": "A senior computer engineering student from Panama with a deep passion for poetry and martial arts. You can normally find me hanging around at the Grappling club. I am also involved with the Association of Latin American Students. My goal is to one day make quality education accessible to impoverished and humble communities who don’t even have access to the internet. Deep down I truly believe technology and engineering can solve many social problems.",
+        "MemberDescription": "I'm a fourth year computer engineering student and I love reading and crocheting in my free time :)",
         "JobDescription": [
             "Assists VP Social and External",
             "Serves as the primary liaison between ESSS and diversity in engineering groups",
             "Stays informed of on-campus centres, clubs, and services for diversity groups in order to assist students",
             "Hosts events that promote or inform the student body about diversity in engineering"
-        ],
-        "Instagram": "lipbs_28"
+        ] 
     },
     "DirSponsorship": {
-        "Name": "Aaron Lu",
+        "Name": "Sierra Carmichael",
         "Role": "Director of Sponsorship",
         "MemberDescription": "Description",
         "JobDescription": [
@@ -109,7 +110,7 @@
         ]
     },
     "DirCommonRoom": {
-        "Name": "Joshua Kim",
+        "Name": "Richard Kim",
         "Role": "Director Of Common Room",
         "MemberDescription": "Description",
         "JobDescription": [
@@ -118,22 +119,31 @@
         ]
     },
     "DirMerch": {
-        "Name": "Christina Chen",
+        "Name": "Noah Thomson",
         "Role": "Director Of Merchandise",
         "MemberDescription": "Hello! My name is Christina and I am a second year student at SFU. As your Swag Master, I design and manage merchandise for engineering students and events. When I'm not at school, I enjoy sewing, zumba, and spending time outside. Looking forward to meeting everyone!",
         "JobDescription": [
             "Assists VP Admin and VP Finance",
             "Oversees the sales and inventory of all ESSS merchandise",
             "Designs new merchandise for ESSS"
-        ],
-        "LinkedIn": "chen-christina",
-        "Instagram": "_christina.chen",
-        "Discord": "chrispychen#0058"
+        ]
     },
-    "DirSpirit": {
-        "Name": "Richard Wang",
+    "DirSpirit1": {
+        "Name": "Sheikh Mohammad Sadman Sakib",
         "Role": "Director Of Spirit",
-        "MemberDescription": "Description",
+        "MemberDescription": "Meet Sheikh Mohammad Sadman Sakib, originally from Bangladesh and currently pursuing a major in Biomedical Engineering. As Co-Director of Spirit for ESSS, he is dedicated to fostering a strong sense of community among engineers and make members aware of the resources available to and for them. He enjoys hearing and playing music as well as cooking dishes that pop up on his YT feed during his free time. Besides that, Sadman is also an avid E-sports and Formula 1 fan. In the future he aims to take his passion for engineering and human biology into a career in the Medical field. In his role, Sadman aims to revamp the ESSS social media handles and provide members with fresh content every week. So keep an eye out for updates on all ESSS social media, and feel free to share your ideas or feedback with him.",
+        "JobDescription": [
+            "Assists VP Social",
+            "Manages ESSS Social Media on services such as Facebook, Instagram, Twitter, and Discord",
+            "Creates promotional material for events, offline and online",
+            "Updates the Lab 1 Display Case"
+        ],
+        "Instagram": "sadmxn.028",
+        "Discord": "suggadadi#0847"
+    },
+    "DirSpirit2": {
+        "Name": "Dominic Repescuic",
+        "Role": "Director Of Spirit",
         "JobDescription": [
             "Assists VP Social",
             "Manages ESSS Social Media on services such as Facebook, Instagram, Twitter, and Discord",
@@ -142,7 +152,7 @@
         ]
     },
     "DirResources": {
-        "Name": "Adam Ma",
+        "Name": "Unknown",
         "Role": "Director Of Resource Center",
         "MemberDescription": "Description",
         "JobDescription": [
@@ -165,17 +175,17 @@
         "Instagram": "roberto.selles"
     },
     "DirGraphics": {
-        "Name": "Senka Kuboki",
+        "Name": "Daniel Yap",
         "Role": "Director Of Graphics",
-        "MemberDescription": "Hi, my name is Senka Kuboki and I am a second year student at SFU. I like to go on walks or take photos in my free time. I hope to do as best as I can to design aesthetic graphics for the student society!",
+        "MemberDescription": "Description",
         "JobDescription": [
             "Manages ESSS branding and logo designs",
             "Assists ESSS initiatives by providing or implementing graphic designs for posters, social media, banners, etc."
         ]
     },
-    "DirStudentSupport": {
+    "DirStudentSupport1": {
         "Name": "Eugenia Demendeeva",
-        "Role": "Director Of Student Services",
+        "Role": "Director Of Student Support",
         "MemberDescription": "Started as a First and Second Year Representative, then decided to be more involved in both ESSS as well as the student body, helping her fellow peers as Director of Student Support. Recently declared as an Engineering Physics student, she is looking forward to learning about particle physics and integrating her hands-on electronics knowledge from her first Co-Op. Eager to do anything outdoors, skiing in the winter, climbing in the summer, and hiking year-round are some of her favorite hobbies.",
         "JobDescription": [
             "Manages the ESSS peer tutoring and mentorship programs",
@@ -187,8 +197,22 @@
         ],
         "LinkedIn": "eugenia-demendeeva"
     },
+    "DirStudentSupport2": {
+        "Name": "Arden McEvoy",
+        "Role": "Director Of Student Support",
+        "MemberDescription": "I am currently in my third year of Electronics Engineering with a strong passion for electrical design and project management. As the Co-Director of Student Support, I am excited to connect with fellow students and create a supportive and inclusive environment through managing the Mentorship and Peer Tutoring programs. Outside of school, I enjoy traveling to new destinations and going for hikes.",
+        "JobDescription": [
+            "Manages the ESSS peer tutoring and mentorship programs",
+            "Communicates with students and faculty regarding program promotion",
+            "Responsible for updating the program format and providing training for new tutors",
+            "Manages any issues between mentors and mentees",
+            "Manages the mentorship discord server each term",
+            "Promotes and recruits for the mentorship program"
+        ],
+        "LinkedIn": "arden-mcevoy-35a9b424b"
+    },
     "DirWorkshop": {
-        "Name": "Ryan Garofano",
+        "Name": "Wajahat Ullah",
         "Role": "Director Of Workshops",
         "MemberDescription": "Description",
         "JobDescription": [
@@ -196,27 +220,19 @@
             "focus on practical skills that may be missing or incomplete in the ENSC program"
         ]
     },
-    "DirOpFair1": {
-        "Name": "Benjamin Lam",
-        "Role": "Co-Director of OpFair",
-        "MemberDescription": "Description",
+    "DirOpFair": {
+        "Name": "Vishnugupt Dixit",
+        "Role": "Director of OpFair",
+        "MemberDescription": "Vishnu often likes to spends his time by simply wasting it. He likes food of all kinds, singing, cricket (damn, such a weirdo), and watching people on the internet play chess. Vishnu is a 2nd year student planning on declaring biomedical engineering who's excited to start working with cutting edge technology to help people suffering from various ailments",
         "JobDescription": [
             "Overseeing and leading the organization and execution of OpFair",
             "Coordinating with and reporting activities to VP positions at ESSS",
             "Managing the behind the scenes operations for OpFair such as the prices and catering"
-        ]
-    },
-    "DirOpFair2": {
-        "Name": "Andrew Kim",
-        "Role": "Co-Director of OpFair",
-        "MemberDescription": "Description",
-        "JobDescription": [
-            "Overseeing and leading the organization and execution of OpFair",
-            "Coordinating with and reporting activities to VP positions at ESSS",
-            "Coordinating with volunteers and companies, inviting them to attend and sponsor this years OpFair"
-        ]
-    },
-
+        ],
+        "Instagram": "vishnugupt_d",
+        "LinkedIn": "vishnugupt_dixit",
+        "Discord": "vishnugupt"
+    }, 
     "Rep1-1": {
         "Name": "Cyrus Chung",
         "Role": "First Year Representative",
