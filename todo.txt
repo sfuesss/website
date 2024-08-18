@@ -3,9 +3,6 @@ Things to do to website at this moment:
 - Add new team to website
 - Revise Announcement Automation
 
-- New CSS Stylesheet
-  - Button Animations still need to be programmed in
-
 Pages to Add:
 - Error 404 (Done)
  - Add Professors to 404 Screen (?)
@@ -14,10 +11,12 @@ Pages to Add:
 
 - Resources (Needs Decoration and Links to Fill in)
   - Event Resources
-- Co-op
 - Calendar
-- Room Location
- - Status for Arcade and 3D Printer (?)
+  - Revive ESSS Events Calendar
+
+- Revive the ESSS Global Calendar
+- Introduce Engineering Club Advertisements
+- Add ESSS Student Support Schedule
 
 Fixes:
  - Fix redirection so user can actually go back and not take them to the page before entering the site
