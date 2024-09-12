@@ -1,5 +1,8 @@
-import express, { Express } from 'express';
+// File: index.ts
+// Description:
+// - Hosts the Web Server, Primarily for testing
 
+import express, { Express } from 'express';
 const server: Express = express();
 
 server.use("/", express.static("static"));

@@ -1,3 +1,7 @@
+// File: chunks.js
+// Description:
+// - All macros/chunks used in the Triple-M compiling process 
+
 const TripleM = require("triple-m");
 const fs = require("fs");
 
@@ -8,6 +12,10 @@ module.exports = function() {
         return {output: `<link rel="icon" type="image/x-icon" href="${args[1]}" />`}
     })
 
+    // Description:
+    // - Renders the social media link to page
+    // args[1] - Label of link
+    // args[2] - external link
     TripleM.MMM.CreateMacro("PAGE", (args) => {
         return {
             output: `<div class="glow"><a href="${args[2]}">
@@ -17,6 +25,9 @@ module.exports = function() {
         };
     });
 
+    // Description:
+    // - Pulls ESSS from members.json and renders them on the website
+    // - args[1] - The ESSS position codename 
     TripleM.MMM.CreateMacro("MEMBER", (args) => {
         let JobDescString = "";
         if (Members[args[1]].JobDescription != null) {

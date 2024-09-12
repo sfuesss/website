@@ -14,11 +14,11 @@ This is a website that would possibly be maintained in the future, so these are 
 
 ### Requirements
 
-I suggest you get yourself familiar with these skills:
+These are the resources that are used in the project:
 
 - Node.js
   - Sass (SCSS)
-  - Javascript
+  - Javascript/Typescript
   - Triple-M (Yes this is my own programming language)
 
 ```bash

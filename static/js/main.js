@@ -1,12 +1,26 @@
+// File: main.js
+// Description:
+// - The website's framework code
+// - Allows modular pages without having to leave index.mmm
+
 const portal = document.getElementById("portal");
 var urlParams = new URLSearchParams(window.location.search);
 const navButton = document.getElementsByClassName("pages");
 
+// Functions to call when a specific page is called
 callLoadFunctions = {
     "home": loadHomePage,
     "news": NewsPageInit,
 }
 
+// Description:
+// - Starts by hiding the page portal
+// - Pulls the website's page with an HTTP GET Request
+// - Loads the page into the portal divider
+// - If a function exsists in `callLoadFunctions`, then it will use that as a callback
+// - Finishes by showing the page requests
+// Catch:
+// - Recursively calls this function to load the error page
 function loadpage(page) {
     portal.classList.add("hide");
     pageToLoad = new Request(`${page}.html`);
@@ -36,10 +50,15 @@ function loadpage(page) {
     }, 300);
 }
 
+// Description:
+// - Loads an external website requested
 function loadexternal(page) {
     window.open("https://" + page, '_blank').focus();
 }
 
+// Description:
+// - For Mobile Viewports
+// - Toggles the navbar pages on/off
 function toggleNav() {
     if (navButton[0].classList.contains("active")) return navButton[0].classList.remove("active");
     navButton[0].classList.add("active");
@@ -47,6 +66,8 @@ function toggleNav() {
 
 // Event Listeners
 
+// Description:
+// - Toggles between light mode and dark mode
 function ToggleDisplayMode() {
     let isDarkModeAlready = document.querySelector("body").getAttribute("id");
 

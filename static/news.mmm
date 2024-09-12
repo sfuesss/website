@@ -1,3 +1,9 @@
+// File: news.mmm
+// Description:
+// - The news page of the ESSS website
+// - Also holds events resources
+
+// Announcement Section
 div .container :
  div .title  ; : News
  div .grid-2 #announcement-div :
@@ -9,6 +15,8 @@ div .container :
   button onclick="ChangeAnnouncement(-1)" .btn ; : Back
   button onclick="ChangeAnnouncement(1)" .btn ; : Next
 
+// Event Resources
+// - To be moved to resources.mmm
 div .container :
  div .h1 ; : Event Resources
  p ; : These are all the resources you will need for specific events such as download files, and other websites you might need.

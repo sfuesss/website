@@ -1,3 +1,8 @@
+// File: theTeam.mmm
+// Description:
+// - Shares all details about the team
+
+// See chunks.js for the structure of `MEMBER`
 div .container :
  div .title : 
   span  ; : The Team

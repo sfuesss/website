@@ -1,3 +1,10 @@
+// File: resources.mmm
+// Description:
+// - All resources related to ESSS
+// Programmer Note:
+// - Needs to be revamped due to being formatted as a giant wall of text
+// - Ironically I think it is documented the best out of all files lmao
+
 div .container :
  div .h1  ; : Resources
 
