@@ -1,4 +1,4 @@
-*.html
+theTeam.html
 *.css
 *.map
 index.js
@@ -9,3 +9,5 @@ node_modules/
 
 package-lock.json
 yarn.lock
+
+dist/
