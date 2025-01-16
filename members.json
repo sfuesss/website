@@ -129,7 +129,7 @@
         ]
     },
     "DirSpirit1": {
-        "Name": "Sheikh Mohammad Sadman Sakib",
+        "Name": "Sadman Sakib",
         "Role": "Director Of Spirit",
         "MemberDescription": "Meet Sheikh Mohammad Sadman Sakib, originally from Bangladesh and currently pursuing a major in Biomedical Engineering. As Co-Director of Spirit for ESSS, he is dedicated to fostering a strong sense of community among engineers and make members aware of the resources available to and for them. He enjoys hearing and playing music as well as cooking dishes that pop up on his YT feed during his free time. Besides that, Sadman is also an avid E-sports and Formula 1 fan. In the future he aims to take his passion for engineering and human biology into a career in the Medical field. In his role, Sadman aims to revamp the ESSS social media handles and provide members with fresh content every week. So keep an eye out for updates on all ESSS social media, and feel free to share your ideas or feedback with him.",
         "JobDescription": [
@@ -152,7 +152,7 @@
         ]
     },
     "DirResources": {
-        "Name": "Unknown",
+        "Name": "Sahaj Singh",
         "Role": "Director Of Resource Center",
         "MemberDescription": "Description",
         "JobDescription": [
@@ -234,24 +234,33 @@
         "Discord": "vishnugupt"
     }, 
     "Rep1-1": {
-        "Name": "Cyrus Chung",
+        "Name": "Daniel Skournik",
         "Role": "First Year Representative",
         "MemberDescription": "Description"
     },
     "Rep1-2": {
-        "Name": "Richard Kim",
+        "Name": "Nick Kontanist",
         "Role": "First Year Representative",
-        "MemberDescription": "Hobbies: Video games, Taekwondo, Exercise, and watching Anime. History: I work as an instructor and I was a part of cadets. Goals: I want to represent first years and be as involved as possible with those around me.",
-        "Instagram": "rm_gold54"
+        "MemberDescription": "Description"
     },
     "Rep1-3": {
-        "Name": "Emma Loken",
+        "Name": "Sabrina Allan",
         "Role": "First Year Representative",
         "MemberDescription": "Description"
     },
     "Rep1-4": {
-        "Name": "Felo Mousa",
+        "Name": "Matthew Wong",
         "Role": "First Year Representative",
+        "MemberDescription": "Description"
+    },
+    "Rep2-1": {
+        "Name": "Annika Wong",
+        "Role": "Second Year Representative",
+        "Description": "Description"
+    },
+    "Rep2-2": {
+        "Name": "Kayla Lee",
+        "Role": "Second Year Representative",
         "MemberDescription": "Description"
     },
     "RepComp": {
@@ -263,17 +272,14 @@
         "Discord": "sleepyzpanda"
     },
     "RepBio": {
-        "Name": "Grace Kemp",
+        "Name": "Meriel Mangilin",
         "Role": "Biomedical Engineering Representative",
-        "MemberDescription": "Hi! I am currently a third-year biomedical engineering student. I'm interested in developing my design skills, and learning more about wearable technology. When I'm not studying or sleeping you can probably find me at a rink playing or coaching ringette!",
-        "LinkedIn": "grace-kemp",
-        "Instagram": "gracehkemp"
+        "MemberDescription": "Description"
     },
     "RepElec": {
-        "Name": "Husain Kanthawala",
+        "Name": "Eshaan Sharma",
         "Role": "Electrical Engineering Representative",
-        "MemberDescription": "I'm a third-year Electronics Engineering student with a strong passion for learning. I thrive on acquiring new knowledge every day and channel my energy into my academic pursuits. In my free time, I enjoy the exhilaration of hiking and skiing, immersing myself in the great outdoors. During the week, you'll often find me in the gym, dedicated to maintaining a healthy and active lifestyle. I'm driven by a thirst for knowledge and a love for adventure.",
-        "LinkedIn": "husain-kanthawala-ab9b5916b"
+        "MemberDescription": "Description"
     },
     "RepSys": {
         "Name": "Nathaniel Leung",
@@ -282,12 +288,12 @@
         "Instagram": "nateIsIronIV"
     },
     "RepPhys": {
-        "Name": "Vacant",
+        "Name": "Tarun Jassi",
         "Role": "Physics Engingeering Representative",
         "MemberDescription": "Description"
     },
     "RepInternational": {
-        "Name": "Zinnia Nagpal",
+        "Name": "Phyo Thiri Maw",
         "Role": "International Representative",
         "MemberDescription": "Description"
     }

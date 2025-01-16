@@ -50,8 +50,8 @@ div .container :
 //  MEMBER Rep1-2
 //  MEMBER Rep1-3
   MEMBER Rep1-4
-//  MEMBER Rep2-1
-//  MEMBER Rep2-2
+  MEMBER Rep2-1
+  MEMBER Rep2-2
   MEMBER RepComp
   MEMBER RepBio
 //  MEMBER RepPhys
